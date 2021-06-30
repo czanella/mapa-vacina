@@ -2,10 +2,14 @@
   "name": "mapa-vacina-scraper",
   "version": "1.0.0",
   "description": "Scripts para fazer geocoding dos endereços dos postos de vacina",
-  "main": "index.js",
   "scripts": {
+    "start": "node scrape.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Carlos Zanella",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1"
+  }
 }

@@ -405,7 +405,9 @@
     "longitude": -46.432202
   },
   "UBS CDHU PALANQUE": {
-    "endereco": "R. PONTE DA AMIZADE (ALT. AV. RAGUEB CHOHFI, 7208), 2 - JD PALANQUE - CEP: 08375-000 - Tel: 2735-3820"
+    "endereco": "R. PONTE DA AMIZADE (ALT. AV. RAGUEB CHOHFI, 7208), 2 - JD PALANQUE - CEP: 08375-000 - Tel: 2735-3820",
+    "latitude": -23.5955284,
+    "longitude": -46.4226221
   },
   "UBS JARDIM DA CONQUISTA II": {
     "endereco": "TRAVESSA SOMOS TODOS IGUAIS, 915 - JD CONQUISTA - CEP: 08343-000 - Tel: 2253-9547/ 2735-3079",
@@ -865,7 +867,9 @@
     "confidence": 0.8
   },
   "UBS JARDIM LAPENNA": {
-    "endereco": "R. SERRA DA JURUOCA, 36 - SÃO MIGUEL PAULISTA - CEP: 08071-180 - Tel: 2058-3722"
+    "endereco": "R. SERRA DA JURUOCA, 36 - SÃO MIGUEL PAULISTA - CEP: 08071-180 - Tel: 2058-3722",
+    "latitude": -23.4877498,
+    "longitude": -46.4500883
   },
   "UBS PAULO FELDMAN - NITRO OPERÁRIA": {
     "endereco": "R. CUMARU, 14 - SÃO MIGUEL PAULISTA - CEP: 08010-380 - Tel: 2956-6923",

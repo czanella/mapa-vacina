@@ -17,8 +17,7 @@
   "UBS CAMBUCI": {
     "endereco": "AV. LACERDA FRANCO, 791 - CAMBUCI - CEP: 01536-000 - Tel: 3276-6480/ 3209-3304",
     "latitude": -23.569692,
-    "longitude": -46.623624,
-    "confidence": 1
+    "longitude": -46.623624
   },
   "CENTRO DE SAÚDE ESCOLA BARRA FUNDA – CSEBF": {
     "endereco": "Endereço: Avenida Dr. Abraão Ribeiro, 283 Bom retiro São Paulo – SP",
@@ -28,14 +27,12 @@
   "SAE DST/AIDS CAMPOS ELÍSEOS": {
     "endereco": "Alameda Cleveland, 374",
     "latitude": -23.529708,
-    "longitude": -46.643538,
-    "confidence": 1
+    "longitude": -46.643538
   },
   "SUPERMERCADO BIG": {
     "endereco": "Rua James Holland, 668 Barra Funda",
     "latitude": -23.522421,
-    "longitude": -46.656874,
-    "confidence": 1
+    "longitude": -46.656874
   },
   "UBS BORACEA": {
     "endereco": "R. BORACEA, 270 - SANTA CECÍLIA - CEP: 01135-010 - Tel: 3392- 1281/ 3392-1882",
@@ -45,44 +42,37 @@
   "UBS SANTA CECÍLIA - HUMBERTO PASCALE": {
     "endereco": "R. VITORINO CARMILO, 599 - CAMPOS ELÍSEOS - CEP: 01153- 000 - Tel: 3826-0096/ 3826-7970",
     "latitude": -21.167342,
-    "longitude": -47.804416,
-    "confidence": 1
+    "longitude": -47.804416
   },
   "MEGA POSTO DE VACINAÇÃO - GALERIA PRESTES MAIA": {
     "endereco": "Praça do Patriarca, nº2 - Sé",
     "latitude": -23.547822,
-    "longitude": -46.636554,
-    "confidence": 0.8
+    "longitude": -46.636554
   },
   "UBS REPÚBLICA - FERNANDA SANTE LIMEIRA": {
     "endereco": "PRAÇA PATRIARCA, 100 - CENTRO - CEP: 01002010 - Tel: 3242- 3756/ 3241-5515",
     "latitude": -23.547321,
-    "longitude": -46.636485,
-    "confidence": 1
+    "longitude": -46.636485
   },
   "UBS SÉ": {
     "endereco": "R. FREDERICO ALVARENGA, 259 - PQ DOM PEDRO - CEP: 01020-030 - Tel: 3101-2344/ 3101-3013",
     "latitude": -23.55135,
-    "longitude": -46.628089,
-    "confidence": 1
+    "longitude": -46.628089
   },
   "AMA/UBS INTEGRADA AGUA RASA": {
     "endereco": "R. SERRA DE JAIRE, 1480 - ÁGUA RASA - CEP: 03175-001 - Tel: 2605-2156/ 2605-5307",
     "latitude": -23.545069,
-    "longitude": -46.587677,
-    "confidence": 0.8
+    "longitude": -46.587677
   },
   "AMA/UBS INTEGRADA VILA ORATÓRIO - DR. TITO PEDRO MASCELANI": {
     "endereco": "R. JOÃO FIALHO DE CARVALHO, 35 - VL DIVA - CEP: 03345-010 - Tel: 2301-2979/ 2911-5318",
     "latitude": -23.573855,
-    "longitude": -46.559334,
-    "confidence": 0.8
+    "longitude": -46.559334
   },
   "UBS VILA BERTIOGA - DOMINGOS DELASCIO": {
     "endereco": "R. FAROL PAULISTANO, 410 - ALTO DA MOOCA - CEP: 03192- 060 - Tel: 2965-1066/ 2021-7210",
     "latitude": -21.167342,
-    "longitude": -47.804416,
-    "confidence": 1
+    "longitude": -47.804416
   },
   "AMA/UBS INTEGRADA VILA ANTONIETA": {
     "endereco": "R. CORONEL JOÃO DE OLIVEIRA MELO, 440 - VL ANTONIETA - CEP: 03474-020 - Tel: 2725-3997/ 2253-1852",
@@ -92,86 +82,72 @@
   "UBS JARDIM IVA": {
     "endereco": "R. MIGUEL BASTOS SOARES, 55 - JD IVA - CEP: 03910-000 - Tel: 2211-0884/ 2911-1006",
     "latitude": -23.583735,
-    "longitude": -46.517237,
-    "confidence": 0.8
+    "longitude": -46.517237
   },
   "UBS VILA NOVA YORK": {
     "endereco": "R. DR EDGARD MAGALHÃES NORONHA, 200 - VL NOVA YORK - CEP: 03480-000 - Tel: 2721-2707",
     "latitude": -23.929673,
-    "longitude": -46.382676,
-    "confidence": 0.8
+    "longitude": -46.382676
   },
   "AMA/UBS INTEGRADA JARDIM NORDESTE": {
     "endereco": "R. NICOLO TARTAGLIA, 45 - JD COIMBRA - CEP: 03693-050 - Tel: 2280-6211",
     "latitude": -23.530658,
-    "longitude": -46.479472,
-    "confidence": 1
+    "longitude": -46.479472
   },
   "AMA/UBS INTEGRADA PADRE MANOEL DA NÓBREGA": {
     "endereco": "AV. PADRE FRANCISCO DE TOLEDO, 545 - ARTHUR ALVIM - CEP: 03590-120 - Tel: 2741-7296/ 2748-6082",
     "latitude": -23.544886,
-    "longitude": -46.486469,
-    "confidence": 1
+    "longitude": -46.486469
   },
   "MEGA POSTO SESI AE CARVALHO": {
     "endereco": "Rua Deodato saraiva da silva, 110 - Arthur Alvim, São Paulo - 03694-090",
     "latitude": -23.536215,
-    "longitude": -46.476091,
-    "confidence": 1
+    "longitude": -46.476091
   },
   "UBS ANTONIO ESTEVÃO DE CARVALHO": {
     "endereco": "R. JAPANI, 7 - CIDADE AE CARVALHO - CEP: 08220-130 - Tel: 2280-2373/ 2043-3400",
     "latitude": -23.539662,
-    "longitude": -46.476855,
-    "confidence": 1
+    "longitude": -46.476855
   },
   "UBS ANTONIO PIRES F VILLA LOBO": {
     "endereco": "R. COELHO DE CASTRO, 95 - VL NHOCUNÉ - CEP: 03560-030 - Tel: 2749-3521",
     "latitude": -22.803474,
-    "longitude": -45.180294,
-    "confidence": 1
+    "longitude": -45.180294
   },
   "UBS JARDIM SÃO NICOLAU": {
     "endereco": "R. BROOK TAYLOR, 30 - JD NORDESTE - CEP: 03690000 - Tel: 2280-7508/ 2280-1508",
     "latitude": -23.527575,
-    "longitude": -46.476067,
-    "confidence": 1
+    "longitude": -46.476067
   },
   "UBS PADRE JOSE DE ANCHIETA": {
     "endereco": "AV. SILVIO TORRES, 313 - ARTHUR ALVIM - CEP: 03589-010 - Tel: 2742-1367",
     "latitude": -21.591253,
-    "longitude": -48.073549,
-    "confidence": 1
+    "longitude": -48.073549
   },
   "UBS PARQUE ARTHUR ALVIM": {
     "endereco": "R. HENRIQUE JACOBS, 269 - ARTHUR ALVIM - CEP: 03566-010 - Tel: 2749-4235/ 2958-4235",
     "latitude": -23.537975,
-    "longitude": -46.491926,
-    "confidence": 1
+    "longitude": -46.491926
   },
   "UBS BELENZINHO - MARCUS WOLOSKER": {
     "endereco": "AV. CELSO GARCIA, 1749 - BELENZINHO - CEP: 03015-000 - Tel: 2292-5687/ 2694-2697",
     "latitude": -23.537709,
-    "longitude": -46.59691,
-    "confidence": 1
+    "longitude": -46.59691
   },
   "UBS BRAS - DR. MANOEL SALDIVA NETO": {
     "endereco": "R. SAMPSON, 61 - BRÁS - CEP: 03013-040 - Tel: 2692-0788/ 2292- 5453",
     "latitude": -23.538152,
-    "longitude": -46.61187,
-    "confidence": 1
+    "longitude": -46.61187
   },
   "AMA/UBS INTEGRADA CANGAÍBA - DR. CARLOS GENTILE DE MELLO": {
     "endereco": "AV. CANGAIBA, 3722 - CANGAÍBA - CEP: 03712-001 - Tel: 2621- 6523/ 2621-9507",
     "latitude": -23.505339,
-    "longitude": -46.521217,
-    "confidence": 1
+    "longitude": -46.521217
   },
   "AMA/UBS INTEGRADA CHACARA CRUZEIRO DO SUL - ZELIA L M DORO": {
     "endereco": "R. MERCEDES LOPES, 989 - CHÁCARA CRUZEIRO DO SUL - CEP: 03614-000 - Tel: 2647-0031/ 2642-2622",
     "latitude": -23.513503,
-    "longitude": -46.531682,
-    "confidence": 1
+    "longitude": -46.531682
   },
   "AMA/UBS INTEGRADA VILA SILVIA": {
     "endereco": "R. BELEM DOS SANTOS (ESQUINA COM R. LAURO DE FREITAS), 222 - VILA SILVIA - CEP: 03821-170 - Tel: 2545-6838/ 2545-8181",
@@ -181,44 +157,37 @@
   "UBS ENGENHEIRO GOULART - DR. JOSÉ PIRES": {
     "endereco": "R. AUGUSTO CORREIA LEITE, 538 - ENG. GOULART - CEP: 03726-100 - Tel: 2621-7402/ 2621-7042",
     "latitude": -23.325931,
-    "longitude": -46.218209,
-    "confidence": 1
+    "longitude": -46.218209
   },
   "UBS JARDIM SÃO FRANCISCO": {
     "endereco": "R. JURITI PIRANGA, 195 - CANGAÍBA - CEP: 03718-020 - Tel: 2957-2808/ 2681-0250",
     "latitude": -21.913722,
-    "longitude": -50.725237,
-    "confidence": 0.8
+    "longitude": -50.725237
   },
   "AMA/UBS INTEGRADA VILA CARRÃO - DR. ADHEMAR MONTEIRO PACHECO": {
     "endereco": "R. DR JACI BARBOSA, 280 - VL CARRÃO - CEP: 03447-000 - Tel: 2785-4728/ 2036-3853",
     "latitude": -22.664654,
-    "longitude": -47.78615,
-    "confidence": 0.8
+    "longitude": -47.78615
   },
   "UBS VILA NOVA MANCHESTER - DR. ARLINDO GENNARI": {
     "endereco": "PRAÇA HAROLDO DALTRO, 461 - VL NOVA MANCHESTER - CEP: 03444-090 - Tel: 2295-4163/ 2296-6843",
     "latitude": -23.547067,
-    "longitude": -46.532937,
-    "confidence": 1
+    "longitude": -46.532937
   },
   "AMA/UBS INTEGRADA JARDIM BRASILIA": {
     "endereco": "AV. OSVALDO VALLE CORDEIRO, 245 - JD BRASILIA - CEP: 03584-000 - Tel: 2741-6938/ 2743-9476",
     "latitude": -23.554965,
-    "longitude": -46.492207,
-    "confidence": 0.8
+    "longitude": -46.492207
   },
   "AMA/UBS INTEGRADA VILA ITAPEMA": {
     "endereco": "R. COSTEIRA, 572 - JD ARISI - CEP: 03573-010 - Tel: 4780-5103/ 2724-6146",
     "latitude": -23.562265,
-    "longitude": -46.508055,
-    "confidence": 1
+    "longitude": -46.508055
   },
   "SAE DST/AIDS CIDADE LIDER II": {
     "endereco": "R. MEDIO IGUACU, 86 - CIDADE LIDER - CEP 08285130 - Tel: 27480255 / 27481139",
     "latitude": -23.555605,
-    "longitude": -46.470734,
-    "confidence": 1
+    "longitude": -46.470734
   },
   "UBS CIDADE LIDER": {
     "endereco": "AV. DR FRANCISCO MUNHOZ FILHO, 379 - CIDADE LIDER - CEP: 08280-000 - Tel: 2741-1563/ 2017-2743",
@@ -233,14 +202,12 @@
   "UBS JARDIM SANTA MARIA": {
     "endereco": "R. EMBIRATAÍ, 201 - JD SANTA MARIA - CEP: 03576-000 - Tel: 2724-7004/ 2727-4160",
     "latitude": -23.551713,
-    "longitude": -46.505672,
-    "confidence": 1
+    "longitude": -46.505672
   },
   "UBS JARDIM SANTA TEREZINHA": {
     "endereco": "AV. DOS LATINOS, 205 - JD SANTA TEREZINHA - CEP: 03572- 000 - Tel: 2721-1815/ 2725-0711",
     "latitude": -23.572449,
-    "longitude": -46.503481,
-    "confidence": 1
+    "longitude": -46.503481
   },
   "AMA/UBS INTEGRADA FAZENDA DO CARMO": {
     "endereco": "R. FRANCISCO CARDOSO JR., 10 - CIDADE TIRADENTES - CEP: 08421-105 - Tel: 4780-5109/ 2556-7600",
@@ -250,8 +217,7 @@
   "UBS BARRO BRANCO": {
     "endereco": "R. EDUARDO REUTER, 678 - COHAB BARRO BRANCO II - CEP: 08473-533 - Tel: 4780-5068/ 2964-8826",
     "latitude": -23.584609,
-    "longitude": -46.392957,
-    "confidence": 1
+    "longitude": -46.392957
   },
   "UBS CARLOS GENTILE DE MELO": {
     "endereco": "AV. DOS TÊXTEIS, 3765 - CIDADE TIRADENTES - CEP: 08490- 600 - Tel: 4780-5108/ 2964-8081",
@@ -261,80 +227,67 @@
   "UBS CASTRO ALVES": {
     "endereco": "R. CADERNO DE VIAGEM, 55 - COHAB CASTRO ALVES - CEP: 08474-170 - Tel: 4780-5077/ 2282-0320",
     "latitude": -23.579846,
-    "longitude": -46.404102,
-    "confidence": 1
+    "longitude": -46.404102
   },
   "UBS CIDADE TIRADENTES I - LUIS MARANHÃO": {
     "endereco": "AV. DOS TÊXTEIS, 512 - CIDADE TIRADENTES - CEP: 08490-600 - Tel: 4780-5110/ 2282-0250",
     "latitude": -23.590567,
-    "longitude": -46.40429,
-    "confidence": 1
+    "longitude": -46.40429
   },
   "UBS DOM ANGELICO": {
     "endereco": "ESTRADA MANOEL OLIVEIRA RAMOS, 1 - CIDADE TIRADENTES - CEP: 08473-000 - Tel: 2555-3894/ 4780-5062",
     "latitude": -22.801795,
-    "longitude": -45.455845,
-    "confidence": 0.8
+    "longitude": -45.455845
   },
   "UBS FERROVIÁRIOS": {
     "endereco": "R. GONÇALVES NINA, 58 - CIDADE TIRADENTES - CEP: 08470- 610 - Tel: 2285-6477/ 4780-5063",
     "latitude": -23.4606,
-    "longitude": -46.473456,
-    "confidence": 0.8
+    "longitude": -46.473456
   },
   "UBS GRÁFICOS": {
     "endereco": "R. FRANCISCO JOSE VIANA, 708 - CIDADE TIRADENTES - CEP: 08471-530 - Tel: 2285-5685/ 4780-5065",
     "latitude": -23.605497,
-    "longitude": -46.401922,
-    "confidence": 1
+    "longitude": -46.401922
   },
   "UBS INACIO MONTEIRO": {
     "endereco": "R. INÁCIO MONTEIRO, 3002 - CIDADE TIRADENTES - CEP: 08490-000 - Tel: 4780-5066/ 2555-6455",
     "latitude": -23.592121,
-    "longitude": -46.574331,
-    "confidence": 0.8
+    "longitude": -46.574331
   },
   "UBS JARDIM VITÓRIA": {
     "endereco": "R. LAGEDO, 123 - CIDADE TIRADENTES - CEP: 08490-000 - Tel: 4780-5061/ 2964-2685",
     "latitude": -23.759146,
-    "longitude": -46.670745,
-    "confidence": 1
+    "longitude": -46.670745
   },
   "UBS NASCER DO SOL": {
     "endereco": "R. SENADOR NELSON CARNEIRO, 617 - CIDADE TIRADENTES - CEP: 08485300 - Tel: 4810-7700",
     "latitude": -23.59109,
-    "longitude": -46.408291,
-    "confidence": 1
+    "longitude": -46.408291
   },
   "UBS PREFEITO PRESTES MAIA": {
     "endereco": "R. INACIO PINTO LIMA, 35 - CIDADE TIRADENTES - CEP: 08490- 020 - Tel: 2555-5587/ 4780-5064",
     "latitude": -21.856652,
-    "longitude": -47.491729,
-    "confidence": 0.8
+    "longitude": -47.491729
   },
   "UBS PROFETA JEREMIAS": {
     "endereco": "R. LUIS BORDESE, 63 - CIDADE TIRADENTES - CEP: 08471-710 - Tel: 4780-5067/ 2558-3866",
     "latitude": -23.603711,
-    "longitude": -46.404029,
-    "confidence": 1
+    "longitude": -46.404029
   },
   "AMA/UBS INTEGRADA PROF. DR. HUMBERTO CERRUTI - PQ BOTURUSSU": {
     "endereco": "AV. OLAVO EGÍDIO DE SOUZA ARANHA, 704 - VL CISPER - CEP: 03822-000 - Tel: 2943-9991/ 2541-4685",
     "latitude": -23.502374,
-    "longitude": -46.493971,
-    "confidence": 1
+    "longitude": -46.493971
   },
   "CENTRO DE PRÁTICAS NATURAIS ERMELINO MATARAZZO - PRIMAVERA": {
     "endereco": "Rua Victória Simionato, nº 100 - Vila Paranaguá ",
     "latitude": -23.494461,
-    "longitude": -46.477792,
-    "confidence": 1
+    "longitude": -46.477792
   },
   "UBS ERMELINO MATARAZZO": {
     "endereco": "R. ANTONIO DE FREITAS TOLEDO, 170 - ERMELINO MATARAZZO - CEP: 03809-060 - Tel: 2545-8235/ 2542-0945",
     "latitude": -23.490154,
-    "longitude": -46.47747,
-    "confidence": 1
+    "longitude": -46.47747
   },
   "UBS JARDIM KERALUX": {
     "endereco": "R. LUCAS GONCALVES, 13 - JD KERALUX - CEP: 03828-000 - Tel: 2546-6177/ 2542-0837",
@@ -344,8 +297,7 @@
   "UBS PEDRO DE SOUZA CAMPOS": {
     "endereco": "R. PAULO BIFANO ALVES, 764 - PQ BOTURUSSU - CEP: 03801- 000 - Tel: 2546-4111/ 2542-0663",
     "latitude": -23.503069,
-    "longitude": -46.484602,
-    "confidence": 0.8
+    "longitude": -46.484602
   },
   "UBS VILA CISPER": {
     "endereco": "R. CACULÉ, 79 - VL CISPER - CEP: 03817-220 - Tel: 2546-5100/ 2542-0154",
@@ -355,8 +307,7 @@
   "UBS VILA PARANAGUÁ": {
     "endereco": "R. JOSÉ GOES NOGUEIRA, 70 - VL PARANAGUÁ - CEP: 03807- 380 - Tel: 2943-8044/ 2546-0098",
     "latitude": -23.280337,
-    "longitude": -45.903346,
-    "confidence": 0.8
+    "longitude": -45.903346
   },
   "AE SAO CARLOS": {
     "endereco": "R MACABU FONE: (11)2016-9559",
@@ -366,38 +317,32 @@
   "AMA PRES JUSCELINO KUBITSCHEK": {
     "endereco": "AV UTARO KANAI FONE: (11)25554474",
     "latitude": -23.566755,
-    "longitude": -46.3941,
-    "confidence": 0.8
+    "longitude": -46.3941
   },
   "UBS GUAIANASES II": {
     "endereco": "R. COMANDANTE CARLOS RUHL, 189 - GUAIANASES - CEP: 08410-120 - Tel: 4780-5095/ 2554-4064",
     "latitude": -23.545468,
-    "longitude": -46.41543,
-    "confidence": 1
+    "longitude": -46.41543
   },
   "UBS JARDIM SOARES": {
     "endereco": "R. FELICIANO DE MENDONÇA, 496 - JD SOARES - CEP: 08460- 365 - Tel: 4780-5035/ 2557-7022",
     "latitude": -23.553667,
-    "longitude": -46.398363,
-    "confidence": 1
+    "longitude": -46.398363
   },
   "UBS PREFEITO CELSO AUGUSTO DANIEL": {
     "endereco": "R. JORGE MARACCINI PONFILIO, 210 - CJ. HAB JUSCELINO KUBITSCHEK - CEP: 08465-050 - Tel: 4780-5034/ 2556-7997",
     "latitude": -21.167342,
-    "longitude": -47.804416,
-    "confidence": 1
+    "longitude": -47.804416
   },
   "UBS VILA COSMOPOLITA": {
     "endereco": "R. ALDEIA MARIA, 258 - GUAIANASES - CEP: 08021-070 - Tel: 4780-5033/ 2555-8583",
     "latitude": -24.710978,
-    "longitude": -47.570705,
-    "confidence": 0.8
+    "longitude": -47.570705
   },
   "AMA/UBS INTEGRADA JARDIM DA CONQUISTA III": {
     "endereco": "TRAVESSA SOMOS TODOS IGUAIS, 330 - SÃO MATEUS - CEP: 08343-000 - Tel: 2735-4202",
     "latitude": -23.608493,
-    "longitude": -46.451448,
-    "confidence": 1
+    "longitude": -46.451448
   },
   "AMA/UBS INTEGRADA JARDIM DAS LARANJEIRAS": {
     "endereco": "R. BENTO GUELFI, 1100 - JD DA LARANJEIRAS - CEP: 08381-001 - Tel: 2731-7252",
@@ -417,8 +362,7 @@
   "UBS JARDIM ROSELI": {
     "endereco": "R. SIMÃO NUNES, 31 - JD ROSELI - CEP: 08380-039 - Tel: 2731- 5143",
     "latitude": -23.596945,
-    "longitude": -46.439808,
-    "confidence": 1
+    "longitude": -46.439808
   },
   "UBS PARQUE BOA ESPERANÇA": {
     "endereco": "AV. RAGUEB CHOHFI, 3826 - JD AUGUSTO - CEP: 08490-500 - Tel: 2731-6484/ 2731-0669",
@@ -428,8 +372,7 @@
   "UBS RECANTO VERDE SOL": {
     "endereco": "ESTRADA DOS FIDELIS, 10 - RECANTO VERDE SOL - CEP: 08382505 - Tel: 2734-3271",
     "latitude": -23.620699,
-    "longitude": -46.419383,
-    "confidence": 1
+    "longitude": -46.419383
   },
   "AMA/UBS INTEGRADA JARDIM DAS OLIVEIRAS": {
     "endereco": "R. JOSÉ DA CRUZ CAMARGO, 174 - ITAIM PAULISTA - CEP: 08122-100 - Tel: 2572-0367/ 2963-2415",
@@ -439,80 +382,67 @@
   "UBS CIDADE KEMEL": {
     "endereco": "AV. KEMEL ADDAS, 1031 - CIDADE KEMEL - CEP: 08131-220 - Tel: 2963-2346/ 2569-0515",
     "latitude": -23.512837,
-    "longitude": -46.365848,
-    "confidence": 0.8
+    "longitude": -46.365848
   },
   "UBS DR. ATUALPA GIRÃO RABELO": {
     "endereco": "R. ILHA DO ARVOREDO, 10 - VL MORGADO - CEP: 08140-270 - Tel: 4780-5087/ 2963-2634",
     "latitude": -23.484682,
-    "longitude": -46.411784,
-    "confidence": 1
+    "longitude": -46.411784
   },
   "UBS ENCOSTA NORTE": {
     "endereco": "R. RENATA AGONDI, 238 - ITAIM PAULISTA - CEP: 08131320 - Tel: 4780-5113/ 4780-2937",
     "latitude": -24.021802,
-    "longitude": -46.487608,
-    "confidence": 1
+    "longitude": -46.487608
   },
   "UBS ITAIM PAULISTA - DR. JÚLIO DE GOUVEIA": {
     "endereco": "PRAÇA MAJOR JOSE LEVY SOBRINHO, 139 - ITAIM PAULISTA - CEP: 08110-460 - Tel: 2561-9443/ 2572-0672",
     "latitude": -21.466019,
-    "longitude": -47.001028,
-    "confidence": 0.8
+    "longitude": -47.001028
   },
   "UBS JARDIM CAMARGO NOVO": {
     "endereco": "R. GENERAL PEREIRA DE BERREDO, 275 - JD CAMARGO NOVO - CEP: 08121-260 - Tel: 2567-5959/ 2963-2610",
     "latitude": -23.60778,
-    "longitude": -46.715433,
-    "confidence": 0.8
+    "longitude": -46.715433
   },
   "UBS JARDIM INDAIÁ": {
     "endereco": "R. ANTONIO LEME DA GUERRA, 182 - ITAIM PAULISTA - CEP: 08141-130 - Tel: 2561-7904/ 2963-3711",
     "latitude": -23.430127,
-    "longitude": -49.088364,
-    "confidence": 0.8
+    "longitude": -49.088364
   },
   "UBS JARDIM NÉLIA": {
     "endereco": "R. ITAJUIBE, 1910 - ITAIM PAULISTA - CEP: 08142-000 - Tel: 4780- 5074/ 2963-3802",
     "latitude": -23.511648,
-    "longitude": -46.383612,
-    "confidence": 0.8
+    "longitude": -46.383612
   },
   "AMA/UBS INTEGRADA AGUIA DE HAIA": {
     "endereco": "R. TANTAS PALAVRAS, 59 - COHAB ÁGUIA DE HAIA - CEP: 08223-510 - Tel: 4780-5107/ 3756-3264",
     "latitude": -23.522383,
-    "longitude": -46.469163,
-    "confidence": 1
+    "longitude": -46.469163
   },
   "AMA/UBS INTEGRADA PARADA XV DE NOVEMBRO": {
     "endereco": "R. IBIAJARA, 804 - PARADA XI DE NOVEMBRO - CEP: 08246-101 - Tel: 2286-0017/ 2071-3232",
     "latitude": -23.526494,
-    "longitude": -46.436124,
-    "confidence": 1
+    "longitude": -46.436124
   },
   "AMA/UBS INTEGRADA VILA CARMOSINA": {
     "endereco": "R. IPOPOCA, 61 - ITAQUERA - CEP: 08290-330 - Tel: 2524-7796/ 2521-8544",
     "latitude": -23.54955,
-    "longitude": -46.448476,
-    "confidence": 1
+    "longitude": -46.448476
   },
   "MEGA POSTO DE VACINAÇÃO - SHOPPING ARICANDUVA": {
     "endereco": "AVENIDA ARICANDUVA, 5555 - ESTACIONAMENTO AUTO SHOPPING - ACESSO PELO PORTÃO 4 - CEP: 03930-110",
     "latitude": -23.566073,
-    "longitude": -46.50384,
-    "confidence": 1
+    "longitude": -46.50384
   },
   "UBS ITAQUERA": {
     "endereco": "R. AMÉRICO SALVADOR NOVELLI, 265 - ITAQUERA - CEP: 08210-090 - Tel: 2286-0015/ 2071-2422",
     "latitude": -22.896837,
-    "longitude": -47.050409,
-    "confidence": 0.8
+    "longitude": -47.050409
   },
   "UBS URSI CONJUNTO AE CARVALHO": {
     "endereco": "R. CORRE CORRE, 30 - COHAB AE CARVALHO - CEP: 08225550 - Tel: 4780-5111",
     "latitude": -23.526441,
-    "longitude": -46.459588,
-    "confidence": 1
+    "longitude": -46.459588
   },
   "UBS VILA NOSSA SENHORA APARECIDA": {
     "endereco": "R. PAULINO SERQUEIRA x GUAIA GUAÇU, 1 - ITAQUERA - CEP: 08215-160 - Tel: 2079-7871/ 2073-6039",
@@ -532,20 +462,17 @@
   "UBS VILA SANTANA": {
     "endereco": "R. VITOR JOSE DE CASTRO, 84 - VL SANTANA - CEP: 08240- 300 - Tel: 4780-5059/ 2051-3962",
     "latitude": -23.432099,
-    "longitude": -46.828532,
-    "confidence": 0.8
+    "longitude": -46.828532
   },
   "AMA/UBS INTEGRADA JARDIM HELENA": {
     "endereco": "AV. KUMAKI AOKI, 785 - JD HELENA - CEP: 08090-370 - Tel: 2581- 1661/ 2586-2971",
     "latitude": -23.479067,
-    "longitude": -46.418182,
-    "confidence": 1
+    "longitude": -46.418182
   },
   "AMA/UBS INTEGRADA PARQUE PAULISTANO": {
     "endereco": "R. SILVEIRA PIRES, 265 - PARQUE PAULISTANO - CEP: 08080- 160 - Tel: 2025-9469/ 2025-9468",
     "latitude": -23.486773,
-    "longitude": -46.424516,
-    "confidence": 1
+    "longitude": -46.424516
   },
   "CPTM JARDIM HELENA / VILA MARA": {
     "endereco": "Rua São Gonçalo do Rio das Pedras, 1200 – Vila Mara",
@@ -555,14 +482,12 @@
   "UBS JARDIM MAIA": {
     "endereco": "R. MARFIM VEGETAL, 108 - JD MAIA - CEP: 08081-330 - Tel: 2581-6962",
     "latitude": -23.491575,
-    "longitude": -46.41587,
-    "confidence": 1
+    "longitude": -46.41587
   },
   "UBS JD ROMANO VILA ITAIM": {
     "endereco": "R. RIO MANUEL ALVES, 182 - ITAIM PAULISTA - CEP: 08190-450 - Tel: 2581-3737/ 3678-5222",
     "latitude": -23.486162,
-    "longitude": -46.393287,
-    "confidence": 1
+    "longitude": -46.393287
   },
   "UBS TRÊS PONTES": {
     "endereco": "R. CAPACHOS, 136 - JARDIM CELIA - CEP: 08191330 - Tel: 4780- 5112",
@@ -572,14 +497,12 @@
   "AMA/UBS INTEGRADA JOSÉ BONIFÁCIO I": {
     "endereco": "AV. PROF. OSVALDO DE OLIVEIRA, 610 - JD HELENA - CEP: 08420-280 - Tel: 2557-8844/ 2557-5136",
     "latitude": -23.54247,
-    "longitude": -46.431137,
-    "confidence": 1
+    "longitude": -46.431137
   },
   "AMA/UBS INTEGRADA JOSE BONIFACIO III - DRA. LUCY MAYUMI UDAKIRI": {
     "endereco": "R. SILVIO BARBINI, 40 - ITAQUERA - CEP: 08250-650 - Tel: 2944- 6086/ 2071-2500",
     "latitude": -23.540777,
-    "longitude": -46.439188,
-    "confidence": 1
+    "longitude": -46.439188
   },
   "UBS JARDIM SÃO PEDRO - FRANCISCO ANTONIO CESARONI": {
     "endereco": "R. SILVIANOPOLIS, 370 - JD SÃO PEDRO - CEP: 08420-680 - Tel: 2552-5355/ 2557-8938",
@@ -589,8 +512,7 @@
   "UBS JOSE BONIFACIO II": {
     "endereco": "R. MURMÚRIOS DA TARDE, 30 - COHAB JOSE BONIFÁCIO - CEP: 08253-580 - Tel: 2521-1226/ 2521-5325",
     "latitude": -23.553836,
-    "longitude": -46.444684,
-    "confidence": 1
+    "longitude": -46.444684
   },
   "UBS GUAIANAZES": {
     "endereco": "R. PROFESSOR COSME DEODATO TADEU, 90 - GUAIANASES - CEP: 08450-380 - Tel: 4780-5030/ 2557-8177",
@@ -600,8 +522,7 @@
   "UBS JARDIM AURORA": {
     "endereco": "AV. CLAUDIO DA COSTA, 54 - GUAIANASES - CEP: 08431-160 - Tel: 4780-5093/ 2035-1671",
     "latitude": -23.538083,
-    "longitude": -46.4212,
-    "confidence": 1
+    "longitude": -46.4212
   },
   "UBS JARDIM BANDEIRANTES": {
     "endereco": "R. PACHECO ARANHA, 4 - GUAIANASES - CEP: 08450-410 - Tel: 4780-5027/ 2557-5273",
@@ -611,80 +532,67 @@
   "UBS JARDIM ETELVINA": {
     "endereco": "R. MANUEL TEODORO XAVIER, 138 - GUAIANASES - CEP: 08430-570 - Tel: 4780-5071/ 2035-1756",
     "latitude": -22.28687,
-    "longitude": -52.376433,
-    "confidence": 1
+    "longitude": -52.376433
   },
   "UBS JARDIM FANGANIELLO": {
     "endereco": "R. FRANCISCO NUNES CUBAS, 60 - LAJEADO - CEP: 08450-460 - Tel: 4780-5029/ 2557-6698",
     "latitude": -23.557155,
-    "longitude": -46.201126,
-    "confidence": 1
+    "longitude": -46.201126
   },
   "UBS JARDIM ROBRU - GUAIANASES": {
     "endereco": "AV. NORDESTINA, 5593 - LAJEADO - CEP: 08431-410 - Tel: 4780- 5094/ 2035-1860",
     "latitude": -23.524696,
-    "longitude": -46.417991,
-    "confidence": 1
+    "longitude": -46.417991
   },
   "UBS PRIMEIRO DE OUTUBRO": {
     "endereco": "TRAVESSA AÇUCENA DO BREJO, 16 B - JD LOURDES - CEP: 08441-010 - Tel: 2035-8010/ 4780-5032",
     "latitude": -23.530556,
-    "longitude": -46.398245,
-    "confidence": 1
+    "longitude": -46.398245
   },
   "UBS SANTA LUZIA": {
     "endereco": "R. CONJUNTO DA PAZ, 39 - JD MIRIAM - CEP: 08142-360 - Tel: 2569-1887/ 4780-5031",
     "latitude": -23.522383,
-    "longitude": -46.388417,
-    "confidence": 1
+    "longitude": -46.388417
   },
   "UBS VILA CHABILÂNDIA": {
     "endereco": "ESTRADA DO LAGEADO VELHO, 392 - LAJEADO - CEP: 08451- 000 - Tel: 4780-5092/ 2557-9571",
     "latitude": -24.382989,
-    "longitude": -48.914703,
-    "confidence": 1
+    "longitude": -48.914703
   },
   "AE MOOCA - ITALO DOMINGOS LE VOCCI": {
     "endereco": "R. Marina Crespi, 91",
     "latitude": -23.555987,
-    "longitude": -46.603992,
-    "confidence": 1
+    "longitude": -46.603992
   },
   "UBS MOOCA I": {
     "endereco": "R. TAQUARI, 549 - MOOCA - CEP: 03166-000 - Tel: 2618-5255/ 2291-5517",
     "latitude": -23.550876,
-    "longitude": -46.597329,
-    "confidence": 1
+    "longitude": -46.597329
   },
   "AMA/UBS INTEGRADA PARI": {
     "endereco": "R. DAS OLARIAS, 503 - CANINDÉ - CEP: 03030-020 - Tel: 3227- 0081",
     "latitude": -23.525901,
-    "longitude": -46.620675,
-    "confidence": 1
+    "longitude": -46.620675
   },
   "UBS GLEBA DO PÊSSEGO - VICENTE FIUZA DA COSTA": {
     "endereco": "R. CONFISSÃO, 786 - PQ DO CARMO - CEP: 08265-230 - Tel: 2522-3177/ 2521-8840",
     "latitude": -23.584059,
-    "longitude": -46.449085,
-    "confidence": 1
+    "longitude": -46.449085
   },
   "UBS JARDIM COPA - MATHILDE DE AQUINO DINIZ": {
     "endereco": "R. PONTA DE LUCENA, 330 - ITAQUERA - CEP: 08270-340 - Tel: 2524-5020/ 2522-6763",
     "latitude": -23.560072,
-    "longitude": -46.455984,
-    "confidence": 1
+    "longitude": -46.455984
   },
   "UBS JARDIM HELIAN": {
     "endereco": "R. JOÃO BARREIROS, 22 - JARDIM HELIAN - CEP: 08265130 - Tel: 4780-5097/ 2521-7615",
     "latitude": -23.576432,
-    "longitude": -46.452807,
-    "confidence": 1
+    "longitude": -46.452807
   },
   "UBS JARDIM NOSSA SENHORA DO CARMO": {
     "endereco": "R. VERÍSSIMO DA SILVA, 136 - JD NOSSA SRA.DO CARMO - CEP: 08275-270 - Tel: 4780-5099/ 2748-5103",
     "latitude": -23.593611,
-    "longitude": -46.550523,
-    "confidence": 1
+    "longitude": -46.550523
   },
   "UBS SANTO ESTEVÃO - CARMOSINA": {
     "endereco": "R. CACHOEIRA DA ILHA, 355 - ITAQUERA - CEP: 08270-110 - Tel: 2523-0577",
@@ -694,32 +602,27 @@
   "HOSPITAL DIA REDE HORA CERTA - PENHA": {
     "endereco": "Praça Nossa Sra. da Penha, 55 ",
     "latitude": -23.526693,
-    "longitude": -46.550394,
-    "confidence": 1
+    "longitude": -46.550394
   },
   "UBS ENGENHEIRO TRINDADE": {
     "endereco": "AV. GABRIELA MISTRAL, 1168 - ENG. TRINDADE - CEP: 03701- 000 - Tel: 2641-6973/ 2642-7229",
     "latitude": -23.510786,
-    "longitude": -46.550783,
-    "confidence": 1
+    "longitude": -46.550783
   },
   "UBS VILA ESPERANÇA - DR. CASSIO BITENCOURT FILHO": {
     "endereco": "R. ALVINÓPOLIS, 1350 - VILA BEATRIZ - CEP: 03645000 - Tel: 2023-1137/ 2957-6630",
     "latitude": -23.533071,
-    "longitude": -46.543193,
-    "confidence": 0.8
+    "longitude": -46.543193
   },
   "UBS VILA ESPERANÇA - DR. EMILIO SANTIAGO DE OLIVEIRA": {
     "endereco": "R. COREMU, 163 - VL ESPERANÇA - CEP: 03647-030 - Tel: 2958- 7502/ 2791-5322",
     "latitude": -23.523549,
-    "longitude": -46.526391,
-    "confidence": 1
+    "longitude": -46.526391
   },
   "UBS VILA GRANADA - DR ALFREDO FERREIRA PAULINO FILHO": {
     "endereco": "R. MADALENA JULIA, 60 - VILA GRANADA - CEP: 03660010 - Tel: 2257-1194/ 2685-8036",
     "latitude": -23.522617,
-    "longitude": -46.508681,
-    "confidence": 1
+    "longitude": -46.508681
   },
   "AMA/UBS INTEGRADA JARDIM TRÊS MARIAS - DR. MAURICIO ZAMIJOVSKY": {
     "endereco": "R. BRENO ACCIOLI, 440 - VL SÃO FRANCISCO - CEP: 03676-040 - Tel: 2280-4388/ 2043-4617",
@@ -729,8 +632,7 @@
   "SAE DST/AIDS FIDELIS RIBEIRO": {
     "endereco": "R. PEIXOTO, 100 - PONTE RASA - CEP 03627010 - Tel: 26210217",
     "latitude": -23.511809,
-    "longitude": -46.505274,
-    "confidence": 1
+    "longitude": -46.505274
   },
   "SUPERMECADO SEMAR": {
     "endereco": "Av.São Miguel, 2104",
@@ -740,8 +642,7 @@
   "TENDA DELEGACIA 24 DP": {
     "endereco": "Av. São Miguel, 3551",
     "latitude": -23.195687,
-    "longitude": -45.897118,
-    "confidence": 0.8
+    "longitude": -45.897118
   },
   "UBS BURGO PAULISTA": {
     "endereco": "R. JOSÉ SILVA ALCANTARA FILHO, 210 - BURGO PAULISTA - CEP: 03680-000 - Tel: 2280-0080/ 2046-8809",
@@ -756,86 +657,72 @@
   "UBS DR. CARLOS OLIVALDO DE SOUZA LOPES MUNIZ - PONTE RASA": {
     "endereco": "R. JACO BERTILLON, 22 - ALTO DA PONTE RASA - CEP: 03894020 - Tel: 2041-1744/ 2047-3372",
     "latitude": -23.515026,
-    "longitude": -46.482334,
-    "confidence": 1
+    "longitude": -46.482334
   },
   "UBS JARDIM PENHA": {
     "endereco": "AV. SÃO MIGUEL, 4331 - PONTE RASA - CEP: 03871-000 - Tel: 2546-5867/ 2214-3227",
     "latitude": -23.509633,
-    "longitude": -46.49712,
-    "confidence": 1
+    "longitude": -46.49712
   },
   "UBS JARDIM POPULAR - MATHEUS SANTAMARIA": {
     "endereco": "AV. JAIME TORRES, 600 - JD POPULAR - CEP: 03670-000 - Tel: 2791-6421/ 2685-0439",
     "latitude": -23.51405,
-    "longitude": -46.501959,
-    "confidence": 1
+    "longitude": -46.501959
   },
   "AMA/UBS INTEGRADA JARDIM INDEPENDÊNCIA - HERMENEGILDO MORBIN JUNIOR": {
     "endereco": "R. PLANALTO DE CONQUISTA, 80 - JD INDEPENDÊNCIA - CEP: 03223-170 - Tel: 2115-3761/ 2211-2772",
     "latitude": -23.588514,
-    "longitude": -46.5604,
-    "confidence": 1
+    "longitude": -46.5604
   },
   "UBS JARDIM GUAIRACÁ": {
     "endereco": "R. ERVA IMPERIAL, 501 - JD GUAIRACÁ - CEP: 03244-030 - Tel: 2115-9644/ 2301-1339",
     "latitude": -23.512615,
-    "longitude": -46.437897,
-    "confidence": 0.8
+    "longitude": -46.437897
   },
   "UBS PARQUE SÃO LUCAS": {
     "endereco": "R. DR NOGUEIRA DE NORONHA, 322 - PQ SÃO LUCAS - CEP: 03239-080 - Tel: 2918-3595/ 2211-2503",
     "latitude": -23.929673,
-    "longitude": -46.382676,
-    "confidence": 0.8
+    "longitude": -46.382676
   },
   "UBS REUNIDAS I": {
     "endereco": "R. SÃO JOSE DAS ESPINHARAS, 400 - VL INDUSTRIAL - CEP: 03249-030 - Tel: 2702-5924/ 2143-8183",
     "latitude": -23.603889,
-    "longitude": -46.532532,
-    "confidence": 1
+    "longitude": -46.532532
   },
   "UBS VILA EMA - DR FUAD KASSAB": {
     "endereco": "R. GUSTAVO STACH, 140 - VILA EMA - CEP: 03277050 - Tel: 2116-3007",
     "latitude": -23.581026,
-    "longitude": -46.546611,
-    "confidence": 1
+    "longitude": -46.546611
   },
   "UBS VILA HELOISA": {
     "endereco": "R. AIRES QUARESMA, 11 - VILA HELOISA - CEP: 03286-095 - Tel: 2302-2347/ 2910-4068",
     "latitude": -23.589568,
-    "longitude": -46.534985,
-    "confidence": 1
+    "longitude": -46.534985
   },
   "AMA/UBS INTEGRADA JARDIM TIETE I - OSCAR PEREIRA DA SILVA": {
     "endereco": "AV. ENGENHO NOVO, 120 - JD TIETÊ - CEP: 03943-020 - Tel: 2017-1431",
     "latitude": -21.469587,
-    "longitude": -49.233609,
-    "confidence": 1
+    "longitude": -49.233609
   },
   "SAE DST/AIDS SAO MATEUS": {
     "endereco": "AV. MATEO BEI, 838 - SÃO MATEUS - CEP 03943000 - Tel: 29190697 / 20117077",
     "latitude": -23.602544,
-    "longitude": -46.482454,
-    "confidence": 1
+    "longitude": -46.482454
   },
   "UBS CIDADE SATÉLITE - SANTA BARBARA": {
     "endereco": "R. SOL, 45 - CIDADE SATÉLITE STA. BARBARA - CEP: 08330-360 - Tel: 2919-5857/ 2012-8262",
     "latitude": -23.611691,
-    "longitude": -46.463297,
-    "confidence": 1
+    "longitude": -46.463297
   },
   "UBS JARDIM COLONIAL": {
     "endereco": "AV. JOSÉ RODRIGUES SANTARÉM, 464 - JD COLONIAL - CEP: 03968-010 - Tel: 2919-0554/ 2018-3519",
     "latitude": -23.602249,
-    "longitude": -46.472114,
-    "confidence": 1
+    "longitude": -46.472114
   },
   "UBS JARDIM IV CENTENÁRIO": {
     "endereco": "R. CAMPO FLORIDO, 482 - JD IMPERADOR - CEP: 03940-060 - Tel: 2721-4249/ 2726-0174",
     "latitude": -23.685171,
-    "longitude": -46.563836,
-    "confidence": 1
+    "longitude": -46.563836
   },
   "UBS JARDIM NOVE DE JULHO": {
     "endereco": "R. SIBALDO LINS, 146 - JD NOVE DE JULHO - CEP: 03953-100 - Tel: 2919-0200/ 2011-9815",
@@ -845,26 +732,22 @@
   "UBS JARDIM PARAGUAÇU - DR. GONÇALO FELICIANO ALVES": {
     "endereco": "R. TAIOBEIRAS, 125 - JD PARAGUACU - CEP: 03941-060 - Tel: 2727-0484",
     "latitude": -23.59601,
-    "longitude": -46.500157,
-    "confidence": 1
+    "longitude": -46.500157
   },
   "UBS JARDIM TIETE II": {
     "endereco": "R. AUGUSTO FERREIRA RAMOS, 9 - JD TIETÊ - CEP: 03947-030 - Tel: 2017-0093/ 2919-5248",
     "latitude": -21.627289,
-    "longitude": -48.340762,
-    "confidence": 0.8
+    "longitude": -48.340762
   },
   "UBS SAO MATEUS - NAIR ALVES DE REZENDE NORIMBENI": {
     "endereco": "R. ANGELO DE CANDIA, 1058 - SÃO MATEUS - CEP: 03958-000 - Tel: 2919-1717",
     "latitude": -23.591601,
-    "longitude": -46.487366,
-    "confidence": 0.8
+    "longitude": -46.487366
   },
   "UBS CIDADE NOVA SÃO MIGUEL": {
     "endereco": "AV. MOHAMAD IBRAHIN SALEH, 902 - SÃO MIGUEL PAULISTA - CEP: 08042-290 - Tel: 2051-3560",
     "latitude": -20.870296,
-    "longitude": -51.490237,
-    "confidence": 0.8
+    "longitude": -51.490237
   },
   "UBS JARDIM LAPENNA": {
     "endereco": "R. SERRA DA JURUOCA, 36 - SÃO MIGUEL PAULISTA - CEP: 08071-180 - Tel: 2058-3722",
@@ -874,14 +757,12 @@
   "UBS PAULO FELDMAN - NITRO OPERÁRIA": {
     "endereco": "R. CUMARU, 14 - SÃO MIGUEL PAULISTA - CEP: 08010-380 - Tel: 2956-6923",
     "latitude": -23.494078,
-    "longitude": -46.436284,
-    "confidence": 1
+    "longitude": -46.436284
   },
   "UBS VILA PROGRESSO": {
     "endereco": "R. REAL HORTO, 115 - VL PROGRESSO - CEP: 08245-260 - Tel: 2035-2488",
     "latitude": -23.358408,
-    "longitude": -47.509114,
-    "confidence": 1
+    "longitude": -47.509114
   },
   "AMA/UBS INTEGRADA JARDIM SANTO ANDRÉ": {
     "endereco": "R. MIGUEL FERREIRA DE MELO, 497 - JD SANTO ANDRÉ - CEP: 08390-000 - Tel: 2751-4339/ 2253-8623",
@@ -911,14 +792,12 @@
   "UBS PARQUE SÃO RAFAEL - DRA. ORA ROSEN": {
     "endereco": "R. DR ARISTIDES RICARDO, 313 - PQ SÃO RAFAEL - CEP: 08311- 270 - Tel: 2919-5006",
     "latitude": -23.04829,
-    "longitude": -49.255542,
-    "confidence": 0.8
+    "longitude": -49.255542
   },
   "UBS RIO CLARO": {
     "endereco": "R. CINIRA POLÔNIO, 33 - JD RIO CLARO - CEP: 08395-320 - Tel: 2253-4307/ 2751-5112",
     "latitude": -23.623806,
-    "longitude": -46.458015,
-    "confidence": 1
+    "longitude": -46.458015
   },
   "AMA/UBS INTEGRADA JARDIM ELBA - HUMBERTO GASTÃO BODRA": {
     "endereco": "R. BATISTA FERGUSIO, 1016 - VL CARDOSO FRANCO - CEP: 03978-180 - Tel: 2704-3491/ 2704-8997",
@@ -928,62 +807,52 @@
   "AMA/UBS INTEGRADA JARDIM GRIMALDI": {
     "endereco": "R. PEDRO DE CASTRO VELHO, 523 - VL BANCÁRIA - CEP: 03921-000 - Tel: 2216-8076/ 2302-2424",
     "latitude": -20.642888,
-    "longitude": -50.373789,
-    "confidence": 0.8
+    "longitude": -50.373789
   },
   "SAE BETINHO": {
     "endereco": "  AV. ARQUITETO VILA NOVAS ARTIGAS, Nº 515",
     "latitude": -23.604299,
-    "longitude": -46.503735,
-    "confidence": 0.8
+    "longitude": -46.503735
   },
   "UBS FAZENDA DA JUTA I": {
     "endereco": "TRAVESSA LEV LANDAU, 23 A - FAZENDA DA JUTA - CEP: 03977-740 - Tel: 2015-3456/ 2015-3459",
     "latitude": -23.623762,
-    "longitude": -46.493343,
-    "confidence": 1
+    "longitude": -46.493343
   },
   "UBS FAZENDA DA JUTA II": {
     "endereco": "R. AUGUSTIN LUBERTI (ANTIGA AV. DOIS), 1102 - FAZENDA DA JUTA - CEP: 03977-000 - Tel: 2015-3444/ 2015-3439",
     "latitude": -23.618933,
-    "longitude": -46.487743,
-    "confidence": 0.8
+    "longitude": -46.487743
   },
   "UBS IAÇAPE - JARDIM PLANALTO": {
     "endereco": "R. IAÇAPÉ, 302 - PQ SANTA MADALENA - CEP: 03983-090 - Tel: 2703-1198/ 2703-1191",
     "latitude": -23.61036,
-    "longitude": -46.509425,
-    "confidence": 1
+    "longitude": -46.509425
   },
   "UBS IGUAÇU": {
     "endereco": "AV. DO ORATÓRIO, 6557 - VL INDUSTRIAL - CEP: 03221-300 - Tel: 2701-7213/ 2702-5934",
     "latitude": -23.588519,
-    "longitude": -46.554577,
-    "confidence": 0.8
+    "longitude": -46.554577
   },
   "UBS JARDIM DOS EUCALÍPTOS - HELIO MOREIRA SALLES": {
     "endereco": "R. POEMA DAS AMERICAS, 12 - JD DOS EUCALIPTOS - CEP: 03924-240 - Tel: 2701-7933/ 2718-1440",
     "latitude": -23.60068,
-    "longitude": -46.507813,
-    "confidence": 1
+    "longitude": -46.507813
   },
   "UBS JARDIM SAPOPEMBA": {
     "endereco": "R. JOÃO LOPES DE LIMA, 1151 - JARDIM SAPOPEMBA - CEP: 03976-020 - Tel: 2019-7077/ 2019-6305",
     "latitude": -23.613119,
-    "longitude": -46.496034,
-    "confidence": 0.8
+    "longitude": -46.496034
   },
   "UBS JARDIM SINHA": {
     "endereco": "R. JIM CLARK, 10 - JARDIM SINHA - CEP: 03923-165 - Tel: 2721- 3798/ 2722-6823",
     "latitude": -23.593697,
-    "longitude": -46.511307,
-    "confidence": 1
+    "longitude": -46.511307
   },
   "UBS MASCARENHAS DE MORAES": {
     "endereco": "R. SARG. EDGAR LOURENÇO PINTO, 116 - CJ. MAL. MASCARENHAS DE MORAES - CEP: 03977-180 - Tel: 2919-1120/ 2014-1904",
     "latitude": -23.616418,
-    "longitude": -46.495698,
-    "confidence": 1
+    "longitude": -46.495698
   },
   "UBS PASTORAL": {
     "endereco": "R. BOLEADEIRAS, 127 - PQ SANTA MADALENA - CEP: 03980-120 - Tel: 2702-5889/ 2702-5888",
@@ -993,8 +862,7 @@
   "UBS PRO MORAR": {
     "endereco": "R. GIOVANNI NASCO, 535 - CONJ HABITACIONAL TEOTONIO VILELA - CEP: 03928090 - Tel: 2036-1448",
     "latitude": -23.607129,
-    "longitude": -46.500089,
-    "confidence": 1
+    "longitude": -46.500089
   },
   "UBS REUNIDAS II": {
     "endereco": "AV. DA CASA GRANDE, 1258 - VL UNIÃO - CEP: 03260-000 - Tel: 2706-0555/ 2143-1356",
@@ -1014,8 +882,7 @@
   "UBS VILA RENATO": {
     "endereco": "R. BERNARDINO FERRAZ, 54 - VL RENATO - CEP: 03978-210 - Tel: 2703-0947/ 2703-0970",
     "latitude": -23.617881,
-    "longitude": -46.507034,
-    "confidence": 1
+    "longitude": -46.507034
   },
   "UBS VILA SANTO ESTEVÃO - WOADY JORGE KALIL": {
     "endereco": "R. ANTONIO CAMARDO, 678 - VL GOMES CARDIM - CEP: 03309- 060 - Tel: 2294-3029/ 2274-0222",
@@ -1025,8 +892,7 @@
   "UBS DOM JOÃO NERY": {
     "endereco": "ESTRADA DOM JOAO NERY, 3462 - JD NAZARE - CEP: 08151- 000 - Tel: 2566-3624/ 4780-5089",
     "latitude": -23.532722,
-    "longitude": -46.398626,
-    "confidence": 0.8
+    "longitude": -46.398626
   },
   "UBS JARAGUÁ": {
     "endereco": "R. DOMINGUES VIDIGAL, 97 - VL CURUÇÁ - CEP: 08160-350 - Tel: 4780-5041/ 2061-8076",
@@ -1036,8 +902,7 @@
   "UBS JARDIM CAMPOS": {
     "endereco": "R. CRESCENTE, 97 - ITAIM PAULISTA - CEP: 08160-080 - Tel: 2035-4922/ 3808-2655",
     "latitude": -23.512919,
-    "longitude": -46.40818,
-    "confidence": 1
+    "longitude": -46.40818
   },
   "UBS JARDIM ROBRU - MESSIAS JOSE DA SILVA": {
     "endereco": "R. JOSÉ MARIA ALVES DE DEUS, 288 - JD ROBRU - CEP: 08150- 350 - Tel: 4780-5042/ 2035-2406",
@@ -1047,20 +912,17 @@
   "UBS JARDIM SILVA TELLES": {
     "endereco": "R. JOSÉ ALEXANDRE MACHADO, 541 - ITAIM PAULISTA - CEP: 08160-460 - Tel: 4780-5044/ 2561-8034",
     "latitude": -23.500753,
-    "longitude": -46.408869,
-    "confidence": 1
+    "longitude": -46.408869
   },
   "UBS PARQUE SANTA RITA": {
     "endereco": "R. JOSÉ PESSOTA, 80 - PQ SANTA RITA - CEP: 08150-020 - Tel: 4780-5043/ 2513-7109",
     "latitude": -23.51691,
-    "longitude": -46.411728,
-    "confidence": 1
+    "longitude": -46.411728
   },
   "UBS VILA CURUÇÁ": {
     "endereco": "R. PEDRO MEIRA, 1 - VL CURUÇÁ - CEP: 08030-500 - Tel: 4780- 5037/ 2035-4311",
     "latitude": -23.503158,
-    "longitude": -46.422099,
-    "confidence": 1
+    "longitude": -46.422099
   },
   "UBS VILA NOVA CURUÇÁ": {
     "endereco": "R. NARCEJA, 51 - SÃO MIGUEL PAULISTA - CEP: 08032-340 - Tel: 4780-5088/ 2035-2292",
@@ -1070,50 +932,42 @@
   "ASSOCIACAO AMIGOS DO BAIRRO": {
     "endereco": "RUA TEREZINHA 16",
     "latitude": -23.57882,
-    "longitude": -46.528404,
-    "confidence": 1
+    "longitude": -46.528404
   },
   "UBS COMENDADOR JOSÉ GONZALES": {
     "endereco": "R. NOSSA SENHORA DAS DORES, 350 - VL FORMOSA - CEP: 03367-040 - Tel: 2910-0235/ 2216-7583",
     "latitude": -23.56997,
-    "longitude": -46.5345,
-    "confidence": 1
+    "longitude": -46.5345
   },
   "UBS VILA FORMOSA I - DR. ANTONIO DA SILVEIRA E OLIVEIRA": {
     "endereco": "R. ACURUÍ, 720 - VL FORMOSA - CEP: 03355-000 - Tel: 2671- 0888/ 2673-3404",
     "latitude": -23.560584,
-    "longitude": -46.552789,
-    "confidence": 1
+    "longitude": -46.552789
   },
   "UBS VILA FORMOSA II": {
     "endereco": "Rua Ouricuri, 455 - VL FORMOSA - CEP: 03364000 - Tel: 2674- 5246/ 5594-0179",
     "latitude": -23.569615,
-    "longitude": -46.539019,
-    "confidence": 1
+    "longitude": -46.539019
   },
   "AMA/UBS INTEGRADA SÍTIO DA CASA PINTADA": {
     "endereco": "AV. MARIA SANTANA, 1069 - SÃO MIGUEL PAULISTA - CEP: 08040-450 - Tel: 2053-0800/ 2052-6755",
     "latitude": -23.502047,
-    "longitude": -46.642946,
-    "confidence": 0.8
+    "longitude": -46.642946
   },
   "MEGA POSTO - CATEDRAL DE SAO MIGUEL PAULISTA": {
     "endereco": "Av. São Miguel - Praça Padre Aleixo Monteiro Mafra (Praça do Forró)",
     "latitude": -23.195687,
-    "longitude": -45.897118,
-    "confidence": 0.8
+    "longitude": -45.897118
   },
   "UBS CIDADE PEDRO JOSÉ NUNES": {
     "endereco": "R. JOSÉ BARGAS, 143 - JD PEDRO JOSE NUNES - CEP: 08061- 020 - Tel: 2297-5453/ 2956-5492",
     "latitude": -23.500854,
-    "longitude": -46.462201,
-    "confidence": 1
+    "longitude": -46.462201
   },
   "UBS JARDIM DAS CAMÉLIAS": {
     "endereco": "AV. TRÊVO DE SANTA MARIA, 79 - SÃO MIGUEL PAULISTA - CEP: 08050-570 - Tel: 2051-8788",
     "latitude": -23.512777,
-    "longitude": -46.462812,
-    "confidence": 1
+    "longitude": -46.462812
   },
   "UBS JARDIM SAO CARLOS": {
     "endereco": "AV. CESAR AUGUSTO ROMARO, 500 - VILA NORMA - CEP: 08062000 - Tel: 4810-0660",
@@ -1123,14 +977,12 @@
   "UBS SANTA INÊS": {
     "endereco": "R. FREI FIDELIS MOTA, 1001 - PQ CRUZEIRO DO SUL - CEP: 08070-130 - Tel: 2297-9669",
     "latitude": -23.491883,
-    "longitude": -46.461864,
-    "confidence": 0.8
+    "longitude": -46.461864
   },
   "UBS THÉRSIO VENTURA": {
     "endereco": "R. ARRAIAL DE SANTA BARBARA, 996 - CIDADE PEDRO J NUNES - CEP: 08061-360 - Tel: 2545-1026",
     "latitude": -23.504056,
-    "longitude": -46.470748,
-    "confidence": 1
+    "longitude": -46.470748
   },
   "UBS UNIÃO DE VILA NOVA ": {
     "endereco": "R. RIO CINCO VOLTAS, 205 - SÃO MIGUEL PAULISTA - CEP: 08071100 - Tel: 2037-7779/ 2956-3837",
@@ -1145,14 +997,12 @@
   "UBS CIDADE PATRIARCA": {
     "endereco": "R. DR FREDERICO BROTERO, 22 - CIDADE PATRIARCA - CEP: 03552-080 - Tel: 2958-1488",
     "latitude": -23.536764,
-    "longitude": -46.50405,
-    "confidence": 1
+    "longitude": -46.50405
   },
   "UBS JARDIM MARINGÁ - VILA TALARICO": {
     "endereco": "R. MUANÁ, 214 - JARDIM MARINGÁ - CEP: 03525-090 - Tel: 2269- 3944/ 2781-0637",
     "latitude": -23.552951,
-    "longitude": -46.514919,
-    "confidence": 1
+    "longitude": -46.514919
   },
   "UBS VILA ARICANDUVA": {
     "endereco": "R. ANTONIO LINDOURO DA SILVA, 265 - VL ARICANDUVA - CEP: 03506-000 - Tel: 2294-8853",
@@ -1162,32 +1012,27 @@
   "UBS VILA GUILHERMINA - DR. AMERICO RASPA NETO": {
     "endereco": "R. JOÃO MARCHIORI, 59 - VL GUILHERMINA - CEP: 03547-020 - Tel: 2685-2124/ 2791-5321",
     "latitude": -23.53772,
-    "longitude": -46.514564,
-    "confidence": 1
+    "longitude": -46.514564
   },
   "UBS VILA MATILDE - DR. RUBENS DO VAL": {
     "endereco": "R. MARCONDES DE BRITO, 1304 - VL MATILDE - CEP: 03509- 000 - Tel: 2653-4391",
     "latitude": -23.536741,
-    "longitude": -46.528084,
-    "confidence": 0.8
+    "longitude": -46.528084
   },
   "AMA/UBS INTEGRADA VILA CALIFORNIA - ZEILIVAL BRUSCAGIN": {
     "endereco": "PRAÇA CONDE DE SÃO JANUÁRIO, 91 - VL CALIFORNIA - CEP: 03215-080 - Tel: 2917-1117/ 2317-3461",
     "latitude": -23.605022,
-    "longitude": -46.555182,
-    "confidence": 1
+    "longitude": -46.555182
   },
   "UBS VILA ALPINA - DR. HERMINIO MOREIRA": {
     "endereco": "R. PARAMU, 398 - VL ALPINA - CEP: 03147-100 - Tel: 2912-8958/ 2917-0136",
     "latitude": -23.594757,
-    "longitude": -46.566377,
-    "confidence": 1
+    "longitude": -46.566377
   },
   "UBS VILA PRUDENTE": {
     "endereco": "PRAÇA DO CENTENÁRIO DE VILA PRUDENTE - VEIGA CABRAL, 108 - VL PRUDENTE - CEP: 03132-050 - Tel: 2272-5763/ 2062-3975",
     "latitude": -23.588151,
-    "longitude": -46.481898,
-    "confidence": 0.8
+    "longitude": -46.481898
   },
   "ARENA CORINTHIANS": {
     "endereco": "Av. Miguel Ignácio, 2492 Curi, Portão E4 -CEP: 08295-005",
@@ -1197,14 +1042,12 @@
   "AUTÓDROMO DE INTERLAGOS": {
     "endereco": "Rua Jacinto Júlio, altura do nº 589 – Portão 9, entrada KRF - CEP: 04815-160",
     "latitude": -23.704966,
-    "longitude": -46.693319,
-    "confidence": 0.8
+    "longitude": -46.693319
   },
   "CLUB ATHLETICO PAULISTANO": {
     "endereco": "R. Honduras, 1.400 - Jardim América - CEP: 01428-900",
     "latitude": -20.257971,
-    "longitude": -50.543583,
-    "confidence": 0.8
+    "longitude": -50.543583
   },
   "CLUBE ATLÉTICO MONTE LÍBANO": {
     "endereco": "Rua do Gama, 261 - Jardim Luzitania - CEP: 04032-000",
@@ -1214,14 +1057,12 @@
   "CLUBE HEBRAICA": {
     "endereco": "Rua Ibiapinopolis, 781- na parte superior do Clube - CEP: 01455-110",
     "latitude": -23.577972,
-    "longitude": -46.691364,
-    "confidence": 1
+    "longitude": -46.691364
   },
   "HOSPITAL DOM ALVARENGA": {
     "endereco": "Av. Nazaré, 1361 - Ipiranga - CEP: 04263-200",
     "latitude": -23.596968,
-    "longitude": -46.609615,
-    "confidence": 1
+    "longitude": -46.609615
   },
   "IGREJA BOAS NOVAS": {
     "endereco": "Rua Marechal Mallet, 535, Vila Prudente - CEP: 03140-020",
@@ -1231,20 +1072,17 @@
   "MEMORIAL DA AMÉRICA LATINA": {
     "endereco": "Rua Tagipuru, 500 (referência Portão 2) - CEP: 01156-000",
     "latitude": -23.529819,
-    "longitude": -46.664608,
-    "confidence": 1
+    "longitude": -46.664608
   },
   "PARQUE VILLA LOBOS": {
     "endereco": "Av. Prof. Fonseca Rodrigues, 1025- Portão 3 - Alto de Pinheiros - CEP 05461-010",
     "latitude": -23.712443,
-    "longitude": -46.704364,
-    "confidence": 0.8
+    "longitude": -46.704364
   },
   "SHOPPING ANALIA FRANCO": {
     "endereco": "Av. Reg. Feijó, 1739 - Tatuapé, São Paulo - CEP: 03342-900",
     "latitude": -23.561985,
-    "longitude": -46.561399,
-    "confidence": 0.8
+    "longitude": -46.561399
   },
   "SHOPPING ARICANDUVA": {
     "endereco": "Avenida Aricanduva, 5555 – Estacionamento Auto Shopping Acesso pelo Portão P4 - CEP: 03930-110",
@@ -1254,44 +1092,37 @@
   "SHOPPING CAMPO LIMPO": {
     "endereco": "Estrada do Campo Limpo, 459. Vila Prel – CEP: 05777-001",
     "latitude": -23.82129,
-    "longitude": -47.458127,
-    "confidence": 0.8
+    "longitude": -47.458127
   },
   "SHOPPING INTERLAGOS": {
     "endereco": "Av. Interlagos, 2255 - Estacionamento Subsolo, portão5 - Interlagos - CEP: 04661-200",
     "latitude": -23.676205,
-    "longitude": -46.676655,
-    "confidence": 1
+    "longitude": -46.676655
   },
   "SHOPPING RAPOSO": {
     "endereco": "Rodovia Raposo Tavares KM 14,5 . Entrada principal.",
     "latitude": -23.068777,
-    "longitude": -49.557082,
-    "confidence": 1
+    "longitude": -49.557082
   },
   "SUBPREFEITURA DE ITAIM PAULISTA": {
     "endereco": "Avenida Marechal Tito, 3012 - Itaim Paulista - CEP: 08160-495",
     "latitude": -23.493994,
-    "longitude": -46.417017,
-    "confidence": 1
+    "longitude": -46.417017
   },
   "SUBPREFEITURA DE M BOI MIRIM": {
     "endereco": "Avenida Guarapiranga, 1695 – Pq Alves de Lima - CEP: 04902-005",
     "latitude": -23.6685,
-    "longitude": -46.728135,
-    "confidence": 1
+    "longitude": -46.728135
   },
   "AMA/UBS INTEGRADA PARQUE ANHANGUERA": {
     "endereco": "R. PIERRE RENOIR - VIA ANHANGUERA KM 24,5, 100 - JD BRITANIA - CEP: 05269-030 - Tel: 3916-6160/ 3916-6375",
     "latitude": -23.569053,
-    "longitude": -46.727067,
-    "confidence": 0.8
+    "longitude": -46.727067
   },
   "UBS JARDIM ROSINHA": {
     "endereco": "R. DALVA DE OLIVEIRA, 82 - MORRO DOCE - CEP: 05274-001 - Tel: 3916-4100/ 3911-3141",
     "latitude": -23.637405,
-    "longitude": -46.714322,
-    "confidence": 1
+    "longitude": -46.714322
   },
   "UBS MORADA DO SOL": {
     "endereco": "R. ASSIS BRASIL X PÇA. LUIZ VAZ DE CAMÕES, 31 - SOL NASCENTE - CEP: 05281-130 - Tel: 3941-4364",
@@ -1306,14 +1137,12 @@
   "AMA/UBS INTEGRADA JARDIM LADEIRA ROSA": {
     "endereco": "R. JOSÉ DA COSTA GAVIÃO, 150 - BRASILÂNDIA - CEP: 02872- 000 - Tel: 3851-8818/ 3982-6380",
     "latitude": -22.726724,
-    "longitude": -46.861645,
-    "confidence": 0.8
+    "longitude": -46.861645
   },
   "AMA/UBS INTEGRADA JARDIM PAULISTANO / IGREJA BATISTA RENOVADA DO PAULISTANO": {
     "endereco": "IGREJA: R. APARECIDA DO TABOADO,505 - JD PAULISTANO (segunda a sexta das 8 às 17h); UBS: R. ENCRUZILHADA DO SUL, 946 ( segunda a sexta das 17 às 19h, aos sábados das 7 às 19 h).",
     "latitude": -23.05015,
-    "longitude": -47.836923,
-    "confidence": 1
+    "longitude": -47.836923
   },
   "UBS AUGUSTO LEOPOLDO AYROSA GALVÃO": {
     "endereco": "R. JOAQUINA MARIA DOS SANTOS, 198 - VL RICA - CEP: 02860- 110 - Tel: 3851-8235/ 3983-0900",
@@ -1323,8 +1152,7 @@
   "UBS BRASILÂNDIA": {
     "endereco": "R. PARAPUÃ, 1646 - BRASILÂNDIA - CEP: 02831-001 - Tel: 3921- 3830/ 3921-8713",
     "latitude": -23.476778,
-    "longitude": -46.690864,
-    "confidence": 0.8
+    "longitude": -46.690864
   },
   "UBS FATIMA DE JESUS VIANA ROSA - VILA PENTEADO": {
     "endereco": "R. URUPEVA, 219 - VL PENTEADO - CEP: 02866-080 - Tel: 3851- 8201/ 3985-3545",
@@ -1334,38 +1162,32 @@
   "UBS JARDIM GUARANI": {
     "endereco": "R. SANTANA DO ARAÇUAÍ, 160 - BRASILÂNDIA - CEP: 02849-130 - Tel: 3921-5540/ 3921-6385",
     "latitude": -23.462109,
-    "longitude": -46.69124,
-    "confidence": 1
+    "longitude": -46.69124
   },
   "UBS JARDIM ICARAI - BRASILANDIA - DR DANIEL ALVES GRANGEIRO": {
     "endereco": "R. ALMIR DEHAR, 201 - BRASILÂNDIA - CEP: 02846-000 - Tel: 3921-0818/ 3921-8739",
     "latitude": -23.465417,
-    "longitude": -46.696783,
-    "confidence": 1
+    "longitude": -46.696783
   },
   "UBS JARDIM VISTA ALEGRE": {
     "endereco": "R. IBIRAIARAS, 21 - BRASILÂNDIA - CEP: 02878-080 - Tel: 3983- 1197/ 3982-0651",
     "latitude": -23.450252,
-    "longitude": -46.685707,
-    "confidence": 1
+    "longitude": -46.685707
   },
   "UBS MARIA CECÍLIA F. DONNANGELO": {
     "endereco": "R. RUI DE MORAES APOCALIPSE, 2 - BRASILÂNDIA - CEP: 02842-260 - Tel: 3921-7759/ 3924-1788",
     "latitude": -20.53401,
-    "longitude": -50.4917,
-    "confidence": 1
+    "longitude": -50.4917
   },
   "UBS NOVA ESPERANÇA - PAULISTANO II": {
     "endereco": "R. MIRACI, 94 - JD. PAULISTANO II - CEP: 02812-220 - Tel: 3972- 5526/ 3974-6206",
     "latitude": -23.453598,
-    "longitude": -46.710464,
-    "confidence": 1
+    "longitude": -46.710464
   },
   "UBS SILMARYA REJANE M.DE SOUZA": {
     "endereco": "R. EUVALDO AUGUSTO FREIRE, 20 - BRASILÂNDIA - CEP: 02855-030 - Tel: 3921-1078/ 3923-1520",
     "latitude": -23.454386,
-    "longitude": -46.699506,
-    "confidence": 0.8
+    "longitude": -46.699506
   },
   "UBS VILA TEREZINHA / CRECHE BATUIRA": {
     "endereco": "CRECHE BATUIRA: R. Jorge Píres Ramalho, 70 - Vila Isabel (segunda a sexta, das 8 às 17h); UBS: R. Domingos Francisco Medeiros, 70- Vl.Terezinha (Aos Sábados das 8 às 17h)",
@@ -1375,26 +1197,22 @@
   "UBS DRA. ILZA WELTMAN HUTZLER": {
     "endereco": "R. CORONEL WALFRIDO DE CARVALHO, S/N - VL NOVA CACHOEIRINHA - CEP: 02472-000 - Tel: 3981-3127/ 2267-3414",
     "latitude": -23.212371,
-    "longitude": -47.525248,
-    "confidence": 0.8
+    "longitude": -47.525248
   },
   "UBS JARDIM PERI": {
     "endereco": "AV. PERI RONCHETTI, 914 - JD PERI - CEP: 02633-000 - Tel: 2231-8771/ 2255-5708",
     "latitude": -23.458852,
-    "longitude": -46.648533,
-    "confidence": 1
+    "longitude": -46.648533
   },
   "UBS VILA DIONISIA": {
     "endereco": "R. CHEN FERRAZ FALCÃO, 50 - VL DIONISIA - CEP: 02670-040 - Tel: 3984-9329/ 3851-7483",
     "latitude": -23.464834,
-    "longitude": -46.661738,
-    "confidence": 1
+    "longitude": -46.661738
   },
   "UBS VILA DIONISIA II": {
     "endereco": "R. SETE DE DEZEMBRO, 73 - VL. NOVA CACHOCHEIRINHA - CEP: 02617-060 - Tel: 2208-1943",
     "latitude": -23.467859,
-    "longitude": -46.658697,
-    "confidence": 1
+    "longitude": -46.658697
   },
   "AMA/UBS INTEGRADA MASSAGISTA MÁRIO AMÉRICO": {
     "endereco": "R. OSCAR DE MOURA LACERDA, 231 - IMIRIM - CEP: 02541-070 - Tel: 2239-1561/ 2255-8417",
@@ -1409,14 +1227,12 @@
   "UBS CASA VERDE ALTA": {
     "endereco": "R. LAVINIO SALES ARCURI, 120 - CASA VERDE ALTA - CEP: 02564-000 - Tel: 3858-8592/ 3966-9572",
     "latitude": -22.631983,
-    "longitude": -47.17006,
-    "confidence": 0.8
+    "longitude": -47.17006
   },
   "UBS DR. WALTER ELIAS - CASA VERDE BAIXA": {
     "endereco": "R. MOURÃO VIEIRA, 11 - CASA VERDE BAIXA - CEP: 02518-020 - Tel: 3858-8593/ 3858-8626",
     "latitude": -23.508891,
-    "longitude": -46.663939,
-    "confidence": 1
+    "longitude": -46.663939
   },
   "UBS PARQUE PERUCHE": {
     "endereco": "R. JOSÉ RANGEL DE CAMARGO, 500 - PQ PERUCHE - CEP: 02538-010 - Tel: 3858-8303/ 3951-6756",
@@ -1441,14 +1257,12 @@
   "UBS CRUZ DAS ALMAS": {
     "endereco": "R. PADRE FELICIANO DOMINGOS, 90 - FREGUESIA DO Ó - CEP: 02965-140 - Tel: 3975-3531/ 3992-2975",
     "latitude": -23.482207,
-    "longitude": -46.707119,
-    "confidence": 1
+    "longitude": -46.707119
   },
   "UBS JARDIM GUANABARA": {
     "endereco": "AV. MINISTRO PETRÔNIO PORTELA, 663 - FREGUESIA DO Ó - CEP: 02959-000 - Tel: 3975-2134/ 3992-8432",
     "latitude": -23.491191,
-    "longitude": -46.699376,
-    "confidence": 0.8
+    "longitude": -46.699376
   },
   "UBS VILA PROGRESSO - JD MONTE ALEGRE": {
     "endereco": "R. ANTONIO GENELLE, 30 - JD MONTE ALEGRE - CEP: 02811- 020 - Tel: 3992-2349/ 3975-2893",
@@ -1458,8 +1272,7 @@
   "UBS VILA RAMOS - FREGUESIA DO Ó": {
     "endereco": "R. FERRAZ DE VASCONCELOS, 80 - NOSSA SENHORA DO O - CEP: 02760060 - Tel: 3924-0208/ 3921-4111",
     "latitude": -22.758053,
-    "longitude": -47.60793,
-    "confidence": 1
+    "longitude": -47.60793
   },
   "UBS DR. JOSÉ DE TOLEDO PIZA": {
     "endereco": "AV. ANTONIO CÉSAR NETO, 387 - JAÇANÃ - CEP: 02276-000 - Tel: 2241-7317/ 2243-7038",
@@ -1469,8 +1282,7 @@
   "UBS JAÇANÃ – DR. SEBASTIÃO GABRIEL SAYAGO DE LAET": {
     "endereco": "R. SÃO GERALDINO, 222 - VL CONSTÂNÇA - CEP: 02258-220 - Tel: 2240-0065/ 2242-8876",
     "latitude": -23.474786,
-    "longitude": -46.58056,
-    "confidence": 1
+    "longitude": -46.58056
   },
   "UBS JOVA RURAL": {
     "endereco": "R. ALFEU DE ALCANTARA MONTEIRO, 280 - CONJUNTO HABITACIONAL JOVA RURAL - CEP: 02281200 - Tel: 2206-7350",
@@ -1480,116 +1292,97 @@
   "UBS PARQUE EDU CHAVES": {
     "endereco": "AV. EDU CHAVES, 1197 - PQ EDU CHAVES - CEP: 02229-001 - Tel: 2243-6694/ 2243-0052",
     "latitude": -23.477569,
-    "longitude": -46.56866,
-    "confidence": 1
+    "longitude": -46.56866
   },
   "UBS VILA NOVA GALVÃO - SÔNIA REGINA CAMPANELLI": {
     "endereco": "R. ALFEU LUIS GASPARINI, 116 - VL NOVA GALVÃO - CEP: 02281-110 - Tel: 2241-7366/ 2242-0108",
     "latitude": -21.329058,
-    "longitude": -47.730295,
-    "confidence": 1
+    "longitude": -47.730295
   },
   "AMA/UBS INTEGRADA CITY JARAGUA": {
     "endereco": "ESTRADA DE TAIPAS (ESQ. RUA PAULO ARENTINO), 1648 - JARAGUÁ - CEP: 02991-000 - Tel: 3947-2690",
     "latitude": -23.440546,
-    "longitude": -46.732797,
-    "confidence": 0.8
+    "longitude": -46.732797
   },
   "AMA/UBS INTEGRADA ELISIO TEIXEIRA LEITE": {
     "endereco": "AV. JOÃO AMADO COUTINHO, 400 - JARAGUÁ - CEP: 02815-000 - Tel: 3972-0333/ 3971-2572",
     "latitude": -23.446278,
-    "longitude": -46.714615,
-    "confidence": 0.8
+    "longitude": -46.714615
   },
   "AMA/UBS INTEGRADA JARDIM IPANEMA": {
     "endereco": "R. PEDRO RAVARA, 11-A - JARAGUÁ - CEP: 05187-300 - Tel: 3941-3457/ 3941-2119",
     "latitude": -23.445245,
-    "longitude": -46.750668,
-    "confidence": 1
+    "longitude": -46.750668
   },
   "CANTAREIRA NORTE SHOPPING": {
     "endereco": "AVENIDA RAIMUNDO PEREIRA DE MAGALHÃES 11001",
     "latitude": -23.407178,
-    "longitude": -46.734974,
-    "confidence": 0.8
+    "longitude": -46.734974
   },
   "UBS ALPES DO JARAGUÁ": {
     "endereco": "ALAMEDA DAS LIMEIRAS, 46 - ALPES DO JARAGUA - CEP: 05187-634 - Tel: 3941-1169/ 3945-5958",
     "latitude": -23.446952,
-    "longitude": -46.753752,
-    "confidence": 1
+    "longitude": -46.753752
   },
   "UBS INTERATIVA": {
     "endereco": "R. INTERATIVA, 105 - JARDIM PAULISTANO - CEP: 02996150 - Tel: 3973-7510",
     "latitude": -23.44646,
-    "longitude": -46.710191,
-    "confidence": 1
+    "longitude": -46.710191
   },
   "UBS JARDIM PANAMERICANO": {
     "endereco": "R. BARRA DA FORQUILHA, 38 - JD PANAMERICANO - CEP: 02993-060 - Tel: 3928-1270/ 3941-1362",
     "latitude": -23.450472,
-    "longitude": -46.729719,
-    "confidence": 1
+    "longitude": -46.729719
   },
   "UBS JARDIM RINCÃO": {
     "endereco": "R. ARROIO DA PALMA, 67 - JARDIM RINCÃO - CEP: 02991-050 - Tel: 3941-4763",
     "latitude": -23.43469,
-    "longitude": -46.727351,
-    "confidence": 1
+    "longitude": -46.727351
   },
   "UBS PARQUE NAÇÕES UNIDAS (SEM TERRA)": {
     "endereco": "R. ARACY RONDON AMARANTE, 22 - JARDIM SANTA LUCRECIA - CEP: 02996180 - Tel:",
     "latitude": -23.439052,
-    "longitude": -46.744261,
-    "confidence": 0.8
+    "longitude": -46.744261
   },
   "UBS UNIÃO DAS VILAS DE TAIPAS": {
     "endereco": "AV. ELISIO TEIXEIRA LEITE, 7703 - JARAGUÁ - CEP: 02810-000 - Tel: 3972-1355/ 3971-2432",
     "latitude": -23.43624,
-    "longitude": -46.717653,
-    "confidence": 1
+    "longitude": -46.717653
   },
   "AMA/UBS INTEGRADA VILA BARBOSA": {
     "endereco": "AV. MANDAQUI, 197 - LIMÃO - CEP: 02550-000 - Tel: 3858-1822/ 3966-1302",
     "latitude": -23.505475,
-    "longitude": -46.670801,
-    "confidence": 1
+    "longitude": -46.670801
   },
   "UBS ADELAIDE LOPES": {
     "endereco": "AV. CLAVÁSIO ALVES DA SILVA, 683 - LIMÃO - CEP: 02728-030 - Tel: 3936-8370/ 3933-0366",
     "latitude": -23.497988,
-    "longitude": -46.677412,
-    "confidence": 1
+    "longitude": -46.677412
   },
   "UBS VILA ESPANHOLA": {
     "endereco": "AV. JOÃO DOS SANTOS ABREU, 650 - VL ESPANHOLA - CEP: 02566-010 - Tel: 2263-1569",
     "latitude": -23.274727,
-    "longitude": -45.873293,
-    "confidence": 0.8
+    "longitude": -45.873293
   },
   "UBS VILA SANTA MARIA": {
     "endereco": "R. PROFESSOR DARIO RIBEIRO, 670 - CASA VERDE ALTA - CEP: 02559-000 - Tel: 3965-1686/ 3965-6035",
     "latitude": -23.492542,
-    "longitude": -46.670695,
-    "confidence": 1
+    "longitude": -46.670695
   },
   "AMA/UBS INTEGRADA LAUZANE PAULISTA": {
     "endereco": "R. VALORBE, 80 - LAUZANE PAULISTA - CEP: 02442-140 - Tel: 2231-8619/ 2258-5818",
     "latitude": -23.475284,
-    "longitude": -46.641826,
-    "confidence": 1
+    "longitude": -46.641826
   },
   "UBS DOMINGOS MAZZONETO DE CILO - VILA AURORA": {
     "endereco": "R. ENGENHEIRO JEAN BUFF, 126 - CHÁCARA DO ENCOSTO - CEP: 02417-180 - Tel: 2232-2244/ 2235-1053",
     "latitude": -23.475892,
-    "longitude": -46.629643,
-    "confidence": 1
+    "longitude": -46.629643
   },
   "UBS HORTO FLORESTAL": {
     "endereco": "R. LUIS CARLOS GENTILE DE LAET X R. DO HORTO, 603 - HORTO FLORESTAL - CEP: 02378-000 - Tel: 2994-5688/ 2204- 8421",
     "latitude": -21.727582,
-    "longitude": -50.717682,
-    "confidence": 0.8
+    "longitude": -50.717682
   },
   "AMA/UBS INTEGRADA PERUS": {
     "endereco": "PRAÇA VIGARIO JOÃO GONÇALVES DE LIMA, 239 - PERUS - CEP: 05208-260 - Tel: 3917-0707/ 3917-6245",
@@ -1599,20 +1392,17 @@
   "UBS RECANTO DOS HUMILDES": {
     "endereco": "R. PAVÃO, 36 A - RECANTO DOS HUMILDES - CEP: 05210-000 - Tel: 3915-6452/ 3917-5870",
     "latitude": -22.6763,
-    "longitude": -50.425358,
-    "confidence": 1
+    "longitude": -50.425358
   },
   "UBS VILA CAIÚBA": {
     "endereco": "R. PRESIDENTE VARGAS, 540 - PERUS - CEP: 05207-000 - Tel: 3835-2063",
     "latitude": -23.163653,
-    "longitude": -47.735614,
-    "confidence": 1
+    "longitude": -47.735614
   },
   "AMA/UBS INTEGRADA VILA PEREIRA BARRETO": {
     "endereco": "R. DOM MANOEL DELBOUX, 76 - JD SÃO JOSE - CEP: 02932- 110 - Tel: 3975-9019",
     "latitude": -21.167342,
-    "longitude": -47.804416,
-    "confidence": 1
+    "longitude": -47.804416
   },
   "UBS CHÁCARA INGLESA": {
     "endereco": "R. DA LIGAÇAO (PRÓX. R MANUEL FURTADO), 95 - CHÁCARA INGLESA - CEP: 05142-120 - Tel: 3834-5985/ 3832-7587",
@@ -1622,8 +1412,7 @@
   "UBS DOMINGOS MANTELLI": {
     "endereco": "R. POVOADO DO RIO NOVO, 1778 - PIRITUBA - CEP: 02956-020 - Tel: 3974-3829/ 3974-8389",
     "latitude": -23.471318,
-    "longitude": -46.721885,
-    "confidence": 0.8
+    "longitude": -46.721885
   },
   "UBS JARDIM CIDADE PIRITUBA": {
     "endereco": "R. COM. FEIZ ZARZUR (FRENTE À R.DOMINGOS MOREIRA), 640 - JD CID. PIRITUBA - CEP: 02942-000 - Tel: 3971-0525/ 3974-8210",
@@ -1633,8 +1422,7 @@
   "UBS MOINHO VELHO": {
     "endereco": "PRAÇA DOMINGOS COELHO, 5 - VL PEREIRA CERCA - CEP: 02933-180 - Tel: 3976-7601/ 3992-2370",
     "latitude": -23.495134,
-    "longitude": -46.712874,
-    "confidence": 1
+    "longitude": -46.712874
   },
   "UBS VILA MAGGI": {
     "endereco": "R. CONDE MONTERONE, 40 - JD DOS CUNHAS - CEP: 02982- 190 - Tel: 3972-1435/ 3972-9389",
@@ -1649,14 +1437,12 @@
   "UBS VILA ZATT": {
     "endereco": "R. MONSENHOR MANUEL GOMES, 77 - PIRITUBA - CEP: 02975- 120 - Tel: 3975-2116",
     "latitude": -23.477182,
-    "longitude": -46.711558,
-    "confidence": 1
+    "longitude": -46.711558
   },
   "CENTRO DE EXPOSIÇÕES DO ANHEMBI": {
     "endereco": "Rua Olavo Fontoura, portão 38 - CEP: 02012-021",
     "latitude": -23.513462,
-    "longitude": -46.634418,
-    "confidence": 0.8
+    "longitude": -46.634418
   },
   "SAE DST/AIDS SANTANA - MARCOS LUTEMBERG": {
     "endereco": " R. DR. Luiz Lustosa da Silva, 339 - CEP 2406040 - Tel 2950-9217",
@@ -1666,20 +1452,17 @@
   "UBS CHORA MENINO": {
     "endereco": "R. COPACABANA, 185 - SANTA TEREZINHA - CEP: 02461-000 - Tel: 2950-1451/ 2281-8786",
     "latitude": -23.494397,
-    "longitude": -46.637241,
-    "confidence": 1
+    "longitude": -46.637241
   },
   "UBS JOAQUIM ANTONIO EIRADO": {
     "endereco": "AV. BRAZ LEME, 2945 - SANTANA - CEP: 02022-011 - Tel: 2973- 0733/ 2978-7992",
     "latitude": -23.503726,
-    "longitude": -46.631764,
-    "confidence": 1
+    "longitude": -46.631764
   },
   "AMA/UBS INTEGRADA ANHANGUERA": {
     "endereco": "R. MARCELA ALVES DE CASSIA, 175 - JD JARAGUÁ - CEP: 05158-400 - Tel: 3904-8999/ 3906-8408",
     "latitude": -23.488456,
-    "longitude": -46.758719,
-    "confidence": 0.8
+    "longitude": -46.758719
   },
   "AMA/UBS INTEGRADA PARQUE MARIA DOMITILA": {
     "endereco": "AV. DO ANASTÁCIO (ESQ. RUA WILLIS ROBERTO BANKS), 2421 - PQ MARIA DOMITILA - CEP: 05119-000 - Tel: 3903-5572/ 3902- 2303",
@@ -1694,182 +1477,152 @@
   "UBS VILA MANGALOT": {
     "endereco": "R. PORTÃO PRETO, 220 - VILA MANGALOT - CEP: 05131-120 - Tel: 3904-1292/ 3906-9891",
     "latitude": -21.167342,
-    "longitude": -47.804416,
-    "confidence": 1
+    "longitude": -47.804416
   },
   "AMA/UBS INTEGRADA JARDIM JOAMAR": {
     "endereco": "R. ADAUTO BEZERRA DELGADO, 230 - JD JOAMAR - CEP: 02320-110 - Tel: 2994-3734/ 2204-8387",
     "latitude": -23.449742,
-    "longitude": -46.596688,
-    "confidence": 0.8
+    "longitude": -46.596688
   },
   "UBS DONA MARIQUINHA SCIASCIA": {
     "endereco": "R. DR JOSÉ VICENTE, 39 - TREMEMBÉ - CEP: 02370-080 - Tel: 2203-2489/ 2203-0063",
     "latitude": -23.461903,
-    "longitude": -46.622987,
-    "confidence": 1
+    "longitude": -46.622987
   },
   "UBS JARDIM APUANA": {
     "endereco": "R. HUM (REF.:R.FILHOS DA TERRA), 19 - JD FILHOS DA TERRA - CEP: 02325-530 - Tel: 2243-4469/ 2240-5277",
     "latitude": -20.788011,
-    "longitude": -48.331425,
-    "confidence": 1
+    "longitude": -48.331425
   },
   "UBS JARDIM DAS PEDRAS": {
     "endereco": "R. CLÓVIS SALGADO, 220 - JD DAS PEDRAS - CEP: 02267-020 - Tel: 2992-2313/ 2992-2494",
     "latitude": -23.419573,
-    "longitude": -46.58982,
-    "confidence": 1
+    "longitude": -46.58982
   },
   "UBS JARDIM FLOR DE MAIO": {
     "endereco": "AV. NOVA PAULISTA, 561 - JD FLOR DE MAIO - CEP: 02363-000 - Tel: 2995-6006/ 3598-4150",
     "latitude": -23.431223,
-    "longitude": -46.575076,
-    "confidence": 1
+    "longitude": -46.575076
   },
   "UBS JARDIM FONTALIS": {
     "endereco": "R. MOTA, 05 - JARDIM MARTINS SILVA - CEP: 02323035 - Tel: 2995-6257/ 2267-3796",
     "latitude": -22.771476,
-    "longitude": -47.59974,
-    "confidence": 1
+    "longitude": -47.59974
   },
   "UBS VILA ALBERTINA - DR OSVALDO MARÇAL": {
     "endereco": "R. ANTONIO JOAQUIM DE OLIVEIRA, 224 - VL ESMERALDA - CEP: 02356-020 - Tel: 2204-9986/ 2204-5773",
     "latitude": -22.546253,
-    "longitude": -47.898882,
-    "confidence": 1
+    "longitude": -47.898882
   },
   "AE TUCURUVI - PROF ARMANDO DE AGUIAR PUPO": {
     "endereco": "Avenida Nova Cantareira, 1467 - Tucuruvi - CEP 02331-002 Tel: 2996-7679",
     "latitude": -23.483023,
-    "longitude": -46.613503,
-    "confidence": 1
+    "longitude": -46.613503
   },
   "AMA/UBS INTEGRADA WAMBERTO DIAS DA COSTA": {
     "endereco": "R. PAULO CESAR, 60 - TREMEMBÉ - CEP: 02311-240 - Tel: 2203- 8992/ 2952-0679",
     "latitude": -23.468247,
-    "longitude": -46.602724,
-    "confidence": 1
+    "longitude": -46.602724
   },
   "UBS CONJUNTO DO IPESP": {
     "endereco": "AV. PROFª. VIRGILIA RODRIGUES A. C. PINTO, 555 - LEONOR MENDES DE BARROS - CEP: 02346-000 - Tel: 2203-0111/ 2262- 3478",
     "latitude": -22.878753,
-    "longitude": -46.789043,
-    "confidence": 0.8
+    "longitude": -46.789043
   },
   "UBS VILA NIVI": {
     "endereco": "PRAÇA CAMPINÓPOLIS, 125 - VL NIVI - CEP: 02252-160 - Tel: 2201-7219/ 2951-7670",
     "latitude": -23.477688,
-    "longitude": -46.587735,
-    "confidence": 1
+    "longitude": -46.587735
   },
   "AMA/UBS INTEGRADA VILA GUILHERME": {
     "endereco": "R. JOÃO VENTURA BATISTA, 615 - VL GUILHERME - CEP: 02054- 100 - Tel: 2901-5883/ 2905-1845",
     "latitude": -22.985833,
-    "longitude": -47.510703,
-    "confidence": 0.8
+    "longitude": -47.510703
   },
   "POSTO VOLANTE CENTER NORTE ": {
     "endereco": "Rua Otto Baumgart, 500",
     "latitude": -23.514709,
-    "longitude": -46.616094,
-    "confidence": 1
+    "longitude": -46.616094
   },
   "UBS CARANDIRU": {
     "endereco": "R. JOSE PEREIRA JORGE, 305 - CARANDIRU - CEP: 02067-020 - Tel: 3475-8800/3475-8815/3475-8829",
     "latitude": -23.531007,
-    "longitude": -47.167066,
-    "confidence": 0.8
+    "longitude": -47.167066
   },
   "UBS VILA IZOLINA MAZZEI": {
     "endereco": "R. ORLANDO RIBEIRO DANTAS, 154 - VL IZOLINA MAZZEI - CEP: 02083-010 - Tel: 2201-5552/ 3478-6100/ 3478-6102/ 3478-6105/ 3478-6107",
     "latitude": -23.493534,
-    "longitude": -46.600867,
-    "confidence": 1
+    "longitude": -46.600867
   },
   "UBS VILA LEONOR": {
     "endereco": "AV. ANGELINA, 770 - VL LEONOR - CEP: 02077-000 - Tel: 3478- 6300/ 3478-6314",
     "latitude": -23.498674,
-    "longitude": -46.596854,
-    "confidence": 1
+    "longitude": -46.596854
   },
   "MEGA DRIVE - CRESAN VILA MARIA": {
     "endereco": "Rua Gastão Madeira, 226",
     "latitude": -23.950621,
-    "longitude": -46.36873,
-    "confidence": 0.8
+    "longitude": -46.36873
   },
   "UBS JARDIM JAPÃO": {
     "endereco": "R. SOBRAL JUNIOR, 452 - VL MARIA ALTA - CEP: 02130-020 - Tel: 3478-7350/ 3478-7351/ 3478-7363/ 3478-7369",
     "latitude": -23.45719,
-    "longitude": -46.455548,
-    "confidence": 0.8
+    "longitude": -46.455548
   },
   "UBS PARQUE NOVO MUNDO I": {
     "endereco": "R. BENEDITA DORNELAS CLARO, 451 - PQ NOVO MUNDO - CEP: 02168-020 - Tel: 2954-1747/ 3475-8700/ 3475-8703/ 3475-8714",
     "latitude": -23.517912,
-    "longitude": -46.576987,
-    "confidence": 1
+    "longitude": -46.576987
   },
   "UBS PARQUE NOVO MUNDO II": {
     "endereco": "R. SOLDADO ANTONIO MATIAS DE CAMARGO, 87 - PQ NOVO MUNDO - CEP: 02188-050 - Tel: 3883-7808/ 3883-7802/ 2954-4580 ",
     "latitude": -23.512214,
-    "longitude": -46.565575,
-    "confidence": 0.8
+    "longitude": -46.565575
   },
   "UBS VILA MARIA - DR. LUIZ PAULO GNECCO": {
     "endereco": "R. ANDRÉ DA FONSECA, 70 - VL MUNHOZ - CEP: 02135-010 - Tel: 3475-5201/ 3475-5203/2201-7751",
     "latitude": -23.499531,
-    "longitude": -46.589664,
-    "confidence": 1
+    "longitude": -46.589664
   },
   "AMA/UBS INTEGRADA JARDIM BRASIL": {
     "endereco": "R. FRANCISCO PEIXOTO BEZERRA, 400 - JD BRASIL - CEP: 02222-010 - Tel: 2201-4101/ 3471-8851/ 3475-8875/ 2939-7808",
     "latitude": -23.486238,
-    "longitude": -46.576808,
-    "confidence": 1
+    "longitude": -46.576808
   },
   "AMA/UBS INTEGRADA VILA MEDEIROS": {
     "endereco": "R. EURICO SODRE, 353 - VL MEDEIROS - CEP: 02215-010 - Tel: 3478-6363/ 3478-6365",
     "latitude": -23.535147,
-    "longitude": -46.345485,
-    "confidence": 1
+    "longitude": -46.345485
   },
   "UBS JARDIM JULIETA": {
     "endereco": "R. BALTHAZAR FIDELIS, 264 - JARDIM GUANCÃ - CEP: 02151- 080 - Tel: 2201-1256/ 2201-3907/ 3500-1860",
     "latitude": -23.496297,
-    "longitude": -46.568298,
-    "confidence": 1
+    "longitude": -46.568298
   },
   "UBS VILA EDE": {
     "endereco": "R. PADRE MARCOS SIMONI, 390 - VL EDE - CEP: 02203-010 - Tel: 3478-5900/ 3478-5901/3478-5917/ 2989-4368",
     "latitude": -23.491071,
-    "longitude": -46.59127,
-    "confidence": 1
+    "longitude": -46.59127
   },
   "UBS VILA SABRINA - DR. CARLOS AUGUSTO AUTRAN PEDERNEIRAS LIMA": {
     "endereco": "R. FRANCISCO FRANCO MACHADO, 150 - VL. SABRINA - CEP: 02139-020 - Tel: 3478-7250/ 3478-7254/ 3478-7255",
     "latitude": -23.492318,
-    "longitude": -46.573116,
-    "confidence": 1
+    "longitude": -46.573116
   },
   "UBS ALTO DE PINHEIROS": {
     "endereco": "AV. QUEIROZ FILHO, 313 - ALTO DE PINHEIROS - CEP: 05319- 000 - Tel: 3023-4588/ 3022-7074",
     "latitude": -23.537309,
-    "longitude": -46.721899,
-    "confidence": 1
+    "longitude": -46.721899
   },
   "CLUBE PAINEIRAS": {
     "endereco": "Av. Dr. Alberto Penteado, 605",
     "latitude": -23.598031,
-    "longitude": -46.701014,
-    "confidence": 1
+    "longitude": -46.701014
   },
   "CSE BUTANTÃ ": {
     "endereco": "Av. Vital Brasil, 1490 - Butantã, São Paulo - SP, 05503-000",
     "latitude": -23.568344,
-    "longitude": -46.7166,
-    "confidence": 1
+    "longitude": -46.7166
   },
   "METRO BUTANTA": {
     "endereco": "Avenida Vital Brasil, s/n – Butantã – São Paulo – SP",
@@ -1879,812 +1632,677 @@
   "UBS BUTANTÃ": {
     "endereco": "R. CABRAL DE MENEZES, 51 - VL GOMES - CEP: 05590-050 - Tel: 3726-1838/ 3726-8591",
     "latitude": -23.577099,
-    "longitude": -46.734069,
-    "confidence": 1
+    "longitude": -46.734069
   },
   "UBS CAXINGUI - NANCI ABRANCHES": {
     "endereco": "R. LADISLAU ROMAN, 410 - CAXINGUI - CEP: 05515-030 - Tel: 3721-6406/ 3722-4686",
     "latitude": -23.579107,
-    "longitude": -46.715033,
-    "confidence": 1
+    "longitude": -46.715033
   },
   "ESCOLA ESTADUAL PROFESSOR CECILIANO JOSÉ ENNES": {
     "endereco": "R SALVADOR CARDOSO , 219 - ITAIM BIBI - SAO PAULO",
     "latitude": -22.756373,
-    "longitude": -47.628067,
-    "confidence": 0.8
+    "longitude": -47.628067
   },
   "ESCOLA ESTADUAL PROFESSOR ENNIO VOSS": {
     "endereco": "AVENIDA PORTUGAL , 1220 - SAO PAULO",
     "latitude": -21.793006,
-    "longitude": -48.174374,
-    "confidence": 0.8
+    "longitude": -48.174374
   },
   "UBS DR. JOSÉ DE BARROS MAGALDI": {
     "endereco": "R. SALVADOR CARDOSO, 177 - ITAIM BIBI - CEP: 04533-050 - Tel: 3168-6571/ 3167-0837",
     "latitude": -23.587697,
-    "longitude": -46.68531,
-    "confidence": 1
+    "longitude": -46.68531
   },
   "UBS JARDIM EDITE - GERONCIO HENRIQUE NETO": {
     "endereco": "R. CHARLES COULOMB, 80 - CIDADE MONÇÕES - CEP: 04576- 030 - Tel: 4329-8860/ 4329-8861",
     "latitude": -23.613006,
-    "longitude": -46.694754,
-    "confidence": 1
+    "longitude": -46.694754
   },
   "UBS MENINÓPOLIS - DR. MARIO FRANCISCO NAPOLITANO": {
     "endereco": "R. OSCAR GOMES CARDIM, 128/142 - BROOKLIN NOVO - CEP: 04580-040 - Tel: 5096-1058/ 5535-8839",
     "latitude": -22.737911,
-    "longitude": -46.897585,
-    "confidence": 0.8
+    "longitude": -46.897585
   },
   "AMA/UBS INTEGRADA VILA PIAUÍ": {
     "endereco": "PRAÇA CAMILO CASTELO BRANCO, 10 - VL PIAUÍ - CEP: 05109- 270 - Tel: 3621-4508/ 3621-6964",
     "latitude": -23.62147,
-    "longitude": -46.526207,
-    "confidence": 0.8
+    "longitude": -46.526207
   },
   "UBS VILA JAGUARA": {
     "endereco": "R. PAÚVA, 721 - VL JAGUARA - CEP: 05116-001 - Tel: 3625-1775/ 3621-4440",
     "latitude": -23.513397,
-    "longitude": -46.746817,
-    "confidence": 1
+    "longitude": -46.746817
   },
   "AMA/UBS INTEGRADA VILA NOVA JAGUARÉ": {
     "endereco": "R. SALATIEL DE CAMPOS, 222 - JAGUARÉ - CEP: 05333-010 - Tel: 3768-1527/ 3714-2461",
     "latitude": -23.054471,
-    "longitude": -47.831587,
-    "confidence": 1
+    "longitude": -47.831587
   },
   "SAE LAPA": {
     "endereco": "R. Tomé de Souza, 30 - Lapa ",
     "latitude": -23.525601,
-    "longitude": -46.70772,
-    "confidence": 1
+    "longitude": -46.70772
   },
   "TEATRO CACILDA BECKER": {
     "endereco": "Rua Tito, 295 - Lapa - São Paulo",
     "latitude": -23.528449,
-    "longitude": -46.694606,
-    "confidence": 1
+    "longitude": -46.694606
   },
   "UBS VILA ANASTÁCIO": {
     "endereco": "R. CONSELHEIRO OLEGARIO, 239 - VILA ANASTACIO - CEP: 05093040 - Tel: 2774-1243/ 2774-1547",
     "latitude": -23.515779,
-    "longitude": -46.723212,
-    "confidence": 1
+    "longitude": -46.723212
   },
   "UBS VILA IPOJUCA - DRA. WANDA COELHO DE MORAES": {
     "endereco": "R. CATÃO, 1266 - LAPA - CEP: 05049-000 - Tel: 3676-1399/ 3676- 1394",
     "latitude": -23.524333,
-    "longitude": -46.700466,
-    "confidence": 0.8
+    "longitude": -46.700466
   },
   "UBS VILA ROMANA": {
     "endereco": "R. VESPASIANO, 679 - VL ROMANA - CEP: 05044-050 - Tel: 3672- 0911/ 3862-4102",
     "latitude": -23.524434,
-    "longitude": -46.695505,
-    "confidence": 1
+    "longitude": -46.695505
   },
   "UBS REAL PARQUE - DR. PAULO MANGABEIRA ALBERNAZ FILHO": {
     "endereco": "R. BARÃO DE MELGAÇO, 339 - REAL PARQUE - CEP: 05684-030 - Tel: 3758-2329/ 3758-2133",
     "latitude": -23.609938,
-    "longitude": -46.705333,
-    "confidence": 1
+    "longitude": -46.705333
   },
   "ALLIANZ PARK": {
     "endereco": "AV FRANCISCO MATARAZZO, 1.705",
     "latitude": -23.504745,
-    "longitude": -46.503252,
-    "confidence": 0.8
+    "longitude": -46.503252
   },
   "UBS JARDIM VERA CRUZ - PERDIZES": {
     "endereco": "R. SARAMENHA, 60 - PERDIZES - CEP: 01259-030 - Tel: 3673- 8552/ 3801-4278",
     "latitude": -23.540029,
-    "longitude": -46.690098,
-    "confidence": 1
+    "longitude": -46.690098
   },
   "CSE GERALDO DE PAULA SOUZA": {
     "endereco": "Av. Dr. Arnaldo, 925 - Sumaré, São Paulo - SP, 01246-000",
     "latitude": -23.553403,
-    "longitude": -46.672711,
-    "confidence": 1
+    "longitude": -46.672711
   },
   "UBS DR. MANOEL JOAQUIM PÊRA": {
     "endereco": "R. PURPURINA, 280 - VL MADALENA - CEP: 05435-030 - Tel: 3032-9891/ 3813-1030",
     "latitude": -23.553717,
-    "longitude": -46.691024,
-    "confidence": 1
+    "longitude": -46.691024
   },
   "AMA/UBS INTEGRADA JARDIM SÃO JORGE - DR. PAULO EDUARDO ELIAS": {
     "endereco": "R. ANGELO APARECIDO DOS SANTOS DIAS, 331 - JD SÃO JORGE - CEP: 05568-090 - Tel: 3781-3817/ 3781-3816",
     "latitude": -23.590885,
-    "longitude": -46.782696,
-    "confidence": 0.8
+    "longitude": -46.782696
   },
   "AMA/UBS INTEGRADA PAULO VI": {
     "endereco": "AV. VATICANO, 69 - JD JOAO XXIII - CEP: 05569-120 - Tel: 3782- 0838/ 3782-8595",
     "latitude": -23.436904,
-    "longitude": -46.462712,
-    "confidence": 1
+    "longitude": -46.462712
   },
   "UBS JARDIM BOA VISTA": {
     "endereco": "R. CANDIDO FONTOURA, 620 - JD BOA VISTA - CEP: 05583-070 - Tel: 3782-8380/ 3782-8371",
     "latitude": -23.584005,
-    "longitude": -46.791272,
-    "confidence": 1
+    "longitude": -46.791272
   },
   "UBS VILA BORGES": {
     "endereco": "R. JACINTO DE MORAES, 22 - JD CLAUDIA - CEP: 05546-040 - Tel: 3782-4739/ 3782-4908",
     "latitude": -22.808988,
-    "longitude": -50.071869,
-    "confidence": 1
+    "longitude": -50.071869
   },
   "SAE BUTANTA": {
     "endereco": "AV. Corifeu de Azevedo Marques, 3596 - Butantã",
     "latitude": -23.566122,
-    "longitude": -46.743919,
-    "confidence": 1
+    "longitude": -46.743919
   },
   "UBS JARDIM DABRIL": {
     "endereco": "R. PAULO MARANHÃO, 444 - JD DABRIL - CEP: 05398-130 - Tel: 3782-1687/ 3782-4742",
     "latitude": -23.576174,
-    "longitude": -46.775205,
-    "confidence": 1
+    "longitude": -46.775205
   },
   "UBS JOSÉ MARCÍLIO MALTA CARDOSO": {
     "endereco": "R. BERNARDO GUERTZENSTEIN, 45 - RIO PEQUENO - CEP: 05381-020 - Tel: 3718-0425/ 3768-1569",
     "latitude": -23.572641,
-    "longitude": -46.76112,
-    "confidence": 1
+    "longitude": -46.76112
   },
   "UBS RIO PEQUENO - DR. PAULO DE BARROS FRANÇA": {
     "endereco": "R. PADRE FRANCISCO LIBERMANN, 318 - RIO PEQUENO - CEP: 05353-160 - Tel: 3768-9460/ 3714-8764",
     "latitude": -23.562041,
-    "longitude": -46.751839,
-    "confidence": 1
+    "longitude": -46.751839
   },
   "UBS SÃO REMO": {
     "endereco": "R. BALTAZAR RABELO, 167 - RIO PEQUENO - CEP: 05360-170 - Tel: 3768-2217/ 3768-2202",
     "latitude": -23.564311,
-    "longitude": -46.744718,
-    "confidence": 1
+    "longitude": -46.744718
   },
   "UBS VILA DALVA - ENG. GUILHERME HENRIQUE PINTO COELHO": {
     "endereco": "R. GUSTAVO BERTHIER, 155 - VL DALVA - CEP: 05386-110 - Tel: 3712-0704/ 3712-1387",
     "latitude": -23.563495,
-    "longitude": -46.7651,
-    "confidence": 1
+    "longitude": -46.7651
   },
   "UBS PARQUE DA LAPA": {
     "endereco": "R. BERGSON, 52 - PQ DA LAPA - CEP: 05301-060 - Tel: 3836- 8029/ 3644-8989",
     "latitude": -23.531834,
-    "longitude": -46.720411,
-    "confidence": 1
+    "longitude": -46.720411
   },
   "AMA/UBS INTEGRADA VILA SONIA": {
     "endereco": "R. ABRAÃO CALIL REZEK, 91 - VL SONIA - CEP: 05625-050 - Tel: 3742-9844/ 3744-2982",
     "latitude": -23.598124,
-    "longitude": -46.734822,
-    "confidence": 1
+    "longitude": -46.734822
   },
   "UBS JARDIM COLOMBO": {
     "endereco": "R. FREI BONIFACIO DUX, 40 - JARDIM COLOMBO - CEP: 05629- 000 - Tel: 3768-2809/ 3744-2982",
     "latitude": -23.540337,
-    "longitude": -46.4303,
-    "confidence": 0.8
+    "longitude": -46.4303
   },
   "UBS JARDIM JAQUELINE": {
     "endereco": "R. BONIFÁCIO VERONESE, 10 - JD JAQUELINE - CEP: 05529-060 - Tel: 3751-1665/ 3751-4285",
     "latitude": -21.063138,
-    "longitude": -49.665743,
-    "confidence": 1
+    "longitude": -49.665743
   },
   "MEGA POSTO EXTRA HIPERMERCADO - AEROPORTO": {
     "endereco": "ACESSO PELA RUA BRÁS DE ARZÃO, 194",
     "latitude": -24.724733,
-    "longitude": -47.836207,
-    "confidence": 0.8
+    "longitude": -47.836207
   },
   "UBS JARDIM AEROPORTO - DR. MASSAKI UDIHARA": {
     "endereco": "R. VIEIRA DE MORAIS, 1752 - CAMPO BELO - CEP: 04617-006 - Tel: 5542-9672/ 5532-1152",
     "latitude": -23.624605,
-    "longitude": -46.668709,
-    "confidence": 0.8
+    "longitude": -46.668709
   },
   "UBS CAMPO GRANDE": {
     "endereco": "R. MONLEVADE, 195 - VILA ROMANO - CEP: 04679345 - Tel: 5631-3181/ 5634-1643",
     "latitude": -23.674382,
-    "longitude": -46.685156,
-    "confidence": 1
+    "longitude": -46.685156
   },
   "UBS VILA ARRIETE-DECIO PACHECO PEDROSO": {
     "endereco": "R. JULIETA DE ARAUJO ALMEIDA, 44 - JD ARAUJO ALMEIDA ARRIETE - CEP: 04445-010 - Tel: 5611-4046",
     "latitude": -23.680686,
-    "longitude": -46.686287,
-    "confidence": 0.8
+    "longitude": -46.686287
   },
   "SAE DST / AIDS CAMPO LIMPO": {
     "endereco": "RUA VITORIO EMANUELE ROSSI, 97 - JARDIM BOM REFUGIO",
     "latitude": -21.273394,
-    "longitude": -48.472678,
-    "confidence": 1
+    "longitude": -48.472678
   },
   "SHOPPING JARDIM SUL": {
     "endereco": "Acesso pela Rua Nelson Gama de Oliveira (lateral do Shopping) s/n - Vila Andrade",
     "latitude": -23.700546,
-    "longitude": -46.551528,
-    "confidence": 0.8
+    "longitude": -46.551528
   },
   "UBS ALTO DO UMUARAMA": {
     "endereco": "R. ODEMIS, 468 - JD UMUARAMA - CEP: 05783-180 - Tel: 5816- 3342/ 5819-5730",
     "latitude": -23.645743,
-    "longitude": -46.771551,
-    "confidence": 1
+    "longitude": -46.771551
   },
   "UBS ARRASTÃO - DR. FRANCISCO SCALAMANDRE SOBRINHO": {
     "endereco": "R. DR JOVIANO PACHECO AGUIRRE, 255 - CAMPO LIMPO - CEP: 05788-290 - Tel: 5841-2654/ 5844-4839",
     "latitude": -23.700053,
-    "longitude": -45.43703,
-    "confidence": 0.8
+    "longitude": -45.43703
   },
   "UBS CAMPO LIMPO": {
     "endereco": "R. JORGE OZZI, 211 - JD CATANDUVA - CEP: 05767-450 - Tel: 5841-1871/ 5841-5260",
     "latitude": -23.587614,
-    "longitude": -46.406899,
-    "confidence": 1
+    "longitude": -46.406899
   },
   "UBS JARDIM HELGA": {
     "endereco": "R. THOMAS DE ARAUJO, 53 - JD HELGA - CEP: 05794-380 - Tel: 5842-2956/ 5842-2399",
     "latitude": -24.22843,
-    "longitude": -48.767561,
-    "confidence": 1
+    "longitude": -48.767561
   },
   "UBS JARDIM MITSUTANI": {
     "endereco": "R. FREI XISTO TEUBER, 50 - JD MITSUTANI - CEP: 05791-080 - Tel: 5842-9292",
     "latitude": -21.167342,
-    "longitude": -47.804416,
-    "confidence": 1
+    "longitude": -47.804416
   },
   "UBS JARDIM OLINDA": {
     "endereco": "R. CANORI, 190 - JD OLINDA - CEP: 05757-250 - Tel: 5846-1788/ 5842-9626",
     "latitude": -23.628745,
-    "longitude": -46.75627,
-    "confidence": 1
+    "longitude": -46.75627
   },
   "UBS PARQUE ARARIBA": {
     "endereco": "R. FRANCISCO SOARES, 81 - JD INGÁ - CEP: 05774-300 - Tel: 5511-5573/ 5816-5540",
     "latitude": -22.89824,
-    "longitude": -49.622789,
-    "confidence": 1
+    "longitude": -49.622789
   },
   "UBS PARQUE REGINA - PERINA ALVES TEIXEIRA": {
     "endereco": "R. MELO COUTINHO, 260 - PQ REGINA - CEP: 05775-230 - Tel: 5511-8585/ 5816-5561",
     "latitude": -23.548666,
-    "longitude": -46.409745,
-    "confidence": 1
+    "longitude": -46.409745
   },
   "AMA/UBS INTEGRADA PQ FERNANDA": {
     "endereco": "R. ERNESTO SOARES FILHO, 301 - PQ FERNANDA - CEP: 05888- 070 - Tel: 5821-1632/ 5824-6721",
     "latitude": -22.418802,
-    "longitude": -46.826498,
-    "confidence": 0.8
+    "longitude": -46.826498
   },
   "UBS JARDIM COMERCIAL": {
     "endereco": "R. COSTA NOVA DO PRADO, 92 - JD LILAH - CEP: 05885-190 - Tel: 5873-4880/ 5874-6120",
     "latitude": -21.033292,
-    "longitude": -47.783915,
-    "confidence": 0.8
+    "longitude": -47.783915
   },
   "UBS JARDIM ELEDY": {
     "endereco": "R. SEBASTIAO ADVINCULA CUNHA, 470 - JD ELEDY - CEP: 05856-140 - Tel: 5823-4937/ 5821-4302",
     "latitude": -23.651805,
-    "longitude": -46.784454,
-    "confidence": 0.8
+    "longitude": -46.784454
   },
   "UBS JARDIM GERMANIA": {
     "endereco": "R. JOÃO FUGULIM, 338 - JD GERMANIA - CEP: 05849-340 - Tel: 5511-1761/ 5816-2622",
     "latitude": -21.237913,
-    "longitude": -50.652007,
-    "confidence": 1
+    "longitude": -50.652007
   },
   "UBS JARDIM LIDIA": {
     "endereco": "R. GUTEMBERG JOSÉ FERREIRA, 50 - JD LIDIA - CEP: 05860- 070 - Tel: 5511-4428/ 5816-5547",
     "latitude": -21.783051,
-    "longitude": -48.162179,
-    "confidence": 0.8
+    "longitude": -48.162179
   },
   "UBS JARDIM MACEDÔNIA": {
     "endereco": "R. SORIANO DE ALBUQUERQUE, 77 - JD MACEDONIA - CEP: 05894-440 - Tel: 5824-7707/ 5823-6158",
     "latitude": -23.65273,
-    "longitude": -46.790542,
-    "confidence": 1
+    "longitude": -46.790542
   },
   "UBS JARDIM MAGDALENA": {
     "endereco": "R. VITORIANO PALHARES, 221 - JD MAGDALENA - CEP: 05890- 320 - Tel: 5824-6020/ 5824-5347",
     "latitude": -23.667,
-    "longitude": -46.792878,
-    "confidence": 1
+    "longitude": -46.792878
   },
   "UBS JARDIM MARACÁ": {
     "endereco": "R. FERES BECHARA, 506 - JD MARACA - CEP: 05867-390 - Tel: 5874-4720/ 5874-4721",
     "latitude": -21.167342,
-    "longitude": -47.804416,
-    "confidence": 1
+    "longitude": -47.804416
   },
   "UBS JARDIM SÃO BENTO": {
     "endereco": "R. JOÃO ROBALO, 64 - JD SÃO BENTO - CEP: 05881-000 - Tel: 5873-2681/ 5874-6115",
     "latitude": -23.684339,
-    "longitude": -46.781643,
-    "confidence": 1
+    "longitude": -46.781643
   },
   "UBS JARDIM VALQUIRIA": {
     "endereco": "AV. CARLOS LACERDA, 3093 - JD VALQUIRIA - CEP: 05789-001 - Tel: 5825-6166",
     "latitude": -23.657553,
-    "longitude": -46.775824,
-    "confidence": 1
+    "longitude": -46.775824
   },
   "UBS LUAR DO SERTÃO": {
     "endereco": "R. LUAR DO SERTÃO, 980 - CHÁCARA STA. MARIA - CEP: 05879- 450 - Tel: 5871-9484",
     "latitude": -23.693396,
-    "longitude": -46.794093,
-    "confidence": 1
+    "longitude": -46.794093
   },
   "UBS PARQUE ENGENHO II": {
     "endereco": "AV. DOM RODRIGO SANCHES, 700 - PQ ENGENHO - CEP: 05892- 360 - Tel: 5821-2274/ 5825-5124",
     "latitude": -23.661314,
-    "longitude": -46.785777,
-    "confidence": 1
+    "longitude": -46.785777
   },
   "AMA/UBS INTEGRADA JARDIM MIRIAM - MANOEL SOARES DE OLIVEIRA": {
     "endereco": "AV. SANTO AFONSO, 419 - JD MIRIAM - CEP: 04426-000 - Tel: 5622-7869/ 5621-7569",
     "latitude": -23.678765,
-    "longitude": -46.64461,
-    "confidence": 1
+    "longitude": -46.64461
   },
   "AMA/UBS INTEGRADA VILA IMPÉRIO": {
     "endereco": "R. CATARINA GABRIELLI, 236 - AMERICANÓPOLIS - CEP: 04408- 090 - Tel: 5624-6554/ 5622-3899",
     "latitude": -23.67293,
-    "longitude": -46.649216,
-    "confidence": 1
+    "longitude": -46.649216
   },
   "AMA/UBS INTEGRADA VILA JOANIZA - JOÃO YUNES": {
     "endereco": "R. LUIS VIVES, 85 - VL JOANIZA - CEP: 04404-150 - Tel: 5622- 0844/ 5626-2428",
     "latitude": -23.674005,
-    "longitude": -46.659647,
-    "confidence": 1
+    "longitude": -46.659647
   },
   "AMA/UBS INTEGRADA VILA MISSIONÁRIA": {
     "endereco": "R. RAINHA DAS MISSOES, 515 - VL MISSIONÁRIA - CEP: 04430- 100 - Tel: 5612-2270/ 5612-9815",
     "latitude": -23.686455,
-    "longitude": -46.647723,
-    "confidence": 1
+    "longitude": -46.647723
   },
   "UBS CIDADE JULIA": {
     "endereco": "R. PASCOAL GRIECO, 366 - CIDADE JULIA - CEP: 04421-150 - Tel: 5623-6669/ 5623-9993",
     "latitude": -23.690986,
-    "longitude": -46.640576,
-    "confidence": 1
+    "longitude": -46.640576
   },
   "UBS JARDIM MIRIAM II": {
     "endereco": "AV. CUPECÊ, 5185 - JARDIM PRUDÊNCIA - CEP: 04365-001 - Tel: 5622-6998/ 5623-6959",
     "latitude": -23.678674,
-    "longitude": -46.640509,
-    "confidence": 1
+    "longitude": -46.640509
   },
   "UBS JARDIM NITERÓI": {
     "endereco": "R. SAMUEL ARNOLD, 596 - JD NITEROI - CEP: 04434-000 - Tel: 5611-0122/ 5611-6688",
     "latitude": -23.683646,
-    "longitude": -46.667964,
-    "confidence": 1
+    "longitude": -46.667964
   },
   "UBS JARDIM SÃO CARLOS - CIDADE ADEMAR": {
     "endereco": "R. CLAUDIA MUZIO, 163 - JD SÃO CARLOS - CEP: 04429-280 - Tel: 5621-9200/ 5623-9273",
     "latitude": -23.682166,
-    "longitude": -46.658312,
-    "confidence": 1
+    "longitude": -46.658312
   },
   "UBS JARDIM UMUARAMA": {
     "endereco": "R. ANTONIO GIL, 721 - VL FILOMENA - CEP: 04655-000 - Tel: 5563-9070/ 5566-1611",
     "latitude": -23.66198,
-    "longitude": -46.669688,
-    "confidence": 1
+    "longitude": -46.669688
   },
   "UBS SÃO JORGE - CIDADE ADEMAR": {
     "endereco": "AV. EDUARDO PEREIRA RAMOS, 810 - JD DOMIITLA - CEP: 04432-000 - Tel: 5611-3527/ 5611-6933",
     "latitude": -23.685815,
-    "longitude": -46.661795,
-    "confidence": 1
+    "longitude": -46.661795
   },
   "UBS VILA CONSTÂNCIA - DR VICENTE OCTAVIO GUIDA": {
     "endereco": "R. HERMENEGILDO MARTINI, S/Nº - VL CONSTÂNCIA - CEP: 04657-010 - Tel: 5562-6944/ 5562-6957",
     "latitude": -23.232533,
-    "longitude": -45.881013,
-    "confidence": 0.8
+    "longitude": -45.881013
   },
   "UBS VILA IMPERIO - DRA GILDA TERA TAHIRA": {
     "endereco": "R. DR NESTOR SAMPAIO PENTEADO, 181 - AMERICANÓPOLIS - CEP: 04409-060 - Tel: 5624-6786/ 5624-6797",
     "latitude": -24.045213,
-    "longitude": -46.521259,
-    "confidence": 0.8
+    "longitude": -46.521259
   },
   "MEGA POSTO PETZ": {
     "endereco": "AV. SEN. TEOTONIO VILELA, 4482 - VILA SÃO JOSÉ -  S.PAULO - 04864-001",
     "latitude": -23.743817,
-    "longitude": -46.706851,
-    "confidence": 1
+    "longitude": -46.706851
   },
   "SAE DST / AIDS CIDADE DUTRA": {
     "endereco": "RUA CRISTINA VASCONCELOS CECCATO, 109 - CIDADE DUTRA",
     "latitude": -23.579987,
-    "longitude": -46.382923,
-    "confidence": 1
+    "longitude": -46.382923
   },
   "SESC INTERLAGOS": {
     "endereco": "AV. MANUEL ALVES SOARES, 1100",
     "latitude": -23.726072,
-    "longitude": -46.676716,
-    "confidence": 1
+    "longitude": -46.676716
   },
   "UBS AUTÓDROMO-DR FAUZER SIMÃO ABRÃO": {
     "endereco": "R. OSWALDO DINIZ, 51 - JARDIM SATELITE - CEP: 04815-330 - Tel: 5923-4050/ 5925-4362",
     "latitude": -23.700776,
-    "longitude": -46.692255,
-    "confidence": 1
+    "longitude": -46.692255
   },
   "UBS DR. SÉRGIO CHADDAD": {
     "endereco": "AV. CARLOS OBERHUBER, 659 - VL SÃO JOSE - CEP: 04836- 130 - Tel: 5924-3636/ 5928-9529",
     "latitude": -23.74299,
-    "longitude": -46.711105,
-    "confidence": 1
+    "longitude": -46.711105
   },
   "UBS JARDIM CLIPER": {
     "endereco": "RUA DR CARLOS PEZZOLO, S/N - JARDIM ESMERALDA - CEP: 04828070 - Tel: 5928-5703/ 5971-2532",
     "latitude": -23.535704,
-    "longitude": -46.604761,
-    "confidence": 0.8
+    "longitude": -46.604761
   },
   "UBS JARDIM ORION/GUANHEMBU": {
     "endereco": "R. FERNANDO AMARO MIRANDA, 51 - JARDIM COLONIAL - CEP: 04821-100 - Tel: 2362-2343/ 2362-2360",
     "latitude": -23.729017,
-    "longitude": -46.686781,
-    "confidence": 1
+    "longitude": -46.686781
   },
   "UBS JARDIM REPÚBLICA": {
     "endereco": "AV. GONÇALO DE PAIVA GOMES, 285 - JD REPUBLICA - CEP: 04812-090 - Tel: 5661-4470/ 5661-5654",
     "latitude": -23.716674,
-    "longitude": -46.6876,
-    "confidence": 0.8
+    "longitude": -46.6876
   },
   "UBS JORDANÓPOLIS": {
     "endereco": "R. JANGADA NOVA, 75 - JORDANOPOLIS - CEP: 04830200 - Tel: 5973-6400",
     "latitude": -23.685346,
-    "longitude": -46.370012,
-    "confidence": 0.8
+    "longitude": -46.370012
   },
   "AMA/UBS INTEGRADA VILA MORAES - DR. JOÃO PAULO BOTELHO VIEIRA": {
     "endereco": "R. GIOVANNI DI BALDUCCIO, 250 - VL MORAES - CEP: 04170- 000 - Tel: 5058-0891/ 5058-0891",
     "latitude": -23.632581,
-    "longitude": -46.612792,
-    "confidence": 1
+    "longitude": -46.612792
   },
   "UBS ÁGUA FUNDA": {
     "endereco": "R. ROSA DE MORAES, 91 - VL ÁGUA FUNDA - CEP: 04155-000 - Tel: 5073-6253/ 5058-5007",
     "latitude": -24.125165,
-    "longitude": -48.903633,
-    "confidence": 1
+    "longitude": -48.903633
   },
   "UBS JARDIM DA SAÚDE - NEUSA ROSALIA MORALES": {
     "endereco": "R. DOMINGOS DE ROGATIS, 187 - JD DA SAUDE - CEP: 04290- 080 - Tel: 5062-9586/ 5062-9317",
     "latitude": -23.613919,
-    "longitude": -46.613168,
-    "confidence": 1
+    "longitude": -46.613168
   },
   "UBS PROF JANDIRA MASSUR - VL GUMERCINDO": {
     "endereco": "R. DOM LUCIO DE SOUZA, 372 - VL GUMERCINDO - CEP: 04129- 040 - Tel: 5062-7232/ 5061-5315",
     "latitude": -23.810344,
-    "longitude": -47.716572,
-    "confidence": 1
+    "longitude": -47.716572
   },
   "AMA/UBS INTEGRADA JARDIM CASTRO ALVES - DRA MARIA CRISTINA F": {
     "endereco": "AV. JOÃO PAULO BARRETO, 131 - JD CASTRO ALVES - CEP: 04842-150 - Tel: 5971-2157/ 5928-1714",
     "latitude": -23.742825,
-    "longitude": -46.686021,
-    "confidence": 1
+    "longitude": -46.686021
   },
   "AMA/UBS INTEGRADA JARDIM MIRNA": {
     "endereco": "R. DR JUVENAL HUDSON FERREIRA, 13 - JD MIRNA - CEP: 04856-140 - Tel: 5527-8798/ 5526-5175",
     "latitude": -23.77116,
-    "longitude": -46.696784,
-    "confidence": 1
+    "longitude": -46.696784
   },
   "MEGA POSTO CENTRO CULTURAL GRAJAÚ": {
     "endereco": "RUA PROFESSOR OSCAR BARRETO FILHO, 252 - PARQUE AMÉRICA/SP - 04822-230",
     "latitude": -23.560294,
-    "longitude": -46.65418,
-    "confidence": 0.8
+    "longitude": -46.65418
   },
   "UBS ALCINA PIMENTEL PIZA": {
     "endereco": "ESTRADA DE ITAQUAQUECETUBA, 8855 - ILHA DO BORORÉ - CEP: 04846-010 - Tel: 5974-2289/ 5974-9764",
     "latitude": -23.769008,
-    "longitude": -46.649323,
-    "confidence": 1
+    "longitude": -46.649323
   },
   "UBS ANCHIETA": {
     "endereco": "R. ALZIRO PINHEIRO MAGALHAES, 638 - PQ SÃO RAFAEL - CEP: 04855000 - Tel: 5928-1837",
     "latitude": -23.017003,
-    "longitude": -47.528639,
-    "confidence": 0.8
+    "longitude": -47.528639
   },
   "UBS CANTINHO DO CÉU": {
     "endereco": "R. DOS ACORDES, 200 - CANTINHO DO CEU - CEP: 04849-558 - Tel: 5932-7805/ 5931-0209",
     "latitude": -23.744629,
-    "longitude": -46.661687,
-    "confidence": 1
+    "longitude": -46.661687
   },
   "UBS CHÁCARA DO CONDE": {
     "endereco": "R. CONSTELAÇÃO DO ESQUADRO, 5 - JD CAMPINAS - CEP: 04858-010 - Tel: 5938-6611/ 5938-3109",
     "latitude": -23.770941,
-    "longitude": -46.705554,
-    "confidence": 1
+    "longitude": -46.705554
   },
   "UBS CHACARA DO SOL": {
     "endereco": "R. JOÃO CARLOS DE OLIVEIRA, 3 - CHACARA DO SOL - CEP: 04855-515 - Tel: 5931-4151",
     "latitude": -23.77974,
-    "longitude": -46.673911,
-    "confidence": 1
+    "longitude": -46.673911
   },
   "UBS CHACARA SANTO AMARO": {
     "endereco": "R. LUIZ CARLOS DE ALMEIDA, 51 - CHACARA SANTO AMARO - CEP: 04875-120 - Tel: 5974-9922/ 5974-2486",
     "latitude": -23.8216,
-    "longitude": -46.673576,
-    "confidence": 1
+    "longitude": -46.673576
   },
   "UBS GAIVOTAS": {
     "endereco": "AV. SÃO PAULO, 23-A - JD GAIVOTA - CEP: 04849-000 - Tel: 5932- 6799/ 5932-6407",
     "latitude": -22.755574,
-    "longitude": -48.573623,
-    "confidence": 1
+    "longitude": -48.573623
   },
   "UBS JARDIM ELIANE": {
     "endereco": "R. HENRY ARTHUR JONES, 201 - JD ELIANA - CEP: 04851-002 - Tel: 5931-5240/ 5528-1887",
     "latitude": -23.753457,
-    "longitude": -46.671665,
-    "confidence": 1
+    "longitude": -46.671665
   },
   "UBS JARDIM LUCELIA": {
     "endereco": "AV. CARLOS BARBOSA DOS SANTOS, 895 - JD LUCELIA - CEP: 04852220 - Tel: 5528-5660",
     "latitude": -23.784693,
-    "longitude": -46.688805,
-    "confidence": 0.8
+    "longitude": -46.688805
   },
   "UBS JARDIM NOVO HORIZONTE": {
     "endereco": "R. CARUANENSE, 186 - JARDIM NOVO HORIZONTE - CEP: 04857-300 - Tel: 5938-2208",
     "latitude": -23.774691,
-    "longitude": -46.700644,
-    "confidence": 1
+    "longitude": -46.700644
   },
   "UBS JARDIM TRÊS CORAÇÕES": {
     "endereco": "R. GENERAL JOSÉ DE OLIVEIRA RAMOS, 275 - JD TRÊS CORAÇÕES - CEP: 04855-330 - Tel: 5528-6223/ 5931-5969",
     "latitude": -23.769301,
-    "longitude": -46.683679,
-    "confidence": 0.8
+    "longitude": -46.683679
   },
   "UBS PARQUE RESIDENCIAL COCAIA INDEPENDENTE": {
     "endereco": "R. FELINTO MILANEZ, 26 - PQ RESIDENCIAL COCAIA - CEP: 04849-040 - Tel: 5931-0209/ 5931-4766",
     "latitude": -23.745063,
-    "longitude": -46.668729,
-    "confidence": 1
+    "longitude": -46.668729
   },
   "UBS SHANGRILA/ELLUS": {
     "endereco": "R. SEM NOME, 16 - JD SHANGRILA - CEP: 04852032 - Tel: 59322180",
     "latitude": -22.93231,
-    "longitude": -46.64767,
-    "confidence": 0.8
+    "longitude": -46.64767
   },
   "UBS VARGINHA": {
     "endereco": "R. HENRIQUE MUZZIO, 383 - JD VARGINHA - CEP: 04857-040 - Tel: 5526-3988/ 5527-2709",
     "latitude": -23.786449,
-    "longitude": -46.684578,
-    "confidence": 1
+    "longitude": -46.684578
   },
   "UBS VILA NATAL": {
     "endereco": "AV. PROFª. MARTA MARIA BERNARDES, 246 - VILA NATAL - CEP: 04863-000 - Tel: 5527-4071",
     "latitude": -23.765469,
-    "longitude": -46.711171,
-    "confidence": 1
+    "longitude": -46.711171
   },
   "AMA/UBS INTEGRADA SÃO VICENTE DE PAULA": {
     "endereco": "R. VICENTE DA COSTA, 289 - IPIRANGA - CEP: 04266-050 - Tel: 2273-4592/ 2063-2362",
     "latitude": -23.590089,
-    "longitude": -46.609191,
-    "confidence": 1
+    "longitude": -46.609191
   },
   "SAE IPIRANGA": {
     "endereco": "Rua Gonçalves ledo,606 ",
     "latitude": -23.596899,
-    "longitude": -46.600102,
-    "confidence": 1
+    "longitude": -46.600102
   },
   "UBS ALMIRANTE DELLAMARE": {
     "endereco": "R. ALM. MARIATH, 62 - VL HELIÓPOLIS - CEP: 04218-040 - Tel: 2061-9030/ 2062-8018",
     "latitude": -23.603817,
-    "longitude": -46.596089,
-    "confidence": 1
+    "longitude": -46.596089
   },
   "UBS DR. JOAQUIM ROSSINI": {
     "endereco": "R. ALVARO FRAGOSO, 480 - VL CARIOCA - CEP: 04223-000 - Tel: 2273-4602/ 2272-1083",
     "latitude": -23.595465,
-    "longitude": -46.593232,
-    "confidence": 1
+    "longitude": -46.593232
   },
   "UBS HELIOPOLIS": {
     "endereco": "AV. ALMIRANTE DELAMARE, 3033 - CIDADE NOVA HELIOPOLIS - CEP: 04230-040 - Tel: 2063-0855",
     "latitude": -23.610062,
-    "longitude": -46.587811,
-    "confidence": 1
+    "longitude": -46.587811
   },
   "UBS OSWALDO MARASCA JUNIOR - VL MONUMENTO": {
     "endereco": "AV. DOM PEDRO I, 594 - IPIRANGA - CEP: 01552-000 - Tel: 2272- 8619/ 2273-5403",
     "latitude": -23.570543,
-    "longitude": -46.611357,
-    "confidence": 1
+    "longitude": -46.611357
   },
   "AMA/UBS INTEGRADA AMERICANOPOLIS": {
     "endereco": "R. CIDADE DE SANTOS, 46 - AMERICANÓPOLIS - CEP: 04336- 050 - Tel: 5562-1476/ 5563-9463",
     "latitude": -23.66484,
-    "longitude": -46.643937,
-    "confidence": 1
+    "longitude": -46.643937
   },
   "AMA/UBS INTEGRADA CUPECÊ - DR. WALDOMIRO PREGNOLATTO": {
     "endereco": "AV. SANTA CATARINA, 1523 - VL SANTA CATARINA - CEP: 04378-300 - Tel: 5564-3079/ 5671-5091",
     "latitude": -23.648059,
-    "longitude": -46.662353,
-    "confidence": 1
+    "longitude": -46.662353
   },
   "AMA/UBS INTEGRADA DR. GERALDO DA SILVA FERREIRA": {
     "endereco": "AV. ENG ARMANDO DE ARRUDA PEREIRA, 2944 - VL DO ENCONTRO - CEP: 04308-001 - Tel: 5588-2366/ 5021-7744",
     "latitude": -23.640925,
-    "longitude": -46.641384,
-    "confidence": 0.8
+    "longitude": -46.641384
   },
   "AMA/UBS INTEGRADA VILA CLARA": {
     "endereco": "R. ROLANDO CURTI, 701 - VL CLARA - CEP: 04414-000 - Tel: 5623-6883/ 5626-9979",
     "latitude": -23.672123,
-    "longitude": -46.638342,
-    "confidence": 1
+    "longitude": -46.638342
   },
   "UBS CIDADE VARGAS": {
     "endereco": "R. DOS COMERCIÁRIOS, 236 - CIDADE VARGAS - CEP: 04320- 030 - Tel: 5588-4890/ 5588-5356",
     "latitude": -23.647791,
-    "longitude": -46.638307,
-    "confidence": 1
+    "longitude": -46.638307
   },
   "UBS JARDIM LOURDES": {
     "endereco": "AV. ENG ARMANDO DE ARRUDA PEREIRA, 4004 - JABAQUARA - CEP: 04325-000 - Tel: 5555-9504/ 5575-6872",
     "latitude": -23.640925,
-    "longitude": -46.641384,
-    "confidence": 0.8
+    "longitude": -46.641384
   },
   "UBS VILA CAMPESTRE": {
     "endereco": "R. ARTUR NUNES DA SILVA, 206 - VILA CAMPESTRE - CEP: 04332-080 - Tel: 5011-4278/ 5565-6427",
     "latitude": -22.628287,
-    "longitude": -49.955608,
-    "confidence": 0.8
+    "longitude": -49.955608
   },
   "UBS VILA CANAÃ": {
     "endereco": "R. CONTOS GAUCHESCOS, 630 - VILA CANAÃ - CEP: 04369-000 - Tel: 5565-0485",
     "latitude": -23.656837,
-    "longitude": -46.662236,
-    "confidence": 1
+    "longitude": -46.662236
   },
   "UBS VILA SANTA CATARINA": {
     "endereco": "R. BELMIRO ZANETTI ESTEVES, 181 - VL SANTA CATARINA - CEP: 04377-060 - Tel: 5563-9814",
     "latitude": -23.653466,
-    "longitude": -46.652199,
-    "confidence": 1
+    "longitude": -46.652199
   },
   "AMA/UBS INTEGRADA JARDIM CAPELA": {
     "endereco": "R. BARAO DE PAIVA MANSO, 200 - JD CAPELA - CEP: 04960-110 - Tel: 5517-0226/ 5899-9652",
     "latitude": -23.730814,
-    "longitude": -46.789532,
-    "confidence": 0.8
+    "longitude": -46.789532
   },
   "AMA/UBS INTEGRADA PARQUE NOVO SANTO AMARO": {
     "endereco": "R. PORTA DO PRADO, 18 - PQ NOVO STO AMARO - CEP: 05874- 130 - Tel: 5831-1448",
     "latitude": -23.698925,
-    "longitude": -46.780872,
-    "confidence": 1
+    "longitude": -46.780872
   },
   "MEGA POSTO DE VACINAÇÃO - JARDIM ANGELA": {
     "endereco": "Estrada do M Boi Mirim, 5203 - Edificio Garagem ( ao lado do Terminal Jd Angela)",
     "latitude": -23.690923,
-    "longitude": -46.774665,
-    "confidence": 1
+    "longitude": -46.774665
   },
   "UBS ALTO DA RIVIERA": {
     "endereco": "AV. PROF. MÁRIO MAZAGAO, 194 - ALTO DA RIVIERA - CEP: 04929-080 - Tel: 5833-9952/ 5898-5757",
     "latitude": -23.698046,
-    "longitude": -46.760402,
-    "confidence": 1
+    "longitude": -46.760402
   },
   "UBS CHÁCARA SANTA MARIA": {
     "endereco": "R. CICLADES, 250 - CHÁCARA SANTA MARIA - CEP: 05876-040 - Tel: 5180-6060/ 5833-5262",
     "latitude": -23.700485,
-    "longitude": -46.791086,
-    "confidence": 1
+    "longitude": -46.791086
   },
   "UBS CIDADE IPAVA": {
     "endereco": "AV. TAQUANDAVA, 31 - CIDADE IPAVA - CEP: 04950-000 - Tel: 5898-5300/ 5899-7497",
     "latitude": -23.722913,
-    "longitude": -46.764392,
-    "confidence": 1
+    "longitude": -46.764392
   },
   "UBS HORIZONTE AZUL": {
     "endereco": "R. ALBERGATI CAPACELLI, 2200 - HORIZONTE AZUL - CEP: 04963-000 - Tel: 5517-3860/ 5517-3469",
     "latitude": -23.746419,
-    "longitude": -46.780507,
-    "confidence": 0.8
+    "longitude": -46.780507
   },
   "UBS JARDIM ARACATI": {
     "endereco": "R. FANCISCO HOMEM DEL REI, 87 - JD ARACATI - CEP: 04949- 070 - Tel: 5896-1139/ 5896-1027",
     "latitude": -23.718916,
-    "longitude": -46.770077,
-    "confidence": 1
+    "longitude": -46.770077
   },
   "UBS JARDIM CAIÇARA": {
     "endereco": "R. SERAFIM ALVARES, 46 - JD CAIÇARA - CEP: 05871-370 - Tel: 5833-4375/ 5833-4375",
     "latitude": -23.686809,
-    "longitude": -46.774443,
-    "confidence": 1
+    "longitude": -46.774443
   },
   "UBS JARDIM COIMBRA": {
     "endereco": "ESTRADA DO MBOI MIRIM, 3301 - JD COIMBRA - CEP: 04905- 023 - Tel: 5898-5454/ 5892-2327",
     "latitude": -23.678555,
-    "longitude": -46.762722,
-    "confidence": 1
+    "longitude": -46.762722
   },
   "UBS JARDIM GUARUJÁ": {
     "endereco": "R. JOÃO DE ALMADA, 25 - JD GUARUJA - CEP: 05875-300 - Tel: 5873-5089/ 5874-4499",
     "latitude": -23.692299,
-    "longitude": -46.787842,
-    "confidence": 1
+    "longitude": -46.787842
   },
   "UBS JARDIM HERCULANO": {
     "endereco": "R. INACIO LIMAS, 11 - JD HERCULANO - CEP: 04920-050 - Tel: 5832-6643/ 5833-9946",
     "latitude": -23.592121,
-    "longitude": -46.574331,
-    "confidence": 0.8
+    "longitude": -46.574331
   },
   "UBS JARDIM NAKAMURA": {
     "endereco": "R. MANUEL VITOR DE JESUS, 811 - JD NAKAMURA - CEP: 04942- 100 - Tel: 5898-5555/ 5831-0892",
     "latitude": -23.740869,
-    "longitude": -46.688562,
-    "confidence": 0.8
+    "longitude": -46.688562
   },
   "UBS JARDIM PARANAPANEMA": {
     "endereco": "R. PIETRO DA MILANO, 100 - VL SANTO AMARO - CEP: 05875- 360 - Tel: 5833-4282",
     "latitude": -23.693418,
-    "longitude": -46.780585,
-    "confidence": 1
+    "longitude": -46.780585
   },
   "UBS JARDIM SANTA MARGARIDA": {
     "endereco": "R. CAPAO REDONDO, 175 - PQ SANTO AMARO - CEP: 04931- 100 - Tel: 5892-5799",
     "latitude": -23.680829,
-    "longitude": -46.756318,
-    "confidence": 0.8
+    "longitude": -46.756318
   },
   "UBS PARQUE DO LAGO": {
     "endereco": "ESTRADA DA BARONESA, 1000 - PQ DO LAGO - CEP: 04944-000 - Tel: 5517-0045/ 5895-5816",
     "latitude": -23.715673,
-    "longitude": -46.777499,
-    "confidence": 1
+    "longitude": -46.777499
   },
   "UBS SANTA LÚCIA": {
     "endereco": "R. CARMELO CALI, 26 - VL SANTA LÚCIA - CEP: 04940-070 - Tel: 5898-5400/ 5831-6291",
     "latitude": -23.689597,
-    "longitude": -46.766058,
-    "confidence": 1
+    "longitude": -46.766058
   },
   "UBS VERA CRUZ - DR FERNANDO PROENCA DE GOUVEA": {
     "endereco": "AV. FUNCIONÁRIOS PÚBLICOS (REF.:R.PABLO BRUNA), 379 - JD VERA CRUZ - CEP: 04962-000 - Tel: 5899-9336",
@@ -2694,284 +2312,237 @@
   "UBS VILA CALU": {
     "endereco": "ESTRADA DO MBOI MIRIM, 10416 - VL CALU - CEP: 04948-030 - Tel: 5895-8117/ 5832-5700",
     "latitude": -23.688692,
-    "longitude": -46.772829,
-    "confidence": 0.8
+    "longitude": -46.772829
   },
   "AMA/UBS INTEGRADA JARDIM ALFREDO": {
     "endereco": "R. DINAR, 51 - JD ALFREDO - CEP: 04913-120 - Tel: 5514-6355",
     "latitude": -23.681294,
-    "longitude": -46.738322,
-    "confidence": 1
+    "longitude": -46.738322
   },
   "AMA/UBS INTEGRADA PARQUE FIGUEIRA GRANDE": {
     "endereco": "R. DANIEL KLEIN, 211 - PQ FIGUEIRA GRANDE - CEP: 04915-170 - Tel: 5514-6609/ 5894-4788",
     "latitude": -23.678984,
-    "longitude": -46.748954,
-    "confidence": 1
+    "longitude": -46.748954
   },
   "AMA/UBS INTEGRADA PARQUE SANTO ANTONIO": {
     "endereco": "R. MANUEL BORDALO PINHEIRO, 100 - PQ SANTO ANTONIO - CEP: 05850-230 - Tel: 5511-4249/ 5816-5546",
     "latitude": -23.660155,
-    "longitude": -46.75735,
-    "confidence": 0.8
+    "longitude": -46.75735
   },
   "AMA/UBS INTEGRADA VILA PREL - PROF. ANTONIO BERNARDES DE OLIVEIRA": {
     "endereco": "R. TEREZA MAIA PINTO, 11 - VL PREL - CEP: 05780-390 - Tel: 5816-5563",
     "latitude": -23.647854,
-    "longitude": -46.753842,
-    "confidence": 0.8
+    "longitude": -46.753842
   },
   "MEGA POSTO DE VACINAÇÃO - CENTRO EMPRESARIAL DE SÃO PAULO": {
     "endereco": "Av. Maria Coelho Aguiar, 215",
     "latitude": -23.649917,
-    "longitude": -46.728422,
-    "confidence": 1
+    "longitude": -46.728422
   },
   "SAE DST/ AIDS M BOI MIRIM": {
     "endereco": "RUA DEOCLECIANO OLIVEIRA FILHO, 641 - PARQUE SANTO ANTONIO",
     "latitude": -23.669171,
-    "longitude": -46.756113,
-    "confidence": 1
+    "longitude": -46.756113
   },
   "UBS BRASÍLIA - MBOI": {
     "endereco": "R. MAPORÉ, 352 - JD SÃO LUIZ - CEP: 05846-390 - Tel: 5511- 8717",
     "latitude": -23.653851,
-    "longitude": -46.745021,
-    "confidence": 1
+    "longitude": -46.745021
   },
   "UBS CHÁCARA SANTANA": {
     "endereco": "R. BALTAZAR DE SA, 383 - CHÁCARA SANTANA - CEP: 05831- 030 - Tel: 5514-6448/ 5891-2843",
     "latitude": -23.671664,
-    "longitude": -46.747048,
-    "confidence": 1
+    "longitude": -46.747048
   },
   "UBS JARDIM CELESTE": {
     "endereco": "R. JOÃO FERNANDES CAMISA NOVA JR., 865 - JD CELESTE - CEP: 05844-000 - Tel: 5812-3738",
     "latitude": -21.578996,
-    "longitude": -50.167088,
-    "confidence": 0.8
+    "longitude": -50.167088
   },
   "UBS JARDIM SOUZA": {
     "endereco": "R. FRANCISCO DE ALMEIDA SOUZA, 481 - JARDIM SOUZA - CEP: 04917070 - Tel: 5514-6430",
     "latitude": -23.054992,
-    "longitude": -46.366115,
-    "confidence": 0.8
+    "longitude": -46.366115
   },
   "UBS JARDIM THOMAS": {
     "endereco": "R. AUDÁLIO GONÇALVES DOS SANTOS, 158 - JD THOMAS - CEP: 05833-040 - Tel: 5514-0345/ 5894-4218",
     "latitude": -23.673881,
-    "longitude": -46.756298,
-    "confidence": 0.8
+    "longitude": -46.756298
   },
   "UBS NOVO CAMINHO": {
     "endereco": "R. ANTONIO DA MATA JUNIOR, 943 - JD SÃO LUIZ - CEP: 05812- 030 - Tel: 5851-9026",
     "latitude": -23.655891,
-    "longitude": -46.735638,
-    "confidence": 0.8
+    "longitude": -46.735638
   },
   "UBS NOVO JARDIM I": {
     "endereco": "R. PHILIPPE DE VITRY, 282 - JD STA JOSEFINA - CEP: 05819- 080 - Tel: 5892-2134/ 5892-2719",
     "latitude": -23.665415,
-    "longitude": -46.735754,
-    "confidence": 1
+    "longitude": -46.735754
   },
   "UBS VILA DAS BELEZAS - DR. ALBERTO AMBROSIO": {
     "endereco": "R. TENENTE ISAIAS BRANCO DE ARAUJO, 101/103 - VL DAS BELEZAS - CEP: 05841-150 - Tel: 5511-4712/ 5816-8519",
     "latitude": -23.647368,
-    "longitude": -46.742702,
-    "confidence": 1
+    "longitude": -46.742702
   },
   "UBS ZUMBI DOS PALMARES": {
     "endereco": "R. HUMBERTO DE ALMEIDA, 08 - CHÁCARA SANTANA - CEP: 05831-000 - Tel: 3777-1350 ",
     "latitude": -23.67227,
-    "longitude": -46.745068,
-    "confidence": 1
+    "longitude": -46.745068
   },
   "UBS DOM LUCIANO BERGAMINI": {
     "endereco": "ESTRADA DA LIGAÇAO, 1 - MARSILAC - ZONA RURAL - CEP: 04891-360 - Tel: 5978-6394/ 5975-1057",
     "latitude": -23.755565,
-    "longitude": -46.658159,
-    "confidence": 1
+    "longitude": -46.658159
   },
   "UBS JARDIM EMBURA": {
     "endereco": "ESTRADA BENEDITO SCHUNCK, 08 - JD EMBURA - CEP: 04893- 050 - Tel: 5975-2192",
     "latitude": -22.571343,
-    "longitude": -47.293397,
-    "confidence": 1
+    "longitude": -47.293397
   },
   "UBS MARSILAC": {
     "endereco": "ESTRADA ENGENHEIRO MARSILAC, 14487 - MARSILAC - CEP: 04891-000 - Tel: 5975-2281",
     "latitude": -23.838821,
-    "longitude": -46.734034,
-    "confidence": 0.8
+    "longitude": -46.734034
   },
   "SHOPPING IBIRAPUERA": {
     "endereco": "Av. Moaci, s/n",
     "latitude": -21.479622,
-    "longitude": -47.362562,
-    "confidence": 0.8
+    "longitude": -47.362562
   },
   "UBS INDIANÓPOLIS - SIGMUND FREUD": {
     "endereco": "AV. INDIANÓPOLIS, 650 - MOEMA - CEP: 04062-001 - Tel: 5054- 2851/ 5054-2705",
     "latitude": -23.604112,
-    "longitude": -46.654278,
-    "confidence": 1
+    "longitude": -46.654278
   },
   "UBS VILA OLIMPIA - MAX PERLMAN": {
     "endereco": "R. JACQUES FELIX, 499 - VL NOVA CONCEIÇÃO - CEP: 04509- 001 - Tel: 3842-4849/ 3842-5146",
     "latitude": -23.59243,
-    "longitude": -46.671356,
-    "confidence": 1
+    "longitude": -46.671356
   },
   "MEGA POSTO CEU PARELHEIROS": {
     "endereco": "Rua: José Pedro de Borba, 20   portão 3",
     "latitude": -24.276479,
-    "longitude": -47.241645,
-    "confidence": 1
+    "longitude": -47.241645
   },
   "UBS BARRAGEM": {
     "endereco": "R. DOIS, 3 - BARRAGEM - CEP: 04877-110 - Tel: 5977-3212/ 5977- 1020",
     "latitude": -21.56139,
-    "longitude": -51.23342,
-    "confidence": 1
+    "longitude": -51.23342
   },
   "UBS COLONIA": {
     "endereco": "R. NOSSA SENHORA APARECIDA, 342 - COLONIA PAULISTA - CEP: 04892-230 - Tel: 5977-3269",
     "latitude": -20.211288,
-    "longitude": -50.938362,
-    "confidence": 1
+    "longitude": -50.938362
   },
   "UBS JARDIM CAMPINAS": {
     "endereco": "R. DAS PLEIADES, S/N - JD MARIA AMALIA - CEP: 04858-550 - Tel: 5527-3589/ 5527-2000",
     "latitude": -23.438097,
-    "longitude": -45.097133,
-    "confidence": 0.8
+    "longitude": -45.097133
   },
   "UBS JARDIM DAS FONTES": {
     "endereco": "R. MABEL NORMANDO, 122 - JD FONTES - CEP: 04891-000 - Tel: 5975-2538/ 5975-4221",
     "latitude": -23.868848,
-    "longitude": -46.753583,
-    "confidence": 1
+    "longitude": -46.753583
   },
   "UBS JARDIM IPORÃ": {
     "endereco": "R. FORTE DE VILA BELA, 29 - JARDIM IPORA - CEP: 04865170 - Tel: 59223053",
     "latitude": -23.785989,
-    "longitude": -46.713356,
-    "confidence": 0.8
+    "longitude": -46.713356
   },
   "UBS JARDIM SANTA FÉ": {
     "endereco": "R. CONDE DE LANCASTRE, 214 - JD SANTA FÉ - CEP: 04890- 290 - Tel: 5922-3053/ 5921-9504",
     "latitude": -23.832011,
-    "longitude": -46.711277,
-    "confidence": 1
+    "longitude": -46.711277
   },
   "UBS JARDIM SÃO NORBERTO": {
     "endereco": "AV. DOMENICO LANZETTI, S/N - JD SÃO NORBERTO - CEP: 04884-210 - Tel: 5920-8977",
     "latitude": -22.116223,
-    "longitude": -51.400593,
-    "confidence": 0.8
+    "longitude": -51.400593
   },
   "UBS JARDIM SILVEIRA": {
     "endereco": "R. BONIFÁCIO ASIOLI, 162 - JARDIM SILVEIRA - CEP: 04892-040 - Tel: 5921-5294/ 5921-4490",
     "latitude": -21.063138,
-    "longitude": -49.665743,
-    "confidence": 1
+    "longitude": -49.665743
   },
   "UBS NOVA AMÉRICA": {
     "endereco": "R. EDUARDO COLLIER FILHO, 14 - CIDADE NOVA AMERICA - CEP: 04895-020 - Tel: 5977-3507",
     "latitude": -22.344983,
-    "longitude": -48.795136,
-    "confidence": 0.8
+    "longitude": -48.795136
   },
   "UBS PARELHEIROS": {
     "endereco": "R. JUVENAL LUZ X R. MARIO TRAPE, S/Nº - JD NOVO PARELHEIROS - CEP: 04890-420 - Tel: 5921-6780/ 5921-4946",
     "latitude": -23.534977,
-    "longitude": -46.635067,
-    "confidence": 0.8
+    "longitude": -46.635067
   },
   "UBS RECANTO CAMPO BELO": {
     "endereco": "R. VIRGINIA MODESTO, 800 - RECANTO CAMPO BELO - CEP: 04880-035 - Tel: 5926-2002/ 5921-8022",
     "latitude": -23.793374,
-    "longitude": -46.745198,
-    "confidence": 1
+    "longitude": -46.745198
   },
   "UBS VARGEM GRANDE": {
     "endereco": "R. DAS ARARAS, 49 - VARGEM GRANDE - CEP: 04896-260 - Tel: 5921-2111/ 5920-0261",
     "latitude": -23.856505,
-    "longitude": -46.704735,
-    "confidence": 1
+    "longitude": -46.704735
   },
   "UBS VILA MARCELO": {
     "endereco": "R. AMADO BENEDITO VILAS BOAS, 616 - VL MARCELO - CEP: 04866-000 - Tel: 5979-8972",
     "latitude": -20.254378,
-    "longitude": -50.549477,
-    "confidence": 0.8
+    "longitude": -50.549477
   },
   "UBS VILA ROSCHEL": {
     "endereco": "R. ALICE BASTIDE, 290 - VL ROSCHEL - CEP: 04891-140 - Tel: 5920-2604",
     "latitude": -23.84204,
-    "longitude": -46.737515,
-    "confidence": 1
+    "longitude": -46.737515
   },
   "AMA/UBS INTEGRADA PARQUE DOROTEIA": {
     "endereco": "R. DOS ANIQUIS, 3 - JD SANTA TEREZINHA - CEP: 04474-000 - Tel: 5560-0890/ 5672-7444",
     "latitude": -23.698538,
-    "longitude": -46.647067,
-    "confidence": 1
+    "longitude": -46.647067
   },
   "UBS JARDIM APURÁ": {
     "endereco": "R. DR DARI BARCELOS, 37 - JD APURA - CEP: 04470-170 - Tel: 5673-0001/ 5673-3734",
     "latitude": -23.710387,
-    "longitude": -46.655728,
-    "confidence": 1
+    "longitude": -46.655728
   },
   "UBS JARDIM NOVO PANTANAL - PEDREIRA": {
     "endereco": "AV. PROF. CARDOZO DE MELLO NETO, 674 - JARDIM SANTA TEREZINHA - CEP: 04474-180 - Tel: 5672-7092/ 5672-7244",
     "latitude": -23.696764,
-    "longitude": -46.635779,
-    "confidence": 0.8
+    "longitude": -46.635779
   },
   "UBS JARDIM SELMA - CIDADE ADEMAR": {
     "endereco": "R. PEDRO FERNANDES ARAGÃO, 305 - JARDIM SELMA - CEP: 04431-160 - Tel: 5611-1641/ 5611-6743",
     "latitude": -22.6085,
-    "longitude": -47.809578,
-    "confidence": 1
+    "longitude": -47.809578
   },
   "UBS LARANJEIRAS": {
     "endereco": "R. DENIS FURTEL, 108 - LARANJEIRAS - CEP: 04476-145 - Tel: 5673-6180/ 5673-6181",
     "latitude": -23.703525,
-    "longitude": -46.627743,
-    "confidence": 1
+    "longitude": -46.627743
   },
   "UBS MAR PAULISTA": {
     "endereco": "R. MATSUICHI WADA, 393 - BALNEÁRIO MAR PAULISTA - CEP: 04463-060 - Tel: 5612-5686/ 5616-9406",
     "latitude": -23.696419,
-    "longitude": -46.663518,
-    "confidence": 1
+    "longitude": -46.663518
   },
   "UBS MATA VIRGEM": {
     "endereco": "ESTRADA DA SAUDE, 47 - ELDORADO - CEP: 04476-540 - Tel: 5673-4455/ 5673-4477",
     "latitude": -23.713197,
-    "longitude": -46.627856,
-    "confidence": 1
+    "longitude": -46.627856
   },
   "UBS VILA APARECIDA": {
     "endereco": "AV. BATISTA MACIEL, 430 - ELDORADO - CEP: 04459-110 - Tel: 5612-9644/ 5612-2850",
     "latitude": -23.692715,
-    "longitude": -46.669528,
-    "confidence": 1
+    "longitude": -46.669528
   },
   "UBS VILA GUACURI-CICERO SERGIO CAVALCANTE": {
     "endereco": "R. VALENTINO FIORAVANTE, 416 - JD RUBILENE - CEP: 04475- 380 - Tel: 5674-0921/ 5673-0888",
     "latitude": -21.167342,
-    "longitude": -47.804416,
-    "confidence": 1
+    "longitude": -47.804416
   },
   "AMA/UBS INTEGRADA PQ BRISTOL": {
     "endereco": "R. FRANCOIS BUNEL, 194 - PQ BRISTOL - CEP: 04193-310 - Tel: 2331-3089/ 2964-9357",
     "latitude": -23.566083,
-    "longitude": -46.613226,
-    "confidence": 0.8
+    "longitude": -46.613226
   },
   "UBS AURELIO MELLONE - JARDIM SÃO SAVÉRIO": {
     "endereco": "R. ATILIO SELVA, 10 - JD CELESTE - CEP: 04195-060 - Tel: 2331- 2131/ 2331-7586",
@@ -2986,104 +2557,87 @@
   "UBS JARDIM SECKLER": {
     "endereco": "R. CARLOS MAURO, 114 - SÃO JOÃO CLIMACO - CEP: 04240- 150 - Tel: 2946-8532/ 2948-2994",
     "latitude": -23.618764,
-    "longitude": -46.587388,
-    "confidence": 1
+    "longitude": -46.587388
   },
   "UBS LUIZ ERNESTO MAZZONI": {
     "endereco": "AV. CARLOS LIVIERO, 566 - VL LIVIERO - CEP: 04186-100 - Tel: 2331-9624/ 2335-8124",
     "latitude": -23.644852,
-    "longitude": -46.593511,
-    "confidence": 1
+    "longitude": -46.593511
   },
   "UBS MOINHO VELHO II": {
     "endereco": "R. BELGRADO, 323 - MOINHO VELHO - CEP: 04285-041 - Tel: 2274-1059/ 2062-6416",
     "latitude": -23.612343,
-    "longitude": -46.603436,
-    "confidence": 1
+    "longitude": -46.603436
   },
   "UBS SACOMÃ": {
     "endereco": "ESTRADA DAS LAGRIMAS, 1604 - SACOMÃ - CEP: 04232-000 - Tel: 2915-8200/ 2273-3537",
     "latitude": -23.615417,
-    "longitude": -46.593592,
-    "confidence": 1
+    "longitude": -46.593592
   },
   "UBS VILA ARAPUÃ": {
     "endereco": "R. COLOMBO FLORENCE, 235 - VL ARAPUA - CEP: 04257-045 - Tel: 2946-6660/ 2969-5339",
     "latitude": -23.633435,
-    "longitude": -46.588679,
-    "confidence": 1
+    "longitude": -46.588679
   },
   "UBS VILA DAS MERCÊS": {
     "endereco": "R. NOSSA SENHORA DAS MERCÊS, 1315 - VL DAS MERCÊS - CEP: 04165-001 - Tel: 2946-1443",
     "latitude": -23.629977,
-    "longitude": -46.604869,
-    "confidence": 0.8
+    "longitude": -46.604869
   },
   "MEGA POSTO DE VACINAÇÃO - UNISA SANTO AMARO": {
     "endereco": "Rua Isabel Schmidt, 349",
     "latitude": -23.651655,
-    "longitude": -46.702784,
-    "confidence": 1
+    "longitude": -46.702784
   },
   "NOVARTIS BIOCIÊNCIA S.A.": {
     "endereco": "Av. Professor Vicente Rao, 90 -Cidade Monções - CEP: 04706-900",
     "latitude": -23.626978,
-    "longitude": -46.686469,
-    "confidence": 1
+    "longitude": -46.686469
   },
   "SAE DST / AIDS SANTO AMARO": {
     "endereco": "Rua PADRE JOSÉ DE ANCHIETA, 640 - SANTO AMARO  FONE: 5686-1613",
     "latitude": -23.649413,
-    "longitude": -46.702799,
-    "confidence": 1
+    "longitude": -46.702799
   },
   "SUBPREFEITURA CIDADE ADEMAR": {
     "endereco": "AV. YERVANT KISSAJIKIAN, 416",
     "latitude": -23.665629,
-    "longitude": -46.677532,
-    "confidence": 1
+    "longitude": -46.677532
   },
   "UBS CHÁCARA SANTO ANTONIO - DR. MARCILIO DE ARRUDA PENTEADO FILHO": {
     "endereco": "R. ALEXANDRE DUMAS, 719 - CHÁCARA SANTO ANTONIO - CEP: 04717-000 - Tel: 5181-7894/ 5183-6139",
     "latitude": -23.635285,
-    "longitude": -46.698811,
-    "confidence": 1
+    "longitude": -46.698811
   },
   "UBS SANTO AMARO – DR. SÉRGIO VILLAÇA BRAGA / TEATRO PAULO EIRÓ": {
     "endereco": "Av. ADOLFO PINHEIRO, 765 - Tel: 5687-3367/ 5541-8807",
     "latitude": -23.646632,
-    "longitude": -46.702003,
-    "confidence": 1
+    "longitude": -46.702003
   },
   "AE DR. ALEXANDRE KALIL YASBEK - CECI": {
     "endereco": "Av. Ceci, 2235",
     "latitude": -23.628737,
-    "longitude": -46.646429,
-    "confidence": 1
+    "longitude": -46.646429
   },
   "UBS PARQUE IMPERIAL - PROF. MANOEL A. S. SARAGOÇA": {
     "endereco": "R. MAJOR FREIRE, 510 - VILA MONTE ALEGRE - CEP: 04304110 - Tel: 5594-1532",
     "latitude": -23.62791,
-    "longitude": -46.63534,
-    "confidence": 1
+    "longitude": -46.63534
   },
   "UBS VELEIROS": {
     "endereco": "AV. CLARA MANTELLI, 185 - VELEIROS - CEP: 04771-180 - Tel: 5681-5520/ 5687-0639",
     "latitude": -23.683069,
-    "longitude": -46.711614,
-    "confidence": 1
+    "longitude": -46.711614
   },
   "ESCOLA GRADED": {
     "endereco": "AV. JOSÉ GALANTE, 425",
     "latitude": -23.620099,
-    "longitude": -46.734595,
-    "confidence": 1
+    "longitude": -46.734595
   },
   "UBS JARDIM DAS PALMAS": {
     "endereco": "R. FRANCISCO DE SALES, 10 - JD DAS PALMAS - CEP: 05749- 280 - Tel: 5843-8340/ 5843-8460",
     "latitude": -23.622342,
-    "longitude": -46.746124,
-    "confidence": 1
+    "longitude": -46.746124
   },
   "UBS PARAISOPOLIS": {
     "endereco": "R. MELCHIOR GIOLA, 80 - JD PARAISOPOLIS - CEP: 05664-000 - Tel: 3744-5223/ 3744-5822",
@@ -3098,31 +2652,26 @@
   "UBS PARAISOPOLIS III": {
     "endereco": "R. SILVEIRA SAMPAIO, 660 - JD MORUMBI - CEP: 05656-010 - Tel: 3742-2978/ 3742-1323",
     "latitude": -21.634509,
-    "longitude": -49.071446,
-    "confidence": 0.8
+    "longitude": -49.071446
   },
   "UBS VILA PRAIA": {
     "endereco": "Rua André de Andrade s/nº",
     "latitude": -20.714766,
-    "longitude": -48.546546,
-    "confidence": 0.8
+    "longitude": -48.546546
   },
   "CRHMTPIS BOSQUE DA SAÚDE": {
     "endereco": "Rua João Baptistussi, 55",
     "latitude": -23.597379,
-    "longitude": -46.623743,
-    "confidence": 1
+    "longitude": -46.623743
   },
   "IGREJA DE SÃO JUDAS": {
     "endereco": "Alameda Guaiós,145",
     "latitude": -23.626469,
-    "longitude": -46.642168,
-    "confidence": 1
+    "longitude": -46.642168
   },
   "SHOPPING METRÔ SANTA CRUZ": {
     "endereco": "Rua Domingos de Morais (acesso pela Externa)",
     "latitude": -23.619628,
-    "longitude": -46.73851,
-    "confidence": 0.8
+    "longitude": -46.73851
   }
 }

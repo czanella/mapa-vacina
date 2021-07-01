@@ -2673,5 +2673,95 @@
     "endereco": "Rua Domingos de Morais (acesso pela Externa)",
     "latitude": -23.619628,
     "longitude": -46.73851
+  },
+  "GRCS ESCOLA DE SAMBA VAI-VAI": {
+    "endereco": "Rua São Vicente, nº 276 - Bela Vista",
+    "latitude": -20.427504,
+    "longitude": -47.818008,
+    "confidence": 1
+  },
+  "SHOPPING KSQUARE": {
+    "endereco": "Rua Guarani, 266 - Bom Retiro",
+    "latitude": -23.528172,
+    "longitude": -46.636026,
+    "confidence": 1
+  },
+  "UVIS - SANTA CECÍLIA": {
+    "endereco": "Rua Albuquerque Lins, nº 40",
+    "latitude": -23.5314595,
+    "longitude": -46.6552944
+  },
+  "ESTAÇÃO REPÚBLICA - METRÔ": {
+    "endereco": "Praça da Republica, 299",
+    "latitude": -23.54346,
+    "longitude": -46.644196,
+    "confidence": 1
+  },
+  "TERMINAL CIDADE TIRADENTES": {
+    "endereco": "Conj.Hab.Castro Alves, s/n",
+    "latitude": -23.5834083,
+    "longitude": -46.4102183
+  },
+  "CPTM GUAIANASES": {
+    "endereco": "Av.Salvador, s/n",
+    "latitude": -23.5425556,
+    "longitude": -46.4162423
+  },
+  "CPTM ITAIM PAULISTA": {
+    "endereco": "R.Rafael Correia da Silva, 13",
+    "latitude": -23.599986,
+    "longitude": -46.525404,
+    "confidence": 1
+  },
+  "SUPERMERCADO ROSSI": {
+    "endereco": "Av.Academia de São Paulo, 195",
+    "latitude": -23.5009527,
+    "longitude": -46.3860305
+  },
+  "METRO ITAQUERA": {
+    "endereco": "Largo da Matriz, 85",
+    "latitude": -20.980195,
+    "longitude": -48.33093,
+    "confidence": 1
+  },
+  "ESTAÇÃO SÃO MATEUS": {
+    "endereco": "Av.Sapopemba, 15.000",
+    "latitude": -23.612672,
+    "longitude": -46.4770103
+  },
+  "UBS VILA GUARANI": {
+    "endereco": "R. TERESINHA, 123 - JD MARINGÁ - CEP: 03382-180 - Tel: 2910- 2958/ 2910-5889",
+    "latitude": -23.661191,
+    "longitude": -46.67129,
+    "confidence": 1
+  },
+  "LAR CENTER": {
+    "endereco": "Avenida Otto Baumgart, 500 ( em frente ao Fast Shop)",
+    "latitude": -23.514709,
+    "longitude": -46.616094,
+    "confidence": 0.8
+  },
+  "MEGA POSTO DE VACINAÇÃO - SHOPPING CAMPO LIMPO": {
+    "endereco": "ESTRADA DO CAMPO LIMPO, 459 - VILA PREL - ESTACIONAMENTO TÉRREO",
+    "latitude": -23.649896,
+    "longitude": -46.757321,
+    "confidence": 1
+  },
+  "IGREJA N S DAS CANDEIAS": {
+    "endereco": "R.PEDRO GONÇALVES GUERRA, 04",
+    "latitude": -23.6727797,
+    "longitude": -46.7563965
+  },
+  "SALÃO PAROQUIAL N S DE FATIMA": {
+    "endereco": "R.MANUEL DE OLIVEIRA FALCÃO, 95",
+    "latitude": -23.633807,
+    "longitude": -45.438714,
+    "confidence": 0.8
+  },
+  "BUFFET COLONIAL": {
+    "endereco": "Av. Indianópolis, 300 - esquina com a Alameda dos Maracatins, 62",
+    "latitude": -23.601896,
+    "longitude": -46.656704,
+    "confidence": 1
   }
 }

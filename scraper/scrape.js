@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 
-const GEOCODES_FILE = path.join(__dirname, '..', 'data', 'geocodes.json');
+const GEOCODES_FILE = path.join(__dirname, '..', 'client', 'src', 'data', 'geocodes.json');
 
 const geocodePositionstack = async (address) => {
   const apiEndpoint = new URL('http://api.positionstack.com/v1/forward');

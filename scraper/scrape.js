@@ -3,9 +3,9 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 
-const GEOCODES_FILE = path.join(__dirname, 'geocodes.json');
+const GEOCODES_FILE = path.join(__dirname, '..', 'data', 'geocodes.json');
 
-const geocode = async (address) => {
+const geocodePositionstack = async (address) => {
   const apiEndpoint = new URL('http://api.positionstack.com/v1/forward');
   apiEndpoint.searchParams.set('access_key', process.env.POSITIONSTACK_API_KEY);
   apiEndpoint.searchParams.set('query', address);
@@ -57,7 +57,7 @@ const go = async () => {
     }
 
     try {
-      const geocodeResponse = await geocode(
+      const geocodeResponse = await geocodePositionstack(
         vp.endereco.split('-')[0].trim(),
       );
 

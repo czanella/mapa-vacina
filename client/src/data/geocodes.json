@@ -385,7 +385,9 @@
     "longitude": -46.4300133
   },
   "UBS CDHU PALANQUE": {
-    "endereco": "R. PONTE DA AMIZADE (ALT. AV. RAGUEB CHOHFI, 7208), 2 - JD PALANQUE - CEP: 08375-000 - Tel: 2735-3820"
+    "endereco": "R. PONTE DA AMIZADE (ALT. AV. RAGUEB CHOHFI, 7208), 2 - JD PALANQUE - CEP: 08375-000 - Tel: 2735-3820",
+    "latitude": -23.5950158,
+    "longitude": -46.4211263
   },
   "UBS JARDIM DA CONQUISTA II": {
     "endereco": "TRAVESSA SOMOS TODOS IGUAIS, 915 - JD CONQUISTA - CEP: 08343-000 - Tel: 2253-9547/ 2735-3079",
@@ -588,7 +590,9 @@
     "longitude": -46.3959679
   },
   "UBS JARDIM ROBRU - GUAIANASES": {
-    "endereco": "AV. NORDESTINA, 5593 - LAJEADO - CEP: 08431-410 - Tel: 4780- 5094/ 2035-1860"
+    "endereco": "AV. NORDESTINA, 5593 - LAJEADO - CEP: 08431-410 - Tel: 4780- 5094/ 2035-1860",
+    "latitude": -23.5247101,
+    "longitude": -46.4181059
   },
   "UBS PRIMEIRO DE OUTUBRO": {
     "endereco": "TRAVESSA AÇUCENA DO BREJO, 16 B - JD LOURDES - CEP: 08441-010 - Tel: 2035-8010/ 4780-5032",
@@ -971,7 +975,9 @@
     "longitude": -46.4150175
   },
   "UBS VILA CURUÇÁ": {
-    "endereco": "R. PEDRO MEIRA, 1 - VL CURUÇÁ - CEP: 08030-500 - Tel: 4780- 5037/ 2035-4311"
+    "endereco": "R. PEDRO MEIRA, 1 - VL CURUÇÁ - CEP: 08030-500 - Tel: 4780- 5037/ 2035-4311",
+    "latitude": -23.5023401,
+    "longitude": -46.423008
   },
   "UBS VILA NOVA CURUÇÁ": {
     "endereco": "R. NARCEJA, 51 - SÃO MIGUEL PAULISTA - CEP: 08032-340 - Tel: 4780-5088/ 2035-2292",
@@ -1034,7 +1040,9 @@
     "longitude": -46.47065629999999
   },
   "UBS UNIÃO DE VILA NOVA ": {
-    "endereco": "R. RIO CINCO VOLTAS, 205 - SÃO MIGUEL PAULISTA - CEP: 08071100 - Tel: 2037-7779/ 2956-3837"
+    "endereco": "R. RIO CINCO VOLTAS, 205 - SÃO MIGUEL PAULISTA - CEP: 08071100 - Tel: 2037-7779/ 2956-3837",
+    "latitude": -23.4840125,
+    "longitude": -46.4592443
   },
   "UBS VILA JACUÍ": {
     "endereco": "R. EDIPO FELICIANO, 165 - VL JACUÍ - CEP: 08060-220 - Tel: 2297-8709/ 2297-8422",
@@ -1147,7 +1155,9 @@
     "longitude": -46.7326101
   },
   "AMA/UBS INTEGRADA PARQUE ANHANGUERA": {
-    "endereco": "R. PIERRE RENOIR - VIA ANHANGUERA KM 24,5, 100 - JD BRITANIA - CEP: 05269-030 - Tel: 3916-6160/ 3916-6375"
+    "endereco": "R. PIERRE RENOIR - VIA ANHANGUERA KM 24,5, 100 - JD BRITANIA - CEP: 05269-030 - Tel: 3916-6160/ 3916-6375",
+    "latitude": -23.4312857,
+    "longitude": -46.7876481
   },
   "UBS JARDIM ROSINHA": {
     "endereco": "R. DALVA DE OLIVEIRA, 82 - MORRO DOCE - CEP: 05274-001 - Tel: 3916-4100/ 3911-3141",
@@ -1160,7 +1170,9 @@
     "longitude": -45.8995912
   },
   "UBS MORRO DOCE": {
-    "endereco": "R. ALBERTO CALIX, 55 - JD CANAÃ - CEP: 05267-030 - Tel: 3916- 2059"
+    "endereco": "R. ALBERTO CALIX, 55 - JD CANAÃ - CEP: 05267-030 - Tel: 3916- 2059",
+    "latitude": -23.4393856,
+    "longitude": -46.7941145
   },
   "AMA/UBS INTEGRADA JARDIM LADEIRA ROSA": {
     "endereco": "R. JOSÉ DA COSTA GAVIÃO, 150 - BRASILÂNDIA - CEP: 02872- 000 - Tel: 3851-8818/ 3982-6380",
@@ -1268,7 +1280,9 @@
     "longitude": -46.6551062
   },
   "AMA/UBS INTEGRADA VILA PALMEIRAS": {
-    "endereco": "R. FRANCISCO LOTUFO, 24 - FREGUESIA DO Ó - CEP: 02727- 020 - Tel: 3931-8242/ 3931-7923"
+    "endereco": "R. FRANCISCO LOTUFO, 24 - FREGUESIA DO Ó - CEP: 02727- 020 - Tel: 3931-8242/ 3931-7923",
+    "latitude": -23.4945568,
+    "longitude": -46.6852145
   },
   "AMB.ESP.FÓ": {
     "endereco": "R. Bonifácio Cubas, 304 - Freguesia do Ó, São Paulo - SP, 02731-000",
@@ -1536,7 +1550,9 @@
     "longitude": -46.5750933
   },
   "UBS JARDIM FONTALIS": {
-    "endereco": "R. MOTA, 05 - JARDIM MARTINS SILVA - CEP: 02323035 - Tel: 2995-6257/ 2267-3796"
+    "endereco": "R. MOTA, 05 - JARDIM MARTINS SILVA - CEP: 02323035 - Tel: 2995-6257/ 2267-3796",
+    "latitude": -23.438624,
+    "longitude": -46.570971
   },
   "UBS VILA ALBERTINA - DR OSVALDO MARÇAL": {
     "endereco": "R. ANTONIO JOAQUIM DE OLIVEIRA, 224 - VL ESMERALDA - CEP: 02356-020 - Tel: 2204-9986/ 2204-5773",
@@ -2474,7 +2490,9 @@
     "longitude": -46.7239775
   },
   "UBS BARRAGEM": {
-    "endereco": "R. DOIS, 3 - BARRAGEM - CEP: 04877-110 - Tel: 5977-3212/ 5977- 1020"
+    "endereco": "R. DOIS, 3 - BARRAGEM - CEP: 04877-110 - Tel: 5977-3212/ 5977- 1020",
+    "latitude": -23.8777062,
+    "longitude": -46.6501875
   },
   "UBS COLONIA": {
     "endereco": "R. NOSSA SENHORA APARECIDA, 342 - COLONIA PAULISTA - CEP: 04892-230 - Tel: 5977-3269",

@@ -5,13 +5,12 @@ const path = require('path');
 
 const GEOCODES_FILE = path.join(__dirname, '..', 'client', 'src', 'data', 'geocodes.json');
 
-const geocodePositionstack = async (address) => {
-  const apiEndpoint = new URL('http://api.positionstack.com/v1/forward');
-  apiEndpoint.searchParams.set('access_key', process.env.POSITIONSTACK_API_KEY);
-  apiEndpoint.searchParams.set('query', address);
-  apiEndpoint.searchParams.set('country', 'BR');
-  apiEndpoint.searchParams.set('region', 'Sao Paulo');
-  apiEndpoint.searchParams.set('limit', '1');
+const geocode = async (address) => {
+  const apiEndpoint = new URL('https://maps.googleapis.com/maps/api/geocode/json');
+  apiEndpoint.searchParams.set('key', process.env.GOOGLE_GEOCODING_API_KEY);
+  apiEndpoint.searchParams.set('address', address);
+  apiEndpoint.searchParams.set('bounds', '-24.032516,-46.870244|-23.332120,-46.301311');
+  apiEndpoint.searchParams.set('components', 'administrative_area:São Paulo|country:BR');
 
   return fetch(apiEndpoint.toString());
 };
@@ -57,27 +56,23 @@ const go = async () => {
     }
 
     try {
-      const geocodeResponse = await geocodePositionstack(
+      const geocodeResponse = await geocode(
         vp.endereco.split('-')[0].trim(),
       );
 
       const geocodeData = await geocodeResponse.json();
 
-      if (!geocodeResponse.ok) {
-        throw new Error(geocodeData);
+      if (geocodeData.status !== "OK") {
+        throw new Error(geocodeData.error_message || geocodeData.status);
       }
 
-      const { latitude, longitude, confidence } = geocodeData.data[0];
-      console.log('confidence', confidence);
-      if (!confidence || confidence < 0.75) {
-        throw new Error('Bad confidence');
-      }
+      const { lat: latitude, lng: longitude } =
+        geocodeData.results[0].geometry.location;
 
       geocodes[vp.equipamento] = {
         endereco: vp.endereco,
         latitude,
         longitude,
-        confidence,
       };
     } catch(err) {
       console.log('error!', err);

@@ -2738,5 +2738,20 @@
     "endereco": "Rua Domingos de Morais (acesso pela Externa)",
     "latitude": -23.5990138,
     "longitude": -46.6369018
+  },
+  "UNINOVE VERGUEIRO": {
+    "endereco": "RUA VERGUEIRO, 235 LIBERDADE",
+    "latitude": -23.5641583,
+    "longitude": -46.6381009
+  },
+  "IGREJA BATISTA MONTE CALVÁRIO": {
+    "endereco": "Rua Salomão Dana, 72",
+    "latitude": -23.513514,
+    "longitude": -46.5158506
+  },
+  "FMU SANTO AMARO": {
+    "endereco": "Av. Santo Amaro, 1239 - Vila Nova Conceição",
+    "latitude": -23.5954566,
+    "longitude": -46.6724956
   }
 }

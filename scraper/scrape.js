@@ -43,21 +43,11 @@ const go = async () => {
 
   // Fetch the vaccination points data
   const result = await fetch(process.env.VACCINATION_POINTS_ENDPOINT, {
-    credentials: 'omit',
     headers: {
-      'User-Agent':
-        'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0',
-      Accept: 'application/json, text/javascript, */*; q=0.01',
-      'Accept-Language': 'en-US,en;q=0.5',
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-      'X-Requested-With': 'XMLHttpRequest',
-      Pragma: 'no-cache',
-      'Cache-Control': 'no-cache',
     },
-    referrer: new URL(process.env.VACCINATION_POINTS_ENDPOINT).origin,
     body: 'dados=dados',
     method: 'POST',
-    mode: 'cors',
   });
 
   const vaccinationPoints = await result.json();

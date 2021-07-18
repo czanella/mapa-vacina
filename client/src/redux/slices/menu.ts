@@ -1,9 +1,9 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import type { RootState } from '../store'
+import { createSlice } from '@reduxjs/toolkit';
+import type { RootState } from '../store';
 
 // Define a type for the slice state
 interface IMenuState {
-  isOpen: boolean,
+  isOpen: boolean;
 }
 
 // Define the initial state using that type
@@ -23,7 +23,7 @@ export const menuSlice = createSlice({
       state.isOpen = false;
     },
   },
-})
+});
 
 export const { openMenu, closeMenu } = menuSlice.actions;
 

@@ -1,16 +1,34 @@
-require('dotenv').config();
+const path = require('path');
+require('dotenv').config({
+  path: path.resolve(__dirname, '..', '.env'),
+});
+
 const fetch = require('node-fetch');
 const fs = require('fs');
-const path = require('path');
 
-const GEOCODES_FILE = path.join(__dirname, '..', 'client', 'src', 'data', 'geocodes.json');
+const GEOCODES_FILE = path.join(
+  __dirname,
+  '..',
+  'client',
+  'src',
+  'data',
+  'geocodes.json'
+);
 
 const geocode = async (address) => {
-  const apiEndpoint = new URL('https://maps.googleapis.com/maps/api/geocode/json');
+  const apiEndpoint = new URL(
+    'https://maps.googleapis.com/maps/api/geocode/json'
+  );
   apiEndpoint.searchParams.set('key', process.env.GOOGLE_GEOCODING_API_KEY);
   apiEndpoint.searchParams.set('address', address);
-  apiEndpoint.searchParams.set('bounds', '-24.032516,-46.870244|-23.332120,-46.301311');
-  apiEndpoint.searchParams.set('components', 'administrative_area:São Paulo|country:BR');
+  apiEndpoint.searchParams.set(
+    'bounds',
+    '-24.032516,-46.870244|-23.332120,-46.301311'
+  );
+  apiEndpoint.searchParams.set(
+    'components',
+    'administrative_area:São Paulo|country:BR'
+  );
 
   return fetch(apiEndpoint.toString());
 };
@@ -27,18 +45,19 @@ const go = async () => {
   const result = await fetch(process.env.VACCINATION_POINTS_ENDPOINT, {
     credentials: 'omit',
     headers: {
-      'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0',
+      'User-Agent':
+        'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0',
       Accept: 'application/json, text/javascript, */*; q=0.01',
       'Accept-Language': 'en-US,en;q=0.5',
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
       'X-Requested-With': 'XMLHttpRequest',
       Pragma: 'no-cache',
-      'Cache-Control': 'no-cache'
+      'Cache-Control': 'no-cache',
     },
     referrer: new URL(process.env.VACCINATION_POINTS_ENDPOINT).origin,
     body: 'dados=dados',
     method: 'POST',
-    mode: 'cors'
+    mode: 'cors',
   });
 
   const vaccinationPoints = await result.json();
@@ -46,7 +65,11 @@ const go = async () => {
   // Geocode the vaccination points
   for (let i = 0; i < vaccinationPoints.length; i += 1) {
     const vp = vaccinationPoints[i];
-    console.log(`Geocoding ${vp.equipamento} (${i + 1} of ${vaccinationPoints.length})... `);
+    console.log(
+      `Geocoding ${vp.equipamento} (${i + 1} of ${
+        vaccinationPoints.length
+      })... `
+    );
 
     // We check if the VP hasn't been geocoded yet
     // If not, we try to geocode it and include in the geocodes dict
@@ -56,13 +79,11 @@ const go = async () => {
     }
 
     try {
-      const geocodeResponse = await geocode(
-        vp.endereco.split('-')[0].trim(),
-      );
+      const geocodeResponse = await geocode(vp.endereco.split('-')[0].trim());
 
       const geocodeData = await geocodeResponse.json();
 
-      if (geocodeData.status !== "OK") {
+      if (geocodeData.status !== 'OK') {
         throw new Error(geocodeData.error_message || geocodeData.status);
       }
 
@@ -74,7 +95,7 @@ const go = async () => {
         latitude,
         longitude,
       };
-    } catch(err) {
+    } catch (err) {
       console.log('error!', err);
       geocodes[vp.equipamento] = {
         endereco: vp.endereco,
@@ -82,16 +103,13 @@ const go = async () => {
       };
     }
 
-    fs.writeFileSync(
-      GEOCODES_FILE,
-      JSON.stringify(geocodes, null, 2),
-    );
+    fs.writeFileSync(GEOCODES_FILE, JSON.stringify(geocodes, null, 2));
   }
-}
+};
 
 go()
   .then(() => process.exit(0))
-  .catch(err => {
+  .catch((err) => {
     console.error(err);
     process.exit(1);
   });

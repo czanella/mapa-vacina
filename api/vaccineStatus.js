@@ -1,7 +1,4 @@
 const fetch = require('node-fetch');
-const { writeCache } = require('../utils/cache');
-
-const VACCINE_CACHE_KEY = 'vaccines';
 
 const vaccineStatus = async (req, res) => {
   try {
@@ -23,11 +20,10 @@ const vaccineStatus = async (req, res) => {
       }),
     };
 
-    writeCache(VACCINE_CACHE_KEY, result);
     res.json(result);
   } catch (error) {
     res.status(500).json({ error: error.toString() });
   }
 };
 
-module.exports = { vaccineStatus, VACCINE_CACHE_KEY };
+module.exports = vaccineStatus;

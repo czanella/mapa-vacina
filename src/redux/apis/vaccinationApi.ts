@@ -7,7 +7,7 @@ export const vaccinationApi = createApi({
   }),
   endpoints: (builder) => ({
     getVaccinationStatuses: builder.query({
-      query: () => '/vaccine-status',
+      query: () => '/vaccineStatus',
     }),
   }),
 });

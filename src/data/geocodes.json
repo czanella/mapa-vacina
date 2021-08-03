@@ -2753,5 +2753,15 @@
     "endereco": "Av. Santo Amaro, 1239 - Vila Nova Conceição",
     "latitude": -23.5954566,
     "longitude": -46.6724956
+  },
+  "SHOPPING VILA OLIMPIA": {
+    "endereco": "Rua olimpíadas 360 - Vila Olimpia",
+    "latitude": -23.5952979,
+    "longitude": -46.6866818
+  },
+  "UBS VILA ANGLO - DR. JOSÉ SERRA RIBEIRO": {
+    "endereco": "R. PALESTRA ITÁLIA, 165 - VL POMPÉIA - CEP: 05005-001 - Tel: 3672-8401/ 3801-1547",
+    "latitude": -23.5293969,
+    "longitude": -46.678114
   }
 }

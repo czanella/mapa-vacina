@@ -9,7 +9,6 @@ const fs = require('fs');
 const GEOCODES_FILE = path.join(
   __dirname,
   '..',
-  'client',
   'src',
   'data',
   'geocodes.json'

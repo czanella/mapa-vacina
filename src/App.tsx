@@ -1,9 +1,11 @@
 import { useEffect } from 'react';
 import { Loader as GMapsLoader } from '@googlemaps/js-api-loader';
-import styles from './App.module.scss';
+import VaccineMap from './components/VaccineMap';
 import { useGetVaccinationStatusesQuery } from './redux/apis';
 import { gmapsApiLoaded } from './redux/slices/gmaps';
 import { useAppDispatch } from './redux/hooks';
+
+import styles from './App.module.scss';
 
 function App() {
   const dispatch = useAppDispatch();
@@ -32,11 +34,7 @@ function App() {
 
   return (
     <div className={styles.app}>
-      <p>
-        {isLoading ? 'Loading...' : null}
-        {error ? `Error! ${error}` : null}
-        {data ? JSON.stringify(data, null, 2) : null}
-      </p>
+      <VaccineMap />
     </div>
   );
 }

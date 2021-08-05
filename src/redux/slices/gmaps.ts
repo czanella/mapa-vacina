@@ -21,6 +21,7 @@ export const gmapsSlice = createSlice({
 
 export const { gmapsApiLoaded } = gmapsSlice.actions;
 
-export const isGmapsApiLoaded = (state: RootState) => state.gmaps.isLoaded;
+export const isGmapsApiLoadedSelector = (state: RootState) =>
+  state.gmaps.isLoaded;
 
 export default gmapsSlice.reducer;

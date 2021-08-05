@@ -7,6 +7,7 @@ export const store = configureStore({
     ...reducers,
     [apis.vaccinationApi.reducerPath]: apis.vaccinationApi.reducer,
   },
+  devTools: process.env.NODE_ENV === 'development',
 });
 
 export type RootState = ReturnType<typeof store.getState>;

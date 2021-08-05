@@ -4,7 +4,19 @@ import { isGmapsApiLoadedSelector } from '../../redux/slices/gmaps';
 
 import styles from './VaccineMap.module.scss';
 
-const VaccineMap = () => {
+export interface IVaccinePoint {
+  position: {
+    lat: number;
+    lng: number;
+  };
+  title: string;
+}
+
+interface IVaccineMapProps {
+  vaccinePoints?: IVaccinePoint[];
+}
+
+const VaccineMap = ({ vaccinePoints }: IVaccineMapProps) => {
   const isGmapsLoaded = useAppSelector(isGmapsApiLoadedSelector);
   const mapNode = useRef<HTMLDivElement>(null);
   const map = useRef<google.maps.Map | null>(null);
@@ -21,6 +33,21 @@ const VaccineMap = () => {
       });
     }
   }, [isGmapsLoaded]);
+
+  // Updates the markers
+  useEffect(() => {
+    if (!isGmapsLoaded || !vaccinePoints) {
+      return;
+    }
+
+    const markers = vaccinePoints.map(({ position, title }) => {
+      return new google.maps.Marker({ position, title, map: map.current });
+    });
+
+    return () => {
+      markers.forEach((m) => m.setMap(null));
+    };
+  }, [isGmapsLoaded, vaccinePoints]);
 
   return <div className={styles.map} ref={mapNode} />;
 };

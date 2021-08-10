@@ -1,3 +1,4 @@
+// https://stackoverflow.com/questions/7095574/google-maps-api-3-custom-marker-color-for-default-dot-marker
 import { useEffect, useRef } from 'react';
 import { useAppSelector } from '../../redux/hooks';
 import { isGmapsApiLoadedSelector } from '../../redux/slices/gmaps';

@@ -19,11 +19,7 @@ function App() {
   const dispatch = useAppDispatch();
 
   // Loads the vaccination status query
-  const {
-    data: vaccineData,
-    error,
-    isLoading,
-  } = useGetVaccinationStatusesQuery('');
+  const { data: vaccineData } = useGetVaccinationStatusesQuery('');
 
   // Loads the Google Maps API
   useEffect(() => {

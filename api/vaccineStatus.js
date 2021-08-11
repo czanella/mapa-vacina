@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const geocodes = require('./geocodes.json');
 
 const vaccineStatus = async (req, res) => {
   try {
@@ -13,11 +14,20 @@ const vaccineStatus = async (req, res) => {
     const vaccinationPoints = await vaccineStatus.json();
 
     const result = {
-      data: vaccinationPoints.map((vp) => {
-        const { equipamento, endereco, tipo_posto, status_fila } = vp;
+      data: vaccinationPoints
+        .filter((vp) => geocodes[vp.equipamento])
+        .map((vp) => {
+          const { equipamento, endereco, tipo_posto, status_fila } = vp;
+          const { posicao } = geocodes[equipamento];
 
-        return { equipamento, endereco, tipo_posto, status_fila };
-      }),
+          return {
+            equipamento,
+            endereco,
+            tipo_posto,
+            status_fila,
+            posicao,
+          };
+        }),
     };
 
     res.json(result);

@@ -70,13 +70,11 @@ const go = async () => {
         throw new Error(geocodeData.error_message || geocodeData.status);
       }
 
-      const { lat: latitude, lng: longitude } =
-        geocodeData.results[0].geometry.location;
+      const { lat, lng } = geocodeData.results[0].geometry.location;
 
       geocodes[vp.equipamento] = {
         endereco: vp.endereco,
-        latitude,
-        longitude,
+        posicao: { lat, lng },
       };
     } catch (err) {
       console.log('error!', err);

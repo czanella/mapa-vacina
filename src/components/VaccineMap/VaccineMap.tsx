@@ -2,8 +2,7 @@ import { useEffect, useRef } from 'react';
 import { useGetVaccinationStatusesQuery } from '../../redux/apis';
 import { useAppSelector } from '../../redux/hooks';
 import { isGmapsApiLoadedSelector } from '../../redux/slices/gmaps';
-import colors from './colors';
-import marker from './marker';
+import icons from './icons';
 
 import styles from './VaccineMap.module.scss';
 
@@ -32,16 +31,24 @@ const VaccineMap = () => {
       return;
     }
 
+    const markerIcons: Record<string, google.maps.Icon> = {};
+    Object.keys(icons).forEach((iconKey) => {
+      markerIcons[iconKey] = {
+        url: icons[iconKey],
+        size: new google.maps.Size(110, 210),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(11, 42),
+        scaledSize: new google.maps.Size(22, 42),
+      };
+    });
+
     const markers = data.map(
       ({ posicao, equipamento, status_fila }) =>
         new google.maps.Marker({
           position: posicao,
           title: equipamento,
           map: map.current,
-          icon: {
-            ...marker,
-            fillColor: colors[status_fila] || '#000',
-          },
+          icon: markerIcons[status_fila],
         })
     );
 

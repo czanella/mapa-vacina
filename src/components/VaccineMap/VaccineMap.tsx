@@ -1,23 +1,13 @@
 // https://stackoverflow.com/questions/7095574/google-maps-api-3-custom-marker-color-for-default-dot-marker
 import { useEffect, useRef } from 'react';
+import { useGetVaccinationStatusesQuery } from '../../redux/apis';
 import { useAppSelector } from '../../redux/hooks';
 import { isGmapsApiLoadedSelector } from '../../redux/slices/gmaps';
 
 import styles from './VaccineMap.module.scss';
 
-export interface IVaccinePoint {
-  position: {
-    lat: number;
-    lng: number;
-  };
-  title: string;
-}
-
-interface IVaccineMapProps {
-  vaccinePoints?: IVaccinePoint[];
-}
-
-const VaccineMap = ({ vaccinePoints }: IVaccineMapProps) => {
+const VaccineMap = () => {
+  const { data } = useGetVaccinationStatusesQuery('');
   const isGmapsLoaded = useAppSelector(isGmapsApiLoadedSelector);
   const mapNode = useRef<HTMLDivElement>(null);
   const map = useRef<google.maps.Map | null>(null);
@@ -37,18 +27,23 @@ const VaccineMap = ({ vaccinePoints }: IVaccineMapProps) => {
 
   // Updates the markers
   useEffect(() => {
-    if (!isGmapsLoaded || !vaccinePoints) {
+    if (!isGmapsLoaded || !data) {
       return;
     }
 
-    const markers = vaccinePoints.map(({ position, title }) => {
-      return new google.maps.Marker({ position, title, map: map.current });
-    });
+    const markers = data.map(
+      ({ posicao, equipamento }) =>
+        new google.maps.Marker({
+          position: posicao,
+          title: equipamento,
+          map: map.current,
+        })
+    );
 
     return () => {
       markers.forEach((m) => m.setMap(null));
     };
-  }, [isGmapsLoaded, vaccinePoints]);
+  }, [isGmapsLoaded, data]);
 
   return <div className={styles.map} ref={mapNode} />;
 };

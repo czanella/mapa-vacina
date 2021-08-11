@@ -5,6 +5,10 @@ interface IVaccinationEquipment {
   endereco: string;
   tipo_posto: string;
   status_fila: string;
+  posicao: {
+    lat: number;
+    lng: number;
+  };
 }
 
 export const vaccinationApi = createApi({
@@ -13,10 +17,7 @@ export const vaccinationApi = createApi({
     baseUrl: process.env.REACT_APP_VACCINATION_API ?? '',
   }),
   endpoints: (builder) => ({
-    getVaccinationStatuses: builder.query<
-      { data: IVaccinationEquipment[] },
-      string
-    >({
+    getVaccinationStatuses: builder.query<IVaccinationEquipment[], string>({
       query: () => '/vaccineStatus',
     }),
   }),

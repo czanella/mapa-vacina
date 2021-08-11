@@ -2763,5 +2763,25 @@
     "endereco": "R. PALESTRA ITÁLIA, 165 - VL POMPÉIA - CEP: 05005-001 - Tel: 3672-8401/ 3801-1547",
     "latitude": -23.5293969,
     "longitude": -46.678114
+  },
+  "UBS VILA BARBOSA / CENTRO DE TRADIÇÕES NORDESTINAS - CTN": {
+    "endereco": "RUA JACOFER, 615 - BAIRRO DO LIMÃO - CEP 02712-070 - FONE 3966-1302 / 3951-6457",
+    "latitude": -23.5102199,
+    "longitude": -46.6788141
+  },
+  "UBS VILA ROMANA": {
+    "endereco": "R. VESPASIANO, 679 - VL ROMANA - CEP: 05044-050 - Tel: 3672- 0911/ 3862-4102",
+    "latitude": -23.5289756,
+    "longitude": -46.69528709999999
+  },
+  "": {
+    "endereco": "Rua ",
+    "latitude": -23.5352905,
+    "longitude": -46.6524311
+  },
+  "TCMSP (DRIVE-THRU E WALK)": {
+    "endereco": "Av. Professor Ascendino Reis, 1.130 - Portão B - 50m da estação metrô AACD/Servidor (linha lilás)",
+    "latitude": -23.5998451,
+    "longitude": -46.6521583
   }
 }

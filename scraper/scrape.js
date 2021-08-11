@@ -6,13 +6,7 @@ require('dotenv').config({
 const fetch = require('node-fetch');
 const fs = require('fs');
 
-const GEOCODES_FILE = path.join(
-  __dirname,
-  '..',
-  'src',
-  'data',
-  'geocodes.json'
-);
+const GEOCODES_FILE = path.join(__dirname, '..', 'api', 'geocodes.json');
 
 const geocode = async (address) => {
   const apiEndpoint = new URL(

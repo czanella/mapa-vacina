@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import { useGetVaccinationStatusesQuery } from '../../redux/apis';
 import { useAppSelector } from '../../redux/hooks';
 import { isGmapsApiLoadedSelector } from '../../redux/slices/gmaps';
@@ -25,15 +25,15 @@ const VaccineMap = () => {
     }
   }, [isGmapsLoaded]);
 
-  // Updates the markers
-  useEffect(() => {
-    if (!isGmapsLoaded || !data) {
-      return;
+  // Converts the marker images to GMaps Icons
+  const markerIcons = useMemo(() => {
+    if (!isGmapsLoaded) {
+      return null;
     }
 
-    const markerIcons: Record<string, google.maps.Icon> = {};
+    const mi: Record<string, google.maps.Icon> = {};
     Object.keys(icons).forEach((iconKey) => {
-      markerIcons[iconKey] = {
+      mi[iconKey] = {
         url: icons[iconKey],
         size: new google.maps.Size(110, 210),
         origin: new google.maps.Point(0, 0),
@@ -41,6 +41,15 @@ const VaccineMap = () => {
         scaledSize: new google.maps.Size(22, 42),
       };
     });
+
+    return mi;
+  }, [isGmapsLoaded]);
+
+  // Updates the markers
+  useEffect(() => {
+    if (!markerIcons || !data) {
+      return;
+    }
 
     const markers = data.map(
       ({ posicao, equipamento, status_fila }) =>
@@ -55,7 +64,7 @@ const VaccineMap = () => {
     return () => {
       markers.forEach((m) => m.setMap(null));
     };
-  }, [isGmapsLoaded, data]);
+  }, [markerIcons, data]);
 
   return <div className={styles.map} ref={mapNode} />;
 };

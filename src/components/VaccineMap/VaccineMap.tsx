@@ -1,8 +1,9 @@
-// https://stackoverflow.com/questions/7095574/google-maps-api-3-custom-marker-color-for-default-dot-marker
 import { useEffect, useRef } from 'react';
 import { useGetVaccinationStatusesQuery } from '../../redux/apis';
 import { useAppSelector } from '../../redux/hooks';
 import { isGmapsApiLoadedSelector } from '../../redux/slices/gmaps';
+import colors from './colors';
+import marker from './marker';
 
 import styles from './VaccineMap.module.scss';
 
@@ -32,11 +33,15 @@ const VaccineMap = () => {
     }
 
     const markers = data.map(
-      ({ posicao, equipamento }) =>
+      ({ posicao, equipamento, status_fila }) =>
         new google.maps.Marker({
           position: posicao,
           title: equipamento,
           map: map.current,
+          icon: {
+            ...marker,
+            fillColor: colors[status_fila] || '#000',
+          },
         })
     );
 

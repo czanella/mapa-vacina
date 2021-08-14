@@ -2,8 +2,8 @@
   "GRCS ESCOLA DE SAMBA VAI-VAI": {
     "endereco": "Rua São Vicente, nº 276 - Bela Vista",
     "posicao": {
-      "lat": -24.0010997,
-      "lng": -46.4153976
+      "lat": -23.5563235,
+      "lng": -46.6493438
     }
   },
   "UBS HUMAITÁ - DR. JOÃO DE AZEVEDO LAGE": {
@@ -100,8 +100,8 @@
   "UBS REPÚBLICA - FERNANDA SANTE LIMEIRA": {
     "endereco": "PRAÇA PATRIARCA, 100 - CENTRO - CEP: 01002010 - Tel: 3242- 3756/ 3241-5515",
     "posicao": {
-      "lat": -20.722827,
-      "lng": -46.601262
+      "lat": -23.5471597,
+      "lng": -46.63648
     }
   },
   "UBS SÉ": {
@@ -490,10 +490,10 @@
     }
   },
   "CPTM GUAIANASES": {
-    "endereco": "Av.Salvador, s/n",
+    "endereco": "R. Salvador Gianetti, s/n",
     "posicao": {
-      "lat": -12.975343,
-      "lng": -38.508137
+      "lat": -23.5423324,
+      "lng": -46.4155577
     }
   },
   "UBS GUAIANASES II": {
@@ -695,8 +695,8 @@
   "UBS VILA NOSSA SENHORA APARECIDA": {
     "endereco": "R. PAULINO SERQUEIRA x GUAIA GUAÇU, 1 - ITAQUERA - CEP: 08215-160 - Tel: 2079-7871/ 2073-6039",
     "posicao": {
-      "lat": -22.3368109,
-      "lng": -46.9527375
+      "lat": -23.5343174,
+      "lng": -46.4427312
     }
   },
   "UBS VILA RAMOS - DR. LUIZ AUGUSTO DE CAMPOS": {
@@ -779,8 +779,8 @@
   "UBS JARDIM SÃO PEDRO - FRANCISCO ANTONIO CESARONI": {
     "endereco": "R. SILVIANOPOLIS, 370 - JD SÃO PEDRO - CEP: 08420-680 - Tel: 2552-5355/ 2557-8938",
     "posicao": {
-      "lat": -22.0294237,
-      "lng": -45.8356091
+      "lat": -23.5481602,
+      "lng": -46.4302181
     }
   },
   "UBS JOSE BONIFACIO II": {
@@ -1073,8 +1073,8 @@
   "UBS CIDADE SATÉLITE - SANTA BARBARA": {
     "endereco": "R. SOL, 45 - CIDADE SATÉLITE STA. BARBARA - CEP: 08330-360 - Tel: 2919-5857/ 2012-8262",
     "posicao": {
-      "lat": -22.8518251,
-      "lng": -42.2375853
+      "lat": -23.6117376,
+      "lng": -46.4636608
     }
   },
   "UBS JARDIM COLONIAL": {
@@ -1101,8 +1101,8 @@
   "UBS JARDIM PARAGUAÇU - DR. GONÇALO FELICIANO ALVES": {
     "endereco": "R. TAIOBEIRAS, 125 - JD PARAGUACU - CEP: 03941-060 - Tel: 2727-0484",
     "posicao": {
-      "lat": -15.21081,
-      "lng": -42.6531159
+      "lat": -23.5959112,
+      "lng": -46.5002147
     }
   },
   "UBS JARDIM TIETE II": {
@@ -1591,8 +1591,8 @@
   "SHOPPING INTERLAGOS": {
     "endereco": "Av. Interlagos, 2255 - Estacionamento Subsolo, portão5 - Interlagos - CEP: 04661-200",
     "posicao": {
-      "lat": -23.6865769,
-      "lng": -46.6950408
+      "lat": -23.6764362,
+      "lng": -46.6782658
     }
   },
   "SHOPPING RAPOSO": {
@@ -1626,15 +1626,15 @@
   "UBS JARDIM ROSINHA": {
     "endereco": "R. DALVA DE OLIVEIRA, 82 - MORRO DOCE - CEP: 05274-001 - Tel: 3916-4100/ 3911-3141",
     "posicao": {
-      "lat": -23.5703683,
-      "lng": -46.8204728
+      "lat": -23.4386234,
+      "lng": -46.80219470000001
     }
   },
   "UBS MORADA DO SOL": {
     "endereco": "R. ASSIS BRASIL X PÇA. LUIZ VAZ DE CAMÕES, 31 - SOL NASCENTE - CEP: 05281-130 - Tel: 3941-4364",
     "posicao": {
-      "lat": -23.2417616,
-      "lng": -45.8995912
+      "lat": -23.431828,
+      "lng": -46.78161
     }
   },
   "UBS MORRO DOCE": {
@@ -2011,8 +2011,8 @@
   "UBS VILA CAIÚBA": {
     "endereco": "R. PRESIDENTE VARGAS, 540 - PERUS - CEP: 05207-000 - Tel: 3835-2063",
     "posicao": {
-      "lat": -22.9014291,
-      "lng": -43.1808616
+      "lat": -23.3999249,
+      "lng": -46.7510521
     }
   },
   "AMA/UBS INTEGRADA VILA PEREIRA BARRETO": {
@@ -2417,8 +2417,8 @@
   "SAE LAPA": {
     "endereco": "R. Tomé de Souza, 30 - Lapa ",
     "posicao": {
-      "lat": -12.251416,
-      "lng": -38.981803
+      "lat": -23.5252138,
+      "lng": -46.7069494
     }
   },
   "TEATRO CACILDA BECKER": {
@@ -2487,8 +2487,8 @@
   "AMA/UBS INTEGRADA PAULO VI": {
     "endereco": "AV. VATICANO, 69 - JD JOAO XXIII - CEP: 05569-120 - Tel: 3782- 0838/ 3782-8595",
     "posicao": {
-      "lat": -23.3148272,
-      "lng": -46.7305937
+      "lat": -23.6018817,
+      "lng": -46.7952174
     }
   },
   "UBS JARDIM BOA VISTA": {
@@ -3054,8 +3054,8 @@
   "UBS SHANGRILA/ELLUS": {
     "endereco": "R. SEM NOME, 16 - JD SHANGRILA - CEP: 04852032 - Tel: 59322180",
     "posicao": {
-      "lat": -22.8153237,
-      "lng": -43.3632359
+      "lat": -23.7663726,
+      "lng": -46.667633
     }
   },
   "UBS VARGINHA": {
@@ -3236,8 +3236,8 @@
   "UBS JARDIM ARACATI": {
     "endereco": "R. FANCISCO HOMEM DEL REI, 87 - JD ARACATI - CEP: 04949- 070 - Tel: 5896-1139/ 5896-1027",
     "posicao": {
-      "lat": -25.5896787,
-      "lng": -49.15501099999999
+      "lat": -23.7189499,
+      "lng": -46.7700864
     }
   },
   "UBS JARDIM CAIÇARA": {
@@ -3628,8 +3628,8 @@
   "UBS MATA VIRGEM": {
     "endereco": "ESTRADA DA SAUDE, 47 - ELDORADO - CEP: 04476-540 - Tel: 5673-4455/ 5673-4477",
     "posicao": {
-      "lat": -23.6466791,
-      "lng": -46.9897404
+      "lat": -23.7145123,
+      "lng": -46.6275337
     }
   },
   "UBS VILA APARECIDA": {

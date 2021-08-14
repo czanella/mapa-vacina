@@ -21,6 +21,7 @@ const VaccineMap = () => {
           lng: -46.62529,
         },
         zoom: 10,
+        disableDefaultUI: true,
       });
     }
   }, [isGmapsLoaded]);

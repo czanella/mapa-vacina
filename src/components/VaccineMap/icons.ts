@@ -11,6 +11,8 @@ const icons: Record<string, string> = {
   'FILA MÉDIA': mediumQueue,
   'FILA PEQUENA': smallQueue,
   'AGUARDANDO ABASTECIMENTO 1ª DOSE': awaitingSupplies,
+  'AGUARDANDO ABASTECIMENTO 2ª DOSE': awaitingSupplies,
+  'AGUARDANDO ABASTECIMENTO 1ª e 2ª DOSE': awaitingSupplies,
   'NÃO FUNCIONANDO': closed,
 };
 

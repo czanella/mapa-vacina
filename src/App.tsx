@@ -3,8 +3,11 @@ import { Loader as GMapsLoader } from '@googlemaps/js-api-loader';
 import VaccineMap from './components/VaccineMap';
 import { gmapsApiLoaded } from './redux/slices/gmaps';
 import { useAppDispatch } from './redux/hooks';
+import { useGetVaccinationStatusesQuery } from './redux/apis';
 
 import styles from './App.module.scss';
+
+const REFETCH_LENGTH = 10; // minutes
 
 function App() {
   const dispatch = useAppDispatch();
@@ -27,6 +30,14 @@ function App() {
 
     loadGmaps();
   }, [dispatch]);
+
+  // Fetches the vaccination data and refreshes the data once every 10 minutes
+  const { refetch } = useGetVaccinationStatusesQuery('');
+  useEffect(() => {
+    const intervalId = window.setInterval(refetch, REFETCH_LENGTH * 60 * 1000);
+
+    return () => window.clearInterval(intervalId);
+  }, [refetch]);
 
   return (
     <div className={styles.app}>

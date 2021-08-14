@@ -1,6 +1,8 @@
 const fetch = require('node-fetch');
 const geocodes = require('./geocodes.json');
 
+const CACHE_MINUTES = 9;
+
 const vaccineStatus = async (req, res) => {
   try {
     const vaccineStatus = await fetch(process.env.VACCINATION_POINTS_ENDPOINT, {
@@ -28,6 +30,7 @@ const vaccineStatus = async (req, res) => {
         };
       });
 
+    res.setHeader('Cache-Control', `s-maxage=${CACHE_MINUTES * 60}`);
     res.json(result);
   } catch (error) {
     res.status(500).json({ error: error.toString() });

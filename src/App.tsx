@@ -41,6 +41,7 @@ function App() {
 
   return (
     <div className={styles.app}>
+      <div className={styles.header}>Mapa da Vacina</div>
       <VaccineMap />
     </div>
   );

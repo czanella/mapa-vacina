@@ -9,10 +9,14 @@ import {
 import icons from './icons';
 
 import styles from './VaccineMap.module.scss';
+import ErrorMessage from '../ErrorMessage';
 
 const VaccineMap = () => {
-  const { data, isLoading: loadingVaccineData } =
-    useGetVaccinationStatusesQuery('');
+  const {
+    data,
+    isLoading: loadingVaccineData,
+    error: vaccineDataError,
+  } = useGetVaccinationStatusesQuery('');
   const isGmapsLoaded = useAppSelector(isGmapsApiLoadedSelector);
   const isGmapsApiError = useAppSelector(isGmapsApiErrorSelector);
   const mapNode = useRef<HTMLDivElement>(null);
@@ -82,11 +86,25 @@ const VaccineMap = () => {
     loadingMessage = 'Carregando dados dos postos de vacinação...';
   }
 
+  // Should we display an error message?
+  let errorMessage: string = '';
+
+  if (isGmapsApiError) {
+    errorMessage =
+      'Erro ao carregar mapa. Por favor, tente novamente mais tarde.';
+  } else if (vaccineDataError) {
+    errorMessage =
+      'Erro ao carregar dados dos postos de vacinação. Por favor, tente novamente mais tarde.';
+  }
+
   return (
     <div className={styles.mapContainer}>
       <div className={styles.map} ref={mapNode} />
-      {loadingMessage ? (
+      {loadingMessage && !errorMessage ? (
         <LoadingMessage className={styles.message} message={loadingMessage} />
+      ) : null}
+      {errorMessage ? (
+        <ErrorMessage className={styles.message} message={errorMessage} />
       ) : null}
     </div>
   );

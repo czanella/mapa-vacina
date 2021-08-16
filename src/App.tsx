@@ -22,12 +22,12 @@ function App() {
   // Loads the Google Maps API
   useEffect(() => {
     const loadGmaps = async () => {
-      const loader = new GMapsLoader({
-        apiKey: process.env.REACT_APP_GMAPS_KEY ?? '',
-        version: 'weekly',
-      });
-
       try {
+        const loader = new GMapsLoader({
+          apiKey: process.env.REACT_APP_GMAPS_KEY ?? '',
+          version: 'weekly',
+        });
+
         await loader.load();
         dispatch(gmapsApiLoaded());
       } catch (err) {

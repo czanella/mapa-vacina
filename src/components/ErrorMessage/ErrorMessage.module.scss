@@ -1,6 +1,6 @@
 @import '../../styles/main.scss';
 
-.loadingMessage {
+.errorMessage {
   background-color: rgba($white, 0.9);
   display: flex;
   flex-direction: column;
@@ -11,6 +11,15 @@
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+
+  path {
+    fill: currentColor;
+  }
 }
 
 .message {

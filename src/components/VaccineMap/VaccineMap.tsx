@@ -4,7 +4,7 @@ import { useGetVaccinationStatusesQuery } from '../../redux/apis';
 import { useAppSelector } from '../../redux/hooks';
 import {
   isGmapsApiLoadedSelector,
-  gmapsApiErrorSelector,
+  isGmapsApiErrorSelector,
 } from '../../redux/slices/gmaps';
 import icons from './icons';
 
@@ -14,7 +14,7 @@ const VaccineMap = () => {
   const { data, isLoading: loadingVaccineData } =
     useGetVaccinationStatusesQuery('');
   const isGmapsLoaded = useAppSelector(isGmapsApiLoadedSelector);
-  const gmapsApiError = useAppSelector(gmapsApiErrorSelector);
+  const isGmapsApiError = useAppSelector(isGmapsApiErrorSelector);
   const mapNode = useRef<HTMLDivElement>(null);
   const map = useRef<google.maps.Map | null>(null);
 
@@ -76,7 +76,7 @@ const VaccineMap = () => {
   // Should we display a loading message?
   let loadingMessage: string = '';
 
-  if (!isGmapsLoaded && !gmapsApiError) {
+  if (!isGmapsLoaded && !isGmapsApiError) {
     loadingMessage = 'Carregando mapa...';
   } else if (loadingVaccineData) {
     loadingMessage = 'Carregando dados dos postos de vacinação...';

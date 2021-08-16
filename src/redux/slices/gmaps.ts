@@ -29,6 +29,6 @@ export const { gmapsApiLoaded, gmapsApiError } = gmapsSlice.actions;
 export const isGmapsApiLoadedSelector = (state: RootState) =>
   state.gmaps.isLoaded;
 
-export const gmapsApiErrorSelector = (state: RootState) => state.gmaps.error;
+export const isGmapsApiErrorSelector = (state: RootState) => state.gmaps.error;
 
 export default gmapsSlice.reducer;

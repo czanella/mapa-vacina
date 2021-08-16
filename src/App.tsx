@@ -1,8 +1,12 @@
 import { useEffect } from 'react';
 import { Loader as GMapsLoader } from '@googlemaps/js-api-loader';
 import VaccineMap from './components/VaccineMap';
-import { gmapsApiLoaded, gmapsApiError } from './redux/slices/gmaps';
-import { useAppDispatch } from './redux/hooks';
+import {
+  gmapsApiLoaded,
+  gmapsApiError,
+  isGmapsApiErrorSelector,
+} from './redux/slices/gmaps';
+import { useAppDispatch, useAppSelector } from './redux/hooks';
 import { useGetVaccinationStatusesQuery } from './redux/apis';
 
 import styles from './App.module.scss';
@@ -13,6 +17,7 @@ const REFETCH_INTERVAL: number = parseFloat(
 
 function App() {
   const dispatch = useAppDispatch();
+  const isGmapsApiError = useAppSelector(isGmapsApiErrorSelector);
 
   // Loads the Google Maps API
   useEffect(() => {
@@ -37,13 +42,17 @@ function App() {
   // Fetches the vaccination data and refreshes the data once every 10 minutes
   const { refetch } = useGetVaccinationStatusesQuery('');
   useEffect(() => {
+    if (isGmapsApiError) {
+      return;
+    }
+
     const intervalId = window.setInterval(
       refetch,
       REFETCH_INTERVAL * 60 * 1000
     );
 
     return () => window.clearInterval(intervalId);
-  }, [refetch]);
+  }, [isGmapsApiError, refetch]);
 
   return (
     <div className={styles.app}>

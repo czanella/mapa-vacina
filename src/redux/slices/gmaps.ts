@@ -3,10 +3,12 @@ import type { RootState } from '../store';
 
 interface IGmaps {
   isLoaded: boolean;
+  error: boolean;
 }
 
 const initialState: IGmaps = {
   isLoaded: false,
+  error: false,
 };
 
 export const gmapsSlice = createSlice({
@@ -16,12 +18,17 @@ export const gmapsSlice = createSlice({
     gmapsApiLoaded: (state) => {
       state.isLoaded = true;
     },
+    gmapsApiError: (state) => {
+      state.error = true;
+    },
   },
 });
 
-export const { gmapsApiLoaded } = gmapsSlice.actions;
+export const { gmapsApiLoaded, gmapsApiError } = gmapsSlice.actions;
 
 export const isGmapsApiLoadedSelector = (state: RootState) =>
   state.gmaps.isLoaded;
+
+export const gmapsApiErrorSelector = (state: RootState) => state.gmaps.error;
 
 export default gmapsSlice.reducer;

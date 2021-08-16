@@ -1,0 +1,13 @@
+@import '../../styles/main.scss';
+
+.spinner {
+  display: block;
+  shape-rendering: auto;
+  width: 100px;
+  height: 100px;
+
+  path {
+    fill: currentColor;
+    stroke: none;
+  }
+}

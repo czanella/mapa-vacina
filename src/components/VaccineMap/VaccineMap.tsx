@@ -1,14 +1,20 @@
 import { useEffect, useMemo, useRef } from 'react';
+import LoadingMessage from '../LoadingMessage';
 import { useGetVaccinationStatusesQuery } from '../../redux/apis';
 import { useAppSelector } from '../../redux/hooks';
-import { isGmapsApiLoadedSelector } from '../../redux/slices/gmaps';
+import {
+  isGmapsApiLoadedSelector,
+  gmapsApiErrorSelector,
+} from '../../redux/slices/gmaps';
 import icons from './icons';
 
 import styles from './VaccineMap.module.scss';
 
 const VaccineMap = () => {
-  const { data } = useGetVaccinationStatusesQuery('');
+  const { data, isLoading: loadingVaccineData } =
+    useGetVaccinationStatusesQuery('');
   const isGmapsLoaded = useAppSelector(isGmapsApiLoadedSelector);
+  const gmapsApiError = useAppSelector(gmapsApiErrorSelector);
   const mapNode = useRef<HTMLDivElement>(null);
   const map = useRef<google.maps.Map | null>(null);
 
@@ -67,7 +73,23 @@ const VaccineMap = () => {
     };
   }, [markerIcons, data]);
 
-  return <div className={styles.map} ref={mapNode} />;
+  // Should we display a loading message?
+  let loadingMessage: string = '';
+
+  if (!isGmapsLoaded && !gmapsApiError) {
+    loadingMessage = 'Carregando mapa...';
+  } else if (loadingVaccineData) {
+    loadingMessage = 'Carregando dados dos postos de vacinação...';
+  }
+
+  return (
+    <div className={styles.mapContainer}>
+      <div className={styles.map} ref={mapNode} />
+      {loadingMessage ? (
+        <LoadingMessage className={styles.message} message={loadingMessage} />
+      ) : null}
+    </div>
+  );
 };
 
 export default VaccineMap;

@@ -56,10 +56,10 @@ const VaccineMap = () => {
     return mi;
   }, [isGmapsLoaded]);
 
-  // Updates the markers
-  useEffect(() => {
+  // Builds/updates the markers
+  const markers = useMemo(() => {
     if (!markerIcons || !data) {
-      return;
+      return null;
     }
 
     const markers = data.map(
@@ -72,10 +72,20 @@ const VaccineMap = () => {
         })
     );
 
+    return markers;
+  }, [markerIcons, data]);
+
+  useEffect(() => {
+    if (!markers) {
+      return;
+    }
+
+    markers.forEach((m) => m.setMap(map.current));
+
     return () => {
       markers.forEach((m) => m.setMap(null));
     };
-  }, [markerIcons, data]);
+  }, [markers]);
 
   // Should we display a loading message?
   let loadingMessage: string = '';

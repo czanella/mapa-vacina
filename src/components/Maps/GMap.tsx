@@ -36,7 +36,6 @@ const GMap = ({
           onError(e.error);
         }
       });
-    setIsGmapsLoaded(true);
   }, [apiKey, onError, onReady]);
 
   // Builds the map as soon as the API is loaded

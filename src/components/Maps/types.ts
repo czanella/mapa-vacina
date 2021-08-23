@@ -3,10 +3,18 @@ export interface IPosition {
   lng: number;
 }
 
+export interface IMapIcon {
+  url: string;
+  size?: [number, number];
+  origin?: [number, number];
+  anchor?: [number, number];
+  scaledSize?: [number, number];
+}
+
 export interface IMarker {
   title: string;
   position: IPosition;
-  icon?: string;
+  icon?: IMapIcon;
   onClick?: (e: MouseEvent) => void;
 }
 

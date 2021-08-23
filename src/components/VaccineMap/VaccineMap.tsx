@@ -1,15 +1,11 @@
-import { useEffect, useMemo, useRef } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import LoadingMessage from '../LoadingMessage';
 import { useGetVaccinationStatusesQuery } from '../../redux/apis';
-import { useAppSelector } from '../../redux/hooks';
-import {
-  isGmapsApiLoadedSelector,
-  isGmapsApiErrorSelector,
-} from '../../redux/slices/gmaps';
 import icons from './icons';
+import ErrorMessage from '../ErrorMessage';
+import GMap from '../Maps/GMap';
 
 import styles from './VaccineMap.module.scss';
-import ErrorMessage from '../ErrorMessage';
 
 const VaccineMap = () => {
   const {
@@ -17,75 +13,30 @@ const VaccineMap = () => {
     isLoading: loadingVaccineData,
     error: vaccineDataError,
   } = useGetVaccinationStatusesQuery('');
-  const isGmapsLoaded = useAppSelector(isGmapsApiLoadedSelector);
-  const isGmapsApiError = useAppSelector(isGmapsApiErrorSelector);
-  const mapNode = useRef<HTMLDivElement>(null);
-  const map = useRef<google.maps.Map | null>(null);
+  const [isGmapsLoaded, setIsGmapsLoaded] = useState(false);
+  const [isGmapsApiError, setIsGmapsApiError] = useState(false);
 
-  // Builds the map
-  useEffect(() => {
-    if (isGmapsLoaded) {
-      map.current = new google.maps.Map(mapNode.current as HTMLDivElement, {
-        center: {
-          lat: -23.533773,
-          lng: -46.62529,
-        },
-        zoom: 10,
-        disableDefaultUI: true,
-      });
-    }
-  }, [isGmapsLoaded]);
-
-  // Converts the marker images to GMaps Icons
-  const markerIcons = useMemo(() => {
-    if (!isGmapsLoaded) {
-      return null;
+  // Builds/updates the markers data
+  const markersData = useMemo(() => {
+    if (!data) {
+      return undefined;
     }
 
-    const mi: Record<string, google.maps.Icon> = {};
-    Object.keys(icons).forEach((iconKey) => {
-      mi[iconKey] = {
-        url: icons[iconKey],
-        size: new google.maps.Size(110, 210),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(11, 42),
-        scaledSize: new google.maps.Size(22, 42),
-      };
-    });
+    return data.map(({ posicao, equipamento, status_fila }) => ({
+      position: posicao,
+      title: equipamento,
+      icon: icons[status_fila],
+    }));
+  }, [data]);
 
-    return mi;
-  }, [isGmapsLoaded]);
+  // Callbacks for the GMap component
+  const onReady = useCallback(() => {
+    setIsGmapsLoaded(true);
+  }, []);
 
-  // Builds/updates the markers
-  const markers = useMemo(() => {
-    if (!markerIcons || !data) {
-      return null;
-    }
-
-    const markers = data.map(
-      ({ posicao, equipamento, status_fila }) =>
-        new google.maps.Marker({
-          position: posicao,
-          title: equipamento,
-          map: map.current,
-          icon: markerIcons[status_fila],
-        })
-    );
-
-    return markers;
-  }, [markerIcons, data]);
-
-  useEffect(() => {
-    if (!markers) {
-      return;
-    }
-
-    markers.forEach((m) => m.setMap(map.current));
-
-    return () => {
-      markers.forEach((m) => m.setMap(null));
-    };
-  }, [markers]);
+  const onError = useCallback(() => {
+    setIsGmapsApiError(true);
+  }, []);
 
   // Should we display a loading message?
   let loadingMessage: string = '';
@@ -109,7 +60,16 @@ const VaccineMap = () => {
 
   return (
     <div className={styles.mapContainer}>
-      <div className={styles.map} ref={mapNode} />
+      <GMap
+        apiKey={process.env.REACT_APP_GMAPS_KEY ?? ''}
+        initialPosition={{
+          lat: -23.533773,
+          lng: -46.62529,
+        }}
+        markersData={markersData}
+        onReady={onReady}
+        onError={onError}
+      />
       {loadingMessage && !errorMessage ? (
         <LoadingMessage className={styles.message} message={loadingMessage} />
       ) : null}

@@ -60,12 +60,29 @@ const GMap = ({
 
     const markerListeners: google.maps.MapsEventListener[] = [];
     const markers = markersData.map(({ position, title, icon, onClick }) => {
-      const marker = new google.maps.Marker({
+      const markerOptions: google.maps.MarkerOptions = {
         position,
         title,
         map: map.current,
-        icon,
-      });
+      };
+
+      if (icon) {
+        markerOptions.icon = {
+          url: icon.url,
+          size: icon.size ? new google.maps.Size(...icon.size) : undefined,
+          origin: icon.origin
+            ? new google.maps.Point(...icon.origin)
+            : undefined,
+          anchor: icon.anchor
+            ? new google.maps.Point(...icon.anchor)
+            : undefined,
+          scaledSize: icon.scaledSize
+            ? new google.maps.Size(...icon.scaledSize)
+            : undefined,
+        };
+      }
+
+      const marker = new google.maps.Marker(markerOptions);
 
       if (onClick) {
         markerListeners.push(marker.addListener('click', onClick));

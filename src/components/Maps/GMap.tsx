@@ -58,7 +58,9 @@ const GMap = ({
     }
 
     const markerListeners: google.maps.MapsEventListener[] = [];
-    const markers = markersData.map(({ position, title, icon, onClick }) => {
+    const markers = markersData.map((markerData) => {
+      const { position, title, icon, onClick } = markerData;
+
       const markerOptions: google.maps.MarkerOptions = {
         position,
         title,
@@ -83,9 +85,14 @@ const GMap = ({
 
       const marker = new google.maps.Marker(markerOptions);
 
-      if (onClick) {
-        markerListeners.push(marker.addListener('click', onClick));
-      }
+      markerListeners.push(
+        marker.addListener('click', () => {
+          map.current?.panTo(position);
+          if (onClick) {
+            onClick(markerData);
+          }
+        })
+      );
 
       return marker;
     });

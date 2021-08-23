@@ -4,8 +4,11 @@ import { useGetVaccinationStatusesQuery } from '../../redux/apis';
 import icons from './icons';
 import ErrorMessage from '../ErrorMessage';
 import GMap from '../Maps/GMap';
+import { IMarker } from '../Maps/types';
 
 import styles from './VaccineMap.module.scss';
+
+const onClick = (marker: IMarker) => console.log(marker.title);
 
 const VaccineMap = () => {
   const {
@@ -26,6 +29,7 @@ const VaccineMap = () => {
       position: posicao,
       title: equipamento,
       icon: icons[status_fila],
+      onClick,
     }));
   }, [data]);
 

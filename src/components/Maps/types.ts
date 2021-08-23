@@ -15,7 +15,7 @@ export interface IMarker {
   title: string;
   position: IPosition;
   icon?: IMapIcon;
-  onClick?: (e: MouseEvent) => void;
+  onClick?: (markerData: IMarker) => void;
 }
 
 export interface IInfoWindow {

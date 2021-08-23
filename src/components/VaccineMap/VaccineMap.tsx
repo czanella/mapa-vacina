@@ -13,8 +13,8 @@ const VaccineMap = () => {
     isLoading: loadingVaccineData,
     error: vaccineDataError,
   } = useGetVaccinationStatusesQuery('');
-  const [isGmapsLoaded, setIsGmapsLoaded] = useState(false);
-  const [isGmapsApiError, setIsGmapsApiError] = useState(false);
+  const [isMapReady, setIsMapReady] = useState(false);
+  const [isMapApiError, setIsMapApiError] = useState(false);
 
   // Builds/updates the markers data
   const markersData = useMemo(() => {
@@ -31,17 +31,17 @@ const VaccineMap = () => {
 
   // Callbacks for the GMap component
   const onReady = useCallback(() => {
-    setIsGmapsLoaded(true);
+    setIsMapReady(true);
   }, []);
 
   const onError = useCallback(() => {
-    setIsGmapsApiError(true);
+    setIsMapApiError(true);
   }, []);
 
   // Should we display a loading message?
   let loadingMessage: string = '';
 
-  if (!isGmapsLoaded && !isGmapsApiError) {
+  if (!isMapReady && !isMapApiError) {
     loadingMessage = 'Carregando mapa...';
   } else if (loadingVaccineData) {
     loadingMessage = 'Carregando dados dos postos de vacinação...';
@@ -50,7 +50,7 @@ const VaccineMap = () => {
   // Should we display an error message?
   let errorMessage: string = '';
 
-  if (isGmapsApiError) {
+  if (isMapApiError) {
     errorMessage =
       'Erro ao carregar mapa. Por favor, tente novamente mais tarde.';
   } else if (vaccineDataError) {

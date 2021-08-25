@@ -3897,5 +3897,26 @@
       "lat": -23.5998451,
       "lng": -46.6521583
     }
+  },
+  "MEGA POSTO - SESI AE CARVALHO": {
+    "endereco": "Rua Deodato saraiva da silva, 110 - Arthur Alvim, São Paulo - 03694-090",
+    "posicao": {
+      "lat": -23.5358151,
+      "lng": -46.4756081
+    }
+  },
+  "CAPS INFANTO JUVENIL ERMELINO MATARAZZO": {
+    "endereco": "Rua Antonio Bonici, 18 - Jd. Matarazzo - CEP: 03811-060",
+    "posicao": {
+      "lat": -23.4914008,
+      "lng": -46.4821688
+    }
+  },
+  "MEGA POSTO - SHOPPING ARICANDUVA": {
+    "endereco": "AVENIDA ARICANDUVA, 5555 - ESTACIONAMENTO AUTO SHOPPING - ACESSO PELO PORTÃO 4 - CEP: 03930-110",
+    "posicao": {
+      "lat": -23.5656417,
+      "lng": -46.50490370000001
+    }
   }
 }

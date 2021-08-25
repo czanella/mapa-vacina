@@ -7,14 +7,14 @@ import smallQueue from './images/smallQueue.png';
 import awaitingSupplies from './images/awaitingSupplies.png';
 import closed from './images/closed.png';
 
-const iconGeometry: Record<string, [number, number]> = {
+export const iconGeometry: Record<string, [number, number]> = {
   size: [110, 210],
   origin: [0, 0],
   anchor: [11, 42],
   scaledSize: [22, 42],
 };
 
-const icons: Record<string, IMapIcon> = {
+export const icons: Record<string, IMapIcon> = {
   'SEM FILA': {
     url: noQueue,
     ...iconGeometry,
@@ -48,5 +48,3 @@ const icons: Record<string, IMapIcon> = {
     ...iconGeometry,
   },
 };
-
-export default icons;

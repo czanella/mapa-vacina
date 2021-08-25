@@ -1,11 +1,22 @@
 import { useCallback, useMemo, useState } from 'react';
 import LoadingMessage from '../LoadingMessage';
 import { useGetVaccinationStatusesQuery } from '../../redux/apis';
-import icons from './icons';
+import { icons, iconGeometry } from './icons';
 import ErrorMessage from '../ErrorMessage';
 import GMap from '../Maps/GMap';
 
 import styles from './VaccineMap.module.scss';
+import { IVaccinationEquipment } from '../../types';
+import { IInfoWindow } from '../Maps/types';
+
+const buildContent = ({
+  equipamento,
+  endereco,
+  tipo_posto,
+  status_fila,
+}: IVaccinationEquipment) => {
+  return [equipamento, endereco, tipo_posto, status_fila].join('<br />');
+};
 
 const VaccineMap = () => {
   const {
@@ -15,6 +26,7 @@ const VaccineMap = () => {
   } = useGetVaccinationStatusesQuery('');
   const [isMapReady, setIsMapReady] = useState(false);
   const [isMapApiError, setIsMapApiError] = useState(false);
+  const [infoWindow, setInfoWindow] = useState<IInfoWindow | null>(null);
 
   // Builds/updates the markers data
   const markersData = useMemo(() => {
@@ -22,11 +34,18 @@ const VaccineMap = () => {
       return undefined;
     }
 
-    return data.map(({ posicao, equipamento, status_fila }) => ({
-      position: posicao,
-      title: equipamento,
-      icon: icons[status_fila],
-      onClick: () => console.log(equipamento),
+    return data.map((vaccinationEquipment) => ({
+      position: vaccinationEquipment.posicao,
+      title: vaccinationEquipment.equipamento,
+      icon: icons[vaccinationEquipment.status_fila],
+      onClick: () => {
+        setInfoWindow({
+          content: buildContent(vaccinationEquipment),
+          position: vaccinationEquipment.posicao,
+          offset: [0, -iconGeometry.scaledSize[1] - 5],
+          onClose: () => setInfoWindow(null),
+        });
+      },
     }));
   }, [data]);
 
@@ -68,6 +87,7 @@ const VaccineMap = () => {
           lng: -46.62529,
         }}
         markersData={markersData}
+        infoWindowsData={infoWindow ? [infoWindow] : undefined}
         onReady={onReady}
         onError={onError}
       />

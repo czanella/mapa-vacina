@@ -1,15 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-
-interface IVaccinationEquipment {
-  equipamento: string;
-  endereco: string;
-  tipo_posto: string;
-  status_fila: string;
-  posicao: {
-    lat: number;
-    lng: number;
-  };
-}
+import { IVaccinationEquipment } from '../../types';
 
 export const vaccinationApi = createApi({
   reducerPath: 'vaccinationApi',

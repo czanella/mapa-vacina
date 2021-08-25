@@ -21,6 +21,7 @@ export interface IMarker {
 export interface IInfoWindow {
   content: string;
   position: IPosition;
+  offset?: [number, number];
   onClose?: (e: MouseEvent) => void;
 }
 

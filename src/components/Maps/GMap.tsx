@@ -92,9 +92,43 @@ const GMap = ({
 
     return () => {
       markerListeners.forEach((ml) => ml.remove());
-      markers.forEach((m) => m.setMap(null));
+      markers.forEach((m) => {
+        m.setMap(null);
+        m.unbindAll();
+      });
     };
   }, [isGmapsLoaded, markersData]);
+
+  // Builds or updates the info windows
+  useEffect(() => {
+    if (!isGmapsLoaded || !infoWindowsData) {
+      return;
+    }
+
+    const infoWindows = infoWindowsData.map(({ position, content, offset }) => {
+      const infoWindowOptions: google.maps.InfoWindowOptions = {
+        position: new google.maps.LatLng(position),
+        content,
+      };
+
+      if (offset) {
+        infoWindowOptions.pixelOffset = new google.maps.Size(...offset);
+      }
+
+      const infoWindow = new google.maps.InfoWindow(infoWindowOptions);
+
+      infoWindow.open({ map: map.current });
+
+      return infoWindow;
+    });
+
+    return () => {
+      infoWindows.forEach((infoWindow) => {
+        infoWindow.close();
+        infoWindow.unbindAll();
+      });
+    };
+  }, [isGmapsLoaded, infoWindowsData]);
 
   return <div className={styles.gmap} ref={mapNode} />;
 };

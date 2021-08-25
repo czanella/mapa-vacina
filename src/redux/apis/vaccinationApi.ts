@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import { IVaccinationEquipment } from '../../types';
+import { IVaccinePoint } from '../../types';
 
 export const vaccinationApi = createApi({
   reducerPath: 'vaccinationApi',
@@ -7,7 +7,7 @@ export const vaccinationApi = createApi({
     baseUrl: process.env.REACT_APP_VACCINATION_API ?? '',
   }),
   endpoints: (builder) => ({
-    getVaccinationStatuses: builder.query<IVaccinationEquipment[], string>({
+    getVaccinationStatuses: builder.query<IVaccinePoint[], string>({
       query: () => '/vaccineStatus',
     }),
   }),

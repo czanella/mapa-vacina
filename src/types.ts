@@ -1,4 +1,4 @@
-export interface IVaccinationEquipment {
+export interface IVaccinePoint {
   equipamento: string;
   endereco: string;
   tipo_posto: string;

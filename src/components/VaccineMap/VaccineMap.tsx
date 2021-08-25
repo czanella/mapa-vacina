@@ -6,7 +6,7 @@ import ErrorMessage from '../ErrorMessage';
 import GMap from '../Maps/GMap';
 
 import styles from './VaccineMap.module.scss';
-import { IVaccinationEquipment } from '../../types';
+import { IVaccinePoint } from '../../types';
 import { IInfoWindow } from '../Maps/types';
 
 const buildContent = ({
@@ -14,7 +14,7 @@ const buildContent = ({
   endereco,
   tipo_posto,
   status_fila,
-}: IVaccinationEquipment) => {
+}: IVaccinePoint) => {
   return [equipamento, endereco, tipo_posto, status_fila].join('<br />');
 };
 
@@ -34,14 +34,14 @@ const VaccineMap = () => {
       return undefined;
     }
 
-    return data.map((vaccinationEquipment) => ({
-      position: vaccinationEquipment.posicao,
-      title: vaccinationEquipment.equipamento,
-      icon: icons[vaccinationEquipment.status_fila],
+    return data.map((vaccinePoint) => ({
+      position: vaccinePoint.posicao,
+      title: vaccinePoint.equipamento,
+      icon: icons[vaccinePoint.status_fila],
       onClick: () => {
         setInfoWindow({
-          content: buildContent(vaccinationEquipment),
-          position: vaccinationEquipment.posicao,
+          content: buildContent(vaccinePoint),
+          position: vaccinePoint.posicao,
           offset: [0, -iconGeometry.scaledSize[1] - 5],
           onClose: () => setInfoWindow(null),
         });

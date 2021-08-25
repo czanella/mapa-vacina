@@ -1,21 +1,18 @@
 import { useCallback, useMemo, useState } from 'react';
+import { renderToStaticMarkup } from 'react-dom/server';
+import GMap from '../Maps/GMap';
 import LoadingMessage from '../LoadingMessage';
 import { useGetVaccinationStatusesQuery } from '../../redux/apis';
 import { icons, iconGeometry } from './icons';
 import ErrorMessage from '../ErrorMessage';
-import GMap from '../Maps/GMap';
-
-import styles from './VaccineMap.module.scss';
 import { IVaccinePoint } from '../../types';
 import { IInfoWindow } from '../Maps/types';
 
-const buildContent = ({
-  equipamento,
-  endereco,
-  tipo_posto,
-  status_fila,
-}: IVaccinePoint) => {
-  return [equipamento, endereco, tipo_posto, status_fila].join('<br />');
+import styles from './VaccineMap.module.scss';
+import VaccinePointBox from '../VaccinePointBox';
+
+const buildContent = (data: IVaccinePoint) => {
+  return renderToStaticMarkup(<VaccinePointBox data={data} />);
 };
 
 const VaccineMap = () => {

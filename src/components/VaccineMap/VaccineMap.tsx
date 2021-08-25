@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import GMap from '../Maps/GMap';
 import LoadingMessage from '../LoadingMessage';
@@ -45,6 +45,19 @@ const VaccineMap = () => {
       },
     }));
   }, [data]);
+
+  // Close info window when user hits 'Esc'
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setInfoWindow(null);
+      }
+    };
+
+    document.addEventListener('keydown', onKeyDown);
+
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, []);
 
   // Callbacks for the GMap component
   const onReady = useCallback(() => {

@@ -1,4 +1,5 @@
 import { IVaccinePoint } from '../../types';
+import waze from './waze.png';
 
 import styles from './VaccinePointBox.module.scss';
 
@@ -16,7 +17,7 @@ const queueColors: Record<string, string> = {
 };
 
 const VaccinePointBox = ({
-  data: { equipamento, endereco, tipo_posto, status_fila },
+  data: { equipamento, endereco, tipo_posto, status_fila, posicao },
 }: IVaccinePointBoxProps) => (
   <div
     className={styles.vaccinePointBox}
@@ -34,6 +35,13 @@ const VaccinePointBox = ({
     <p>
       Status: <span className={styles.content}>{status_fila}</span>
     </p>
+    <a
+      href={`https://www.waze.com/ul?ll=${posicao.lat}%2C${posicao.lng}&navigate=yes&zoom=10`}
+      target='_blank'
+      rel='noopener noreferrer'
+    >
+      <img src={waze} className={styles.wazeIcon} alt='Navegar com Waze' />
+    </a>
   </div>
 );
 

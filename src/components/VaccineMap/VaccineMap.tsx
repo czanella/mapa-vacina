@@ -93,8 +93,8 @@ const VaccineMap = () => {
       <GMap
         apiKey={process.env.REACT_APP_GMAPS_KEY ?? ''}
         initialPosition={{
-          lat: -23.533773,
-          lng: -46.62529,
+          lat: -23.633773,
+          lng: -46.60529,
         }}
         markersData={markersData}
         infoWindowsData={infoWindow ? [infoWindow] : undefined}

@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@analytics/google-analytics": "^0.5.3",
     "@googlemaps/js-api-loader": "^1.12.1",
     "@reduxjs/toolkit": "^1.6.0",
     "@types/google.maps": "^3.45.6",
@@ -11,7 +10,6 @@
     "@types/node": "^16.0.0",
     "@types/react": "^17.0.13",
     "@types/react-dom": "^17.0.8",
-    "analytics": "^0.7.14",
     "classnames": "^2.3.1",
     "dotenv": "^10.0.0",
     "node-fetch": "^2.6.1",
@@ -50,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/gtag.js": "0.0.7"
   }
 }

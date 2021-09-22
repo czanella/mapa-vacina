@@ -92,6 +92,14 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Mapa da Vacina de SP</title>
   </head>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    window.gtag = (...arguments) => {
+      dataLayer.push(arguments);
+      console.log('Yo!', arguments);
+    };
+  </script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>

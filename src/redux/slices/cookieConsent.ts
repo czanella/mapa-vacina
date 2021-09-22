@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import type { RootState } from '../store';
+import storedReducer from '../utils/storedReducer';
 
 interface ICookieConsentState {
   consentGiven: boolean | undefined;
@@ -27,4 +28,4 @@ export const { acceptCookies, rejectCookies } = cookieConsentSlice.actions;
 export const hasCookieConsentSelector = (state: RootState) =>
   state.cookieConsent.consentGiven;
 
-export default cookieConsentSlice.reducer;
+export default storedReducer(cookieConsentSlice.reducer, 'cookieConsent');

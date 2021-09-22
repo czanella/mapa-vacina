@@ -1,0 +1,30 @@
+@import '../../styles/main.scss';
+
+.header {
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: $white;
+  height: 45px;
+}
+
+.title {
+  flex: 1;
+  color: $black;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about {
+  height: 100%;
+  cursor: pointer;
+}
+
+.menu {
+  height: 100%;
+  width: 25px;
+}

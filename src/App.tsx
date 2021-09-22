@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import Header from './components/Header';
 import VaccineMap from './components/VaccineMap';
 import CookieConsent from './components/CookieConsent';
 import { useGetVaccinationStatusesQuery } from './redux/apis';
@@ -41,7 +42,7 @@ const App = () => {
 
   return (
     <div className={styles.app}>
-      <div className={styles.header}>Mapa da Vacina</div>
+      <Header />
       <VaccineMap />
       <CookieConsent />
     </div>

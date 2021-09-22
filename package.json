@@ -27,7 +27,7 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "vercel:dev": "vercel dev",
-    "vercel:deploy": "vercel deploy",
+    "vercel:deploy:staging": "vercel deploy",
     "vercel:deploy:prod": "vercel --prod",
     "scrape": "node scraper/scrape.js"
   },

@@ -20,8 +20,13 @@
 }
 
 .about {
-  height: 100%;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
+  border: none;
+  background-image: url('./question.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .menu {

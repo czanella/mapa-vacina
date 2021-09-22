@@ -1,6 +1,5 @@
 import { useCallback } from 'react';
 import { useAppDispatch } from '../../redux/hooks';
-import question from './question.png';
 import styles from './Header.module.scss';
 import { openAboutModal } from '../../redux/slices/aboutModal';
 
@@ -15,13 +14,7 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.menu} />
       <div className={styles.title}>Mapa da Vacina</div>
-      <img
-        alt='About'
-        className={styles.about}
-        src={question}
-        role='button'
-        onClick={onAboutClick}
-      />
+      <button className={styles.about} onClick={onAboutClick} />
     </div>
   );
 };

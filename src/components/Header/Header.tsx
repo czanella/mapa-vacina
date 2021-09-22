@@ -14,7 +14,7 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.menu} />
       <div className={styles.title}>Mapa da Vacina</div>
-      <button className={styles.about} onClick={onAboutClick} />
+      <button className={styles.aboutButton} onClick={onAboutClick} />
     </div>
   );
 };

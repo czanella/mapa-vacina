@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import Header from './components/Header';
 import VaccineMap from './components/VaccineMap';
 import CookieConsent from './components/CookieConsent';
+import AboutModal from './components/AboutModal';
 import { useGetVaccinationStatusesQuery } from './redux/apis';
 import { useAppSelector } from './redux/hooks';
 import { hasCookieConsentSelector } from './redux/slices/cookieConsent';
@@ -45,6 +46,7 @@ const App = () => {
       <Header />
       <VaccineMap />
       <CookieConsent />
+      <AboutModal />
     </div>
   );
 };

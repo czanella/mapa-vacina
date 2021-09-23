@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Loader as GMapsLoader } from '@googlemaps/js-api-loader';
 import { IMapProps } from './types';
 
@@ -130,7 +130,41 @@ const GMap = ({
     };
   }, [isGmapsLoaded, infoWindowsData]);
 
-  return <div className={styles.gmap} ref={mapNode} />;
+  // Gets the user's GPS coordinates
+  const onGpsClick = useCallback(() => {
+    if (!map.current) {
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      ({ coords: { latitude: lat, longitude: lng } }) => {
+        map.current?.panTo(new google.maps.LatLng({ lat, lng }));
+        map.current?.setZoom(14);
+      },
+      (err) => {
+        let errorMessage: string;
+
+        if (err.code === 1) {
+          errorMessage =
+            'Você proibiu o acesso do Mapa Vacina à sua localização. Por favor, restore esta permissão e tente novamente.';
+        } else {
+          errorMessage =
+            'Não foi possível obter sua localização. Por favor, tente novamente mais tarde.';
+        }
+
+        window.alert(errorMessage);
+      }
+    );
+  }, []);
+
+  return (
+    <div className={styles.container}>
+      <div className={styles.gmap} ref={mapNode} />
+      {isGmapsLoaded && 'geolocation' in navigator ? (
+        <button className={styles.gpsButton} onClick={onGpsClick} />
+      ) : null}
+    </div>
+  );
 };
 
 export default GMap;

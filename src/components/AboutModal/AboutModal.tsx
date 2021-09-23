@@ -45,7 +45,9 @@ const AboutModal = () => {
             Esta aplicação é um projeto open source. Não é uma realização da
             Prefeitura de São Paulo e não tem nenhum tipo de filiação com ela.
             Também não somos responsáveis pela qualidade dos dados exibidos, que
-            são fornecidos e atualizados pela Prefeitura de São Paulo.
+            são fornecidos e atualizados pela Prefeitura de São Paulo. A posição
+            de alguns marcadores pode não ser exata por falta de informação em
+            alguns endereços dos postos.
           </p>
           <p className={styles.name}>Criação: Carlos Zanella</p>
           <div className={styles.social}>

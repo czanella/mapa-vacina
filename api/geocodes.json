@@ -3918,5 +3918,61 @@
       "lat": -23.5656417,
       "lng": -46.50490370000001
     }
+  },
+  "PARQUE BUENOS AIRES": {
+    "endereco": "Av. Angélica, 1500",
+    "posicao": {
+      "lat": -23.5458211,
+      "lng": -46.6578583
+    }
+  },
+  "PARQUE DO CARMO": {
+    "endereco": "Rua Afonso  Sampaio  e Souza 951",
+    "posicao": {
+      "lat": -23.5703747,
+      "lng": -46.4690471
+    }
+  },
+  "PARQUE CERET": {
+    "endereco": "Rua Canuto de Abreu, s/n",
+    "posicao": {
+      "lat": -23.5556774,
+      "lng": -46.5597086
+    }
+  },
+  "UBS VILA TEREZINHA ": {
+    "endereco": "Rua Domingos Francisco de Medeiros, 70 - Vila Teresinha - CEP: 02854-010",
+    "posicao": {
+      "lat": -23.4586786,
+      "lng": -46.6965947
+    }
+  },
+  "UBS CASA VERDE": {
+    "endereco": "Rua Vichy, 468 - CEP 02522-100 - Telefone: (11)3966-0247",
+    "posicao": {
+      "lat": -23.5050727,
+      "lng": -46.65994329999999
+    }
+  },
+  "PARQUE DA JUVENTUDE": {
+    "endereco": "Avenida Cruzeiro do Sul, 2630",
+    "posicao": {
+      "lat": -23.5076732,
+      "lng": -46.6247334
+    }
+  },
+  "PARQUE DA INDEPENDÊNCIA": {
+    "endereco": "PRAÇA DO MONUMENTO, 300  (ENTRADA PELA RUA DOS SOROCABANOS, ALTURA DO Nº10)",
+    "posicao": {
+      "lat": -23.5801024,
+      "lng": -46.6094858
+    }
+  },
+  "PARQUE DO GUARAPIRANGA": {
+    "endereco": "Estrada Guarapiranga, 575",
+    "posicao": {
+      "lat": -23.6662824,
+      "lng": -46.7183335
+    }
   }
 }

@@ -2,7 +2,6 @@ import { IVaccine, IVaccinePoint } from '../../types';
 import waze from './waze.png';
 
 import styles from './VaccinePointBox.module.scss';
-import { visitParameterList } from 'typescript';
 
 interface IVaccinePointBoxProps {
   data: IVaccinePoint;

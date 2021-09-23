@@ -18,7 +18,16 @@ const vaccineStatus = async (req, res) => {
     const result = vaccinationPoints
       .filter((vp) => geocodes[vp.equipamento])
       .map((vp) => {
-        const { equipamento, endereco, tipo_posto, status_fila } = vp;
+        const {
+          equipamento,
+          endereco,
+          tipo_posto,
+          status_fila,
+          coronavac,
+          pfizer,
+          astrazeneca,
+          intercambialidade,
+        } = vp;
         const { posicao } = geocodes[equipamento];
 
         return {
@@ -27,6 +36,12 @@ const vaccineStatus = async (req, res) => {
           tipo_posto,
           status_fila,
           posicao,
+          vacinas: {
+            coronavac,
+            pfizer,
+            astrazeneca,
+            intercambialidade,
+          },
         };
       });
 

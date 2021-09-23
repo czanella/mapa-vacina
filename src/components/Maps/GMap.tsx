@@ -159,7 +159,7 @@ const GMap = ({
         window.alert(errorMessage);
       }
     );
-  }, []);
+  }, [onGps]);
 
   return (
     <div className={styles.container}>

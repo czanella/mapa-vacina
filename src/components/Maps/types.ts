@@ -32,4 +32,5 @@ export interface IMapProps {
   markersData?: IMarker[];
   onError?: (e: Error) => void;
   onReady?: () => void;
+  onGps?: (p: IPosition) => void;
 }

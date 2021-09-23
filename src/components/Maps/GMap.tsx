@@ -11,6 +11,7 @@ const GMap = ({
   markersData,
   onError,
   onReady,
+  onGps,
 }: IMapProps) => {
   const [isGmapsLoaded, setIsGmapsLoaded] = useState(false);
   const mapNode = useRef<HTMLDivElement>(null);
@@ -140,6 +141,9 @@ const GMap = ({
       ({ coords: { latitude: lat, longitude: lng } }) => {
         map.current?.panTo(new google.maps.LatLng({ lat, lng }));
         map.current?.setZoom(14);
+        if (onGps) {
+          onGps({ lat, lng });
+        }
       },
       (err) => {
         let errorMessage: string;

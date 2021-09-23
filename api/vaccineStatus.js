@@ -29,6 +29,12 @@ const vaccineStatus = async (req, res) => {
           intercambialidade,
         } = vp;
         const { posicao } = geocodes[equipamento];
+        const vacinas = {
+          coronavac,
+          pfizer,
+          astrazeneca,
+          intercambialidade,
+        };
 
         return {
           equipamento,
@@ -36,12 +42,7 @@ const vaccineStatus = async (req, res) => {
           tipo_posto,
           status_fila,
           posicao,
-          vacinas: {
-            coronavac,
-            pfizer,
-            astrazeneca,
-            intercambialidade,
-          },
+          vacinas: Object.keys(vacinas).filter((v) => vacinas[v] === '1'),
         };
       });
 

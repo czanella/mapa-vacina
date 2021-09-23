@@ -1,3 +1,9 @@
+export type IVaccine =
+  | 'coronavac'
+  | 'pfizer'
+  | 'astrazeneca'
+  | 'intercambialidade';
+
 export interface IVaccinePoint {
   equipamento: string;
   endereco: string;
@@ -7,4 +13,5 @@ export interface IVaccinePoint {
     lat: number;
     lng: number;
   };
+  vacinas: IVaccine[];
 }

@@ -1,4 +1,4 @@
-import { IVaccinePoint } from '../../types';
+import { IVaccine, IVaccinePoint } from '../../types';
 import waze from './waze.png';
 
 import styles from './VaccinePointBox.module.scss';
@@ -16,8 +16,15 @@ const queueColors: Record<string, string> = {
   'NÃO FUNCIONANDO': '#4B0082',
 };
 
+const vaccineNames: Record<IVaccine, string> = {
+  astrazeneca: 'AstraZeneca',
+  coronavac: 'CoronaVac',
+  pfizer: 'Pfizer',
+  intercambialidade: 'Pfizer para substituir AstraZeneca',
+};
+
 const VaccinePointBox = ({
-  data: { equipamento, endereco, tipo_posto, status_fila, posicao },
+  data: { equipamento, endereco, tipo_posto, status_fila, posicao, vacinas },
 }: IVaccinePointBoxProps) => (
   <div
     className={styles.vaccinePointBox}
@@ -34,6 +41,14 @@ const VaccinePointBox = ({
     </p>
     <p>
       Status: <span className={styles.content}>{status_fila}</span>
+    </p>
+    <p>
+      Vacinas:{' '}
+      <span className={styles.content}>
+        {vacinas.length
+          ? vacinas.map((v) => vaccineNames[v]).join(', ')
+          : 'Nenhuma'}
+      </span>
     </p>
     <a
       href={`https://www.waze.com/ul?ll=${posicao.lat}%2C${posicao.lng}&navigate=yes&zoom=10`}

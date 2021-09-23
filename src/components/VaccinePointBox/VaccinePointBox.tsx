@@ -2,6 +2,7 @@ import { IVaccine, IVaccinePoint } from '../../types';
 import waze from './waze.png';
 
 import styles from './VaccinePointBox.module.scss';
+import { visitParameterList } from 'typescript';
 
 interface IVaccinePointBoxProps {
   data: IVaccinePoint;
@@ -24,7 +25,15 @@ const vaccineNames: Record<IVaccine, string> = {
 };
 
 const VaccinePointBox = ({
-  data: { equipamento, endereco, tipo_posto, status_fila, posicao, vacinas },
+  data: {
+    equipamento,
+    endereco,
+    tipo_posto,
+    status_fila,
+    posicao,
+    vacinas,
+    data_hora,
+  },
 }: IVaccinePointBoxProps) => (
   <div
     className={styles.vaccinePointBox}
@@ -48,6 +57,12 @@ const VaccinePointBox = ({
         {vacinas.length
           ? vacinas.map((v) => vaccineNames[v]).join(', ')
           : 'Nenhuma'}
+      </span>
+    </p>
+    <p>
+      Data e hora da última atualização:{' '}
+      <span className={styles.content}>
+        {new Date(data_hora).toLocaleString('pt-BR')}
       </span>
     </p>
     <a

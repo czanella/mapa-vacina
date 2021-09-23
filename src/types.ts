@@ -9,6 +9,7 @@ export interface IVaccinePoint {
   endereco: string;
   tipo_posto: string;
   status_fila: string;
+  data_hora: string;
   posicao: {
     lat: number;
     lng: number;

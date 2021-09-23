@@ -23,6 +23,7 @@ const vaccineStatus = async (req, res) => {
           endereco,
           tipo_posto,
           status_fila,
+          data_hora,
           coronavac,
           pfizer,
           astrazeneca,
@@ -41,6 +42,7 @@ const vaccineStatus = async (req, res) => {
           endereco,
           tipo_posto,
           status_fila,
+          data_hora,
           posicao,
           vacinas: Object.keys(vacinas).filter((v) => vacinas[v] === '1'),
         };

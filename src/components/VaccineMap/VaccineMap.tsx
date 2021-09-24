@@ -24,7 +24,6 @@ const VaccineMap = () => {
   const [isMapReady, setIsMapReady] = useState(false);
   const [isMapApiError, setIsMapApiError] = useState(false);
   const [infoWindow, setInfoWindow] = useState<IInfoWindow | null>(null);
-  const [gpsWindow, setGpsWindow] = useState<IInfoWindow | null>(null);
 
   // Builds/updates the markers data
   const markersData = useMemo(() => {
@@ -43,19 +42,17 @@ const VaccineMap = () => {
           offset: [0, -iconGeometry.scaledSize[1] - 5],
           onClose: () => setInfoWindow(null),
         });
-        setGpsWindow(null);
       },
     }));
   }, [data]);
 
   // The info window when the user's GPS location is tracked
   const onGps = useCallback((position: IPosition) => {
-    setGpsWindow({
+    setInfoWindow({
       content: `<div class="${styles.youAreHere}">Você está aqui!</div>`,
       position,
-      onClose: () => setGpsWindow(null),
+      onClose: () => setInfoWindow(null),
     });
-    setInfoWindow(null);
   }, []);
 
   // Close info window when user hits 'Esc'
@@ -100,14 +97,6 @@ const VaccineMap = () => {
       'Erro ao carregar dados dos postos de vacinação. Por favor, tente novamente mais tarde.';
   }
 
-  let infoWindowList: IInfoWindow[] = [];
-  if (infoWindow) {
-    infoWindowList.push(infoWindow);
-  }
-  if (gpsWindow) {
-    infoWindowList.push(gpsWindow);
-  }
-
   return (
     <div className={styles.mapContainer}>
       <GMap
@@ -117,7 +106,7 @@ const VaccineMap = () => {
           lng: -46.60529,
         }}
         markersData={markersData}
-        infoWindowsData={infoWindowList.length ? infoWindowList : undefined}
+        infoWindowsData={infoWindow ? [infoWindow] : undefined}
         onReady={onReady}
         onError={onError}
         onGps={onGps}

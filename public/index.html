@@ -92,12 +92,19 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Mapa da Vacina de SP</title>
   </head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-4SWLWRQZQR"
+  ></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
-    window.gtag = (...arguments) => {
+    function gtag() {
       dataLayer.push(arguments);
-    };
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-4SWLWRQZQR', { anonymize_ip: true });
   </script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

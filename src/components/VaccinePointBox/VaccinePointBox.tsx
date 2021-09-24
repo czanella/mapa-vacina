@@ -61,7 +61,7 @@ const VaccinePointBox = ({
     <p>
       Data e hora da última atualização:{' '}
       <span className={styles.content}>
-        {new Date(data_hora.replace(/\.\n+$/, '')).toLocaleString('pt-BR')}
+        {new Date(data_hora).toLocaleString('pt-BR')}
       </span>
     </p>
     <a

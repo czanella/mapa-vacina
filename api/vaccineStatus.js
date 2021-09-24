@@ -2,6 +2,19 @@ const fetch = require('node-fetch');
 const geocodes = require('./geocodes.json');
 
 const CACHE_DURATION = parseFloat(process.env.CACHE_DURATION ?? '5');
+const DATE_REGEX = /^(\d+)-(\d+)-(\d+)\s+(\d+):(\d+):(\d+)(\.\d+)?$/;
+
+const parseDate = (dateString) => {
+  const match = dateString.match(DATE_REGEX);
+
+  if (!match) {
+    return new Date(0);
+  }
+
+  const [, year, month, day, hours, minutes, seconds, milisseconds] = match;
+
+  return new Date(year, month - 1, day, hours, minutes, seconds, milisseconds);
+};
 
 const vaccineStatus = async (req, res) => {
   try {
@@ -42,7 +55,7 @@ const vaccineStatus = async (req, res) => {
           endereco,
           tipo_posto,
           status_fila,
-          data_hora,
+          data_hora: parseDate(data_hora).getTime(),
           posicao,
           vacinas: Object.keys(vacinas).filter((v) => vacinas[v] === '1'),
         };

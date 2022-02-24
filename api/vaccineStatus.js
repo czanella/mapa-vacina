@@ -50,6 +50,10 @@ const vaccineStatus = async (req, res) => {
           intercambialidade,
         };
 
+        if (!data_hora) {
+          return null;
+        }
+
         return {
           equipamento,
           endereco,
@@ -59,7 +63,7 @@ const vaccineStatus = async (req, res) => {
           posicao,
           vacinas: Object.keys(vacinas).filter((v) => vacinas[v] === '1'),
         };
-      });
+      }).filter(Boolean);
 
     res.setHeader('Cache-Control', `s-maxage=${CACHE_DURATION * 60}`);
     res.json(result);

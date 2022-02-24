@@ -30,39 +30,41 @@ const vaccineStatus = async (req, res) => {
 
     const result = vaccinationPoints
       .filter((vp) => geocodes[vp.equipamento])
-      .map((vp) => {
-        const {
-          equipamento,
-          endereco,
-          tipo_posto,
-          status_fila,
-          data_hora,
-          coronavac,
-          pfizer,
-          astrazeneca,
-          intercambialidade,
-        } = vp;
-        const { posicao } = geocodes[equipamento];
-        const vacinas = {
-          coronavac,
-          pfizer,
-          astrazeneca,
-          intercambialidade,
-        };
-
-        if (!data_hora) {
+      .map((vp, vpIndex) => {
+        try {
+          const {
+            equipamento,
+            endereco,
+            tipo_posto,
+            status_fila,
+            data_hora,
+            coronavac,
+            pfizer,
+            astrazeneca,
+            intercambialidade,
+          } = vp;
+          const { posicao } = geocodes[equipamento];
+          const vacinas = {
+            coronavac,
+            pfizer,
+            astrazeneca,
+            intercambialidade,
+          };
+  
+          return {
+            equipamento,
+            endereco,
+            tipo_posto,
+            status_fila,
+            data_hora: parseDate(data_hora).getTime(),
+            posicao,
+            vacinas: Object.keys(vacinas).filter((v) => vacinas[v] === '1'),
+          };
+        } catch (err) {
+          console.error(`Error while building vaccine point ${vpIndex}`, err);
+          console.error(vp);
           return null;
         }
-
-        return {
-          equipamento,
-          endereco,
-          tipo_posto,
-          status_fila,
-          data_hora: parseDate(data_hora).getTime(),
-          posicao,
-          vacinas: Object.keys(vacinas).filter((v) => vacinas[v] === '1'),
-        };
       }).filter(Boolean);
 
     res.setHeader('Cache-Control', `s-maxage=${CACHE_DURATION * 60}`);

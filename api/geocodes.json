@@ -3974,5 +3974,103 @@
       "lat": -23.6662824,
       "lng": -46.7183335
     }
+  },
+  "SAE CAMPOS ELISEOS": {
+    "endereco": "Alameda Cleveland, 374",
+    "posicao": {
+      "lat": -23.5318707,
+      "lng": -46.6419266
+    }
+  },
+  "UBS REPUBLICA": {
+    "endereco": "PRAÇA DO PATRIARCA, Nº 100 - CENTRO - CEP 01007-020",
+    "posicao": {
+      "lat": -23.5471597,
+      "lng": -46.63648
+    }
+  },
+  "AMA JARDIM NORDESTE": {
+    "endereco": "R. NICOLO TARTAGLIA, 45 - JD COIMBRA - CEP: 03693-050 - Tel: 2280-6211",
+    "posicao": {
+      "lat": -23.5301738,
+      "lng": -46.4800567
+    }
+  },
+  "AMA/UBS INTEGRADA JARDIM PAULISTANO": {
+    "endereco": " UBS: R. ENCRUZILHADA DO SUL, 940. JD PAULISTANO. 02816-010",
+    "posicao": {
+      "lat": -23.4614804,
+      "lng": -46.7090518
+    }
+  },
+  "UBS ELISA MARIA II-DR.CAMILO CRISTÓFARO MARTINS": {
+    "endereco": "Av. General Penha Brasil, 2651. Jardim dos Francos / Brasilândia",
+    "posicao": {
+      "lat": -23.4514196,
+      "lng": -46.6768938
+    }
+  },
+  "UBS CITY JARAGUA": {
+    "endereco": "ESTRADA DE TAIPAS (ESQ. RUA PAULO ARENTINO), 1648 - JARAGUÁ - CEP: 02991-000 - Tel: 3947-2690",
+    "posicao": {
+      "lat": -23.4419985,
+      "lng": -46.7342094
+    }
+  },
+  "UBS PARQUE MARIA HELENA": {
+    "endereco": "R. DR BENEDITO MATARAZZO, 371 - PQ MARIA HELENA - CEP: 05854-090 - Tel: 5510-8380",
+    "posicao": {
+      "lat": -23.6630658,
+      "lng": -46.7623403
+    }
+  },
+  "AMA/UBS INTEGRADA JARDIM ICARAI - QUINTANA": {
+    "endereco": "R. SÃO ROQUE DO PARAGUAÇU, 190 - VL QUINTANA - CEP: 04837-150 - Tel: 5928-0272/ 5939-7589",
+    "posicao": {
+      "lat": -23.7438137,
+      "lng": -46.705782
+    }
+  },
+  "UBS DR. JOAQUIM ROSSINI / UBS VILA CARIOCA - DR MOACIR PARRA": {
+    "endereco": "R. ALVARO FRAGOSO, 480 - VL CARIOCA - CEP: 04223-000 - Tel: 2273-4602/ 2272-1083",
+    "posicao": {
+      "lat": -23.596826,
+      "lng": -46.5950049
+    }
+  },
+  "PARQUE SEVERO GOMES": {
+    "endereco": "Rua Pires de Oliveira, 356 - Granja Julieta, São paulo   CEP  04716-010",
+    "posicao": {
+      "lat": -23.6377634,
+      "lng": -46.7050235
+    }
+  },
+  "UBS SANTO AMARO – DR. SÉRGIO VILLAÇA BRAGA": {
+    "endereco": "Rua Conde de Itu, 359 - Santo Amaro, São Paulo - SP",
+    "posicao": {
+      "lat": -23.6476032,
+      "lng": -46.7016841
+    }
+  },
+  "UBS PROF. MILTON SANTOS": {
+    "endereco": "AV. CECI, 2249 - PLANALTO PAULISTA - CEP: 04065-004 - Tel: 5581-0426",
+    "posicao": {
+      "lat": -23.6288157,
+      "lng": -46.6463052
+    }
+  },
+  "UBS SANTA CRUZ": {
+    "endereco": "Rua Santa Cruz, 1.191 - Vila Mariana, CEP 04121-901, F: 4130-3117",
+    "posicao": {
+      "lat": -23.5978492,
+      "lng": -46.6250321
+    }
+  },
+  "UBS VILA MARIANA": {
+    "endereco": "Rua Pedro de Toledo 309, Vila Mariana, CEP 04039-030, F: 5082-1072",
+    "posicao": {
+      "lat": -23.5987447,
+      "lng": -46.6396678
+    }
   }
 }

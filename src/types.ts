@@ -2,7 +2,11 @@ export type IVaccine =
   | 'coronavac'
   | 'pfizer'
   | 'astrazeneca'
-  | 'intercambialidade';
+  | 'intercambialidade'
+  | 'janssen'
+  | 'influenza'
+  | 'pfizer_ped'
+  | 'corona_ped';
 
 export interface IVaccinePoint {
   equipamento: string;

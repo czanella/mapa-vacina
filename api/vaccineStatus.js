@@ -42,6 +42,10 @@ const vaccineStatus = async (req, res) => {
             pfizer,
             astrazeneca,
             intercambialidade,
+            janssen,
+            influenza,
+            pfizer_ped,
+            corona_ped,
           } = vp;
           const { posicao } = geocodes[equipamento];
           const vacinas = {
@@ -49,8 +53,12 @@ const vaccineStatus = async (req, res) => {
             pfizer,
             astrazeneca,
             intercambialidade,
+            janssen,
+            influenza,
+            pfizer_ped,
+            corona_ped,
           };
-  
+
           return {
             equipamento,
             endereco,
@@ -65,7 +73,8 @@ const vaccineStatus = async (req, res) => {
           console.error(vp);
           return null;
         }
-      }).filter(Boolean);
+      })
+      .filter(Boolean);
 
     res.setHeader('Cache-Control', `s-maxage=${CACHE_DURATION * 60}`);
     res.json(result);

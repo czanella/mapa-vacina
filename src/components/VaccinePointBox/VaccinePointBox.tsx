@@ -21,6 +21,10 @@ const vaccineNames: Record<IVaccine, string> = {
   coronavac: 'CoronaVac',
   pfizer: 'Pfizer',
   intercambialidade: 'Pfizer para substituir AstraZeneca',
+  janssen: 'Janssen',
+  influenza: 'Influenza',
+  pfizer_ped: 'Pfizer pediátrica',
+  corona_ped: 'CoronaVac pediátrica',
 };
 
 const VaccinePointBox = ({

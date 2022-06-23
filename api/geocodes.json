@@ -4079,5 +4079,26 @@
       "lat": -23.5987447,
       "lng": -46.6396678
     }
+  },
+  "UBS  JARDIM ELISA MARIA": {
+    "endereco": "R. RÔMULO NALDI, 57 - JD ELISA MARIA - CEP: 02873-250 - Tel: 38514684",
+    "posicao": {
+      "lat": -23.4561968,
+      "lng": -46.6853532
+    }
+  },
+  "UBS ALDEIA JARAGUA - KWARÃY DJEKUPÉ": {
+    "endereco": "ESTRADA TURÍSTICA DO JARAGUÁ, 3680 - JARAGUÁ - CEP: 05101-000 - Tel: 3903-4988",
+    "posicao": {
+      "lat": -23.4642146,
+      "lng": -46.7535933
+    }
+  },
+  "MEGA POSTO PARELHEIROS": {
+    "endereco": "Rua Mario Trappe, 100. Jardim Novo Parelheiros ",
+    "posicao": {
+      "lat": -23.8301209,
+      "lng": -46.7271346
+    }
   }
 }
